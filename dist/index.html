@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a23">
+<meta name="description" content="用 ACTORS 練習更好的 Prompt。最多四隊同場競賽，過關收集 3D 寵物夥伴。">
+<title>Prompt Arena 3D｜PM Mayors</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="Prompt Arena 首頁"><span class="brand-mark">P<span>✦</span></span><span>PROMPT <b>ARENA</b><small>PM Mayors · ACTORS 小隊闖關</small></span></a>
+  <nav class="top-actions" aria-label="主要選單">
+    <button class="nav-btn" data-go="teams">隊伍設定</button>
+    <button class="nav-btn" data-go="map">關卡地圖</button>
+    <button id="guideBtn" class="nav-btn">玩法說明</button>
+    <button id="fullBtn" class="icon-btn" aria-label="全螢幕" title="全螢幕">⛶</button>
+    <button id="soundBtn" class="icon-btn" aria-label="開啟音效" aria-pressed="false" title="音效">♫</button>
+  </nav>
+</header>
+
+<main class="app">
+  <aside class="stage-col">
+    <section class="arena" aria-label="3D 戰鬥場景">
+      <div id="scene"></div>
+      <div id="webglError" hidden>你的瀏覽器暫時無法開啟 3D。請開啟硬體加速，或換用支援 WebGL 2 的瀏覽器後重新整理。題目與計分不受影響。</div>
+      <div class="arena-shade"></div>
+      <div class="arena-top"><span id="location">曙光競技場</span></div>
+      <div id="enemyHud" class="enemy-hud" hidden>
+        <div><b id="enemyName">迷霧小妖</b><span id="enemyHpText">100</span></div>
+        <meter id="enemyHp" min="0" max="100" value="100">100</meter>
+      </div>
+      <div id="battleToast" class="battle-toast" aria-live="polite"></div>
+    </section>
+    <section id="scoreboard" class="scoreboard" aria-label="各隊分數"></section>
+  </aside>
+
+  <section class="panel">
+    <!-- 隊伍設定 -->
+    <div id="screen-teams" class="screen">
+      <div class="screen-head">
+        <h2>隊伍設定</h2>
+        <div class="seg" role="group" aria-label="隊伍數量" id="teamCountSeg"></div>
+      </div>
+      <div class="seg-row">
+        <span class="seg-label">題庫</span>
+        <div class="seg" role="group" aria-label="題庫對象" id="audienceSeg">
+          <button data-audience="kids">學生版</button><button data-audience="adults">成人版</button>
+        </div>
+        <span class="save-note">資料只存在這台電腦的瀏覽器</span>
+      </div>
+      <div id="teamCards" class="team-cards"></div>
+      <div class="screen-foot">
+        <div class="foot-tools">
+          <button id="exportBtn" class="quiet">匯出紀錄</button>
+          <label class="quiet file-btn">匯入紀錄<input id="importInput" type="file" accept="application/json,.json" hidden></label>
+          <button id="resetBtn" class="quiet danger">清除分數與寵物</button>
+        </div>
+        <button class="primary" data-go="map">前往關卡地圖</button>
+      </div>
+    </div>
+
+    <!-- 關卡地圖 -->
+    <div id="screen-map" class="screen" hidden>
+      <div class="screen-head">
+        <h2>關卡地圖</h2>
+        <div class="map-settings">
+          <label>每關題數<select id="countSelect"><option value="5">5 題</option><option value="8">8 題</option></select></label>
+          <label>每題計時<select id="timerSelect"><option value="0">不計時</option><option value="20">20 秒</option><option value="30">30 秒</option><option value="45">45 秒</option></select></label>
+        </div>
+      </div>
+      <div id="stageGrid" class="stage-grid"></div>
+      <div class="stage-brief">
+        <p id="stageTip"></p>
+        <button id="startBtn" class="primary" disabled>題庫載入中…</button>
+      </div>
+    </div>
+
+    <!-- 作答 -->
+    <div id="screen-play" class="screen play" hidden>
+      <div class="play-top">
+        <button id="exitBtn" class="quiet">回地圖</button>
+        <span id="stageBadge" class="stage-badge"></span>
+        <span id="progress" class="progress"></span>
+        <span id="timer" class="timer" hidden></span>
+      </div>
+      <div class="question-box">
+        <p id="scenario" class="scenario"></p>
+        <h2 id="question" tabindex="-1"></h2>
+        <p id="hintText" class="hint" hidden></p>
+      </div>
+      <div id="options" class="options"></div>
+      <div id="answerPad" class="answer-pad"></div>
+      <div id="feedback" class="feedback" hidden aria-live="polite"></div>
+      <div class="play-actions">
+        <button id="hintBtn" class="quiet">夥伴提示</button>
+        <button id="skipBtn" class="quiet">跳過這題</button>
+        <button id="revealBtn" class="primary small" disabled>揭曉答案</button>
+        <button id="nextBtn" class="primary small" hidden>下一題</button>
+      </div>
+    </div>
+
+    <!-- 關卡結算 -->
+    <div id="screen-end" class="screen" hidden>
+      <div class="screen-head"><h2 id="endTitle">關卡結算</h2></div>
+      <p id="endSummary" class="end-summary"></p>
+      <div id="endRows" class="end-rows"></div>
+      <div class="screen-foot">
+        <button id="retryBtn" class="quiet">再玩一次這關</button>
+        <button class="primary" data-go="map">回關卡地圖</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="unlock" class="unlock" hidden role="dialog" aria-modal="true" aria-labelledby="unlockTitle">
+  <div class="confetti" aria-hidden="true"></div>
+  <div class="unlock-card">
+    <p id="unlockTeam" class="unlock-team"></p>
+    <h2 id="unlockTitle">獲得新夥伴！</h2>
+    <div class="unlock-pet"><img id="unlockImg" alt=""><span id="unlockEmoji" hidden></span></div>
+    <p id="unlockName" class="unlock-name"></p>
+    <p id="unlockStars" class="unlock-stars"></p>
+    <button id="unlockBtn" class="primary">收下夥伴</button>
+  </div>
+</div>
+
+<dialog id="guide">
+  <div class="dialog-head"><h2>玩法說明</h2><button id="closeGuide" class="icon-btn" aria-label="關閉">×</button></div>
+  <p><b>怎麼玩：</b>每題各隊討論後舉牌（A／B／C／D），老師在「各隊作答」點下每隊的選擇，再按「揭曉答案」。只有一隊時，直接點選項就會揭曉。</p>
+  <p><b>計分：</b>答對 +100；連續答對 3 題再加 50。一關答對 60% 就過關，並得到這一關的寵物夥伴。80% 兩顆星，全對三顆星。</p>
+  <dl>
+    <dt>第 1 關 · A</dt><dd>Action：說清楚要 AI 做什麼。</dd>
+    <dt>第 2 關 · C</dt><dd>Content：給背景、資料和條件。</dd>
+    <dt>第 3 關 · T</dt><dd>Style：指定語氣和格式。</dd>
+    <dt>第 4 關 · O</dt><dd>Goal：說出目的和完成標準。</dd>
+    <dt>第 5 關 · R</dt><dd>Refer：給例子、參考和限制。</dd>
+    <dt>第 6 關 · S</dt><dd>Steps：安排步驟和檢查點。</dd>
+    <dt>魔王關</dt><dd>綜合運用，並練習查證、修正 AI 的回答。</dd>
+  </dl>
+  <p><b>快捷鍵：</b>Enter 揭曉／下一題；只有一隊時可按 1–4 作答。</p>
+  <p>隊名、分數與寵物只存在這台電腦的瀏覽器。換電腦前可先「匯出紀錄」。</p>
+</dialog>
+
+<script type="module" src="/app.js"></script>
+</body>
+</html>
