@@ -42,4 +42,4 @@ python -m http.server 8000 --directory dist
 開啟 http://localhost:8000（不能直接雙擊 HTML）。
 
 ## 瀏覽器
-需要 WebGL 2 與硬體加速。3D 無法啟動時會顯示提示，題目與計分照常運作。Three.js 為 MIT 授權，見 `dist/vendor/LICENSE-three.txt`。
+需要 WebGL 2 與硬體加速。3D 無法啟動時會顯示提示，題目與計分照常運作。頁面底部為 PM Mayors 品牌條（連到 pmmayors.com，logo 在 `dist/logo.png`）。Three.js 為 MIT 授權，見 `dist/vendor/LICENSE-three.txt`。
