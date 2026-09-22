@@ -23,19 +23,19 @@ HR is writing a welcome letter to a new colleague.
 Which prompt is most complete?
 
 ## A
-請寫歡迎信。
+請寫一封溫暖、專業、讓新同事感動的歡迎信。
 ## A (EN)
-Write a welcome letter.
+Write a warm, professional welcome letter that moves the new colleague.
 
 ## B
-請寫一封很棒的信。
+我是 HR，請寫一封歡迎信，盡量完整，提到公司所有福利。
 ## B (EN)
-Write a great letter.
+I'm in HR. Write a welcome letter covering all company benefits in full.
 
 ## C
-歡迎信要寫什麼？
+請寫一封 300 字以內的歡迎信，語氣要溫暖。
 ## C (EN)
-What goes in a welcome letter?
+Write a warm welcome letter under 300 words.
 
 ## D
 我是 HR，請寫新同事歡迎信，語氣溫暖、300 字內，並提醒第一天 9 點報到。
@@ -43,9 +43,9 @@ What goes in a welcome letter?
 I'm in HR. Write a warm welcome letter for a new colleague, under 300 words, reminding them to report at 9 a.m. on day one.
 
 ## 解析
-任務、背景、語氣、長度、必要資訊都有，一次到位。
+任務、背景、語氣、長度、必要資訊都有，一次到位。形容詞不是資訊；所有福利太長；少了報到時間這個必要資訊。
 ## Why
-Task, background, tone, length and must-have info — all in one go.
+Task, background, tone, length and must-have info. Adjectives aren't info, every benefit is too long, and one option misses the 9 a.m. start.
 
 ## 提示
 哪一句 ACTORS 元素最多又最清楚？
@@ -66,14 +66,14 @@ AI cited a study you can't find.
 What's the best next step?
 
 ## A
-直接放進報告。
+AI 引用的應該有根據，我直接放進報告。
 ## A (EN)
-Put it straight into the report.
+AI probably has a source, so I'll put it straight into the report.
 
 ## B
-請多引用幾份研究。
+請把這份研究的結論改寫得更有說服力。
 ## B (EN)
-Cite more studies.
+Rewrite this study's conclusion to be more persuasive.
 
 ## C
 請提供這份研究的出處；找不到就標示為「無法確認」。
@@ -81,14 +81,14 @@ Cite more studies.
 Give me the source for this study; if you can't find it, mark it 'unverified'.
 
 ## D
-請把這段寫得更有說服力。
+請再多找幾份結論類似的研究，一起放進報告裡來支持這個論點。
 ## D (EN)
-Make this part more persuasive.
+Find a few more studies with similar conclusions and add them all to the report to back this up.
 
 ## 解析
-AI 可能編造資料。要求出處，找不到就不要用。
+AI 可能編造資料，要求出處，找不到就不要用。直接用、改寫、找更多「類似研究」，都可能讓假資料更多。
 ## Why
-AI can make things up. Ask for sources, and don't use what you can't verify.
+AI can invent sources. Ask for one and drop it if unverified. Using it, rewriting it or finding 'similar studies' can multiply fake data.
 
 ## 提示
 這份資料可以直接用嗎？
@@ -109,9 +109,9 @@ AI's advice is too vague to use.
 What should you say next?
 
 ## A
-請再詳細一點。
+請再詳細一點，多給我一些建議。
 ## A (EN)
-More detail, please.
+More detail, please. Give me more suggestions.
 
 ## B
 請針對我們 20 人的門市，給 3 個本週就能做的具體做法。
@@ -119,19 +119,19 @@ More detail, please.
 For our 20-person retail store, give 3 specific actions we can take this week.
 
 ## C
-這樣不行。
+請用更專業的角度重新回答一次。
 ## C (EN)
-That doesn't work.
+Answer again from a more professional angle.
 
 ## D
-請重新回答。
+請給我 10 個國際知名企業都在用的業界最佳實務做法，越詳細越好。
 ## D (EN)
-Answer again.
+Give me 10 best practices used by famous global companies, in as much detail as possible.
 
 ## 解析
-補上你的情況和「具體、本週可做」，建議就能落地。
+補上你的情況和「具體、本週可做」，建議才能落地。多給、更專業、業界最佳實務，都還是通用建議。
 ## Why
-Adding your situation and 'specific, this week' makes advice actionable.
+Adding your situation and 'specific, this week' makes it actionable. More, more professional or best practices are still generic.
 
 ## 提示
 要怎麼讓建議變具體？
@@ -157,24 +157,24 @@ What's the best approach?
 First mask client names, amounts and other confidential details, then paste it.
 
 ## B
-直接把完整合約貼上。
+只貼合約的前半段，有金額的後半段就不貼。
 ## B (EN)
-Paste the full contract as-is.
+Paste only the first half; skip the part with amounts.
 
 ## C
-把客戶的聯絡方式也一起貼上。
+貼上完整合約，最後加一句「請保密」。
 ## C (EN)
-Include the client's contact details too.
+Paste the full contract and add 'please keep this confidential'.
 
 ## D
-貼上後請 AI 保密就好。
+貼上完整合約，用完再把對話刪掉就好。
 ## D (EN)
-Paste it and ask AI to keep it secret.
+Paste the full contract and delete the chat afterward.
 
 ## 解析
-機密資料先去識別化再使用，才能保護客戶和公司。
+機密資料先去識別化再使用，才能保護客戶和公司。只貼一半可能還有客戶名稱；叫 AI 保密、事後刪對話都收不回已送出的資料。
 ## Why
-De-identify confidential data first to protect clients and the company.
+De-identify confidential data first. Half the contract may still name the client, and asking for secrecy or deleting later can't recall what was sent.
 
 ## 提示
 貼給 AI 之前要先做什麼？
@@ -195,19 +195,19 @@ AI's copy is too long, but the first sentence is great.
 What should you say next?
 
 ## A
-請重寫。
+請縮短一點。
 ## A (EN)
-Rewrite.
+Make it a bit shorter.
 
 ## B
-太長了。
+請重新寫一個比較短、比較精簡、比較有力的版本。
 ## B (EN)
-Too long.
+Please rewrite a shorter, tighter, punchier version of the whole thing for me.
 
 ## C
-請寫另一個版本。
+請把整段縮短成 30 字以內。
 ## C (EN)
-Write another version.
+Shorten the whole thing to under 30 words.
 
 ## D
 請保留第一句，其餘縮短成 30 字以內。
@@ -215,9 +215,9 @@ Write another version.
 Keep the first sentence and shorten the rest to under 30 words.
 
 ## 解析
-說清楚保留什麼、改成怎樣，一次就改對。
+說清楚保留什麼、改成多長，一次就改對。「短一點」沒有標準；重寫、整段縮短都可能把你喜歡的第一句改掉。
 ## Why
-Saying what to keep and the target length gets it right in one pass.
+Say what to keep and how short. 'A bit shorter' has no standard; rewriting or shortening everything may lose the first sentence you liked.
 
 ## 提示
 哪裡要留？改成多長？
@@ -238,14 +238,14 @@ AI's total looks wrong.
 What should you say next?
 
 ## A
-你算錯了。
+請再算一次，確認一下。
 ## A (EN)
-You got it wrong.
+Calculate it again to confirm.
 
 ## B
-請再算一次。
+你算錯了，請重新計算，並直接給我正確的總額。
 ## B (EN)
-Calculate again.
+You got it wrong. Recalculate and just give me the correct total, please.
 
 ## C
 請列出計算過程，讓我逐項核對。
@@ -253,14 +253,14 @@ Calculate again.
 Show the calculation step by step so I can check each item.
 
 ## D
-好，就用這個數字。
+請把總額四捨五入到千位就好。
 ## D (EN)
-OK, I'll use that number.
+Just round the total to the nearest thousand.
 
 ## 解析
-看到過程才能找出哪一步錯，也能確認結果。
+看到計算過程，才能找出哪一步錯，也能確認結果。再算一次可能錯在同一個地方；只要總額還是無法核對；四捨五入沒解決問題。
 ## Why
-Seeing the steps shows where it went wrong and confirms the result.
+Seeing the steps shows where it went wrong. Recalculating may repeat the error, a new total still can't be checked, and rounding fixes nothing.
 
 ## 提示
 要怎麼確認數字對不對？
@@ -281,9 +281,9 @@ You're pitching to a client tomorrow.
 Which one helps you prepare most?
 
 ## A
-請稱讚我的提案。
+請看看我的提案，多給一些正面的回饋和鼓勵，讓我明天更有信心上台。
 ## A (EN)
-Praise my proposal.
+Look at my proposal and give lots of positive feedback and encouragement so I feel confident tomorrow.
 
 ## B
 請扮演挑剔的客戶，指出這份提案最可能被拒絕的 3 個原因。
@@ -291,19 +291,19 @@ Praise my proposal.
 Play a tough client and point out the 3 most likely reasons this proposal gets rejected.
 
 ## C
-請幫我把提案寫長一點。
+請幫我把提案的文字修得更漂亮。
 ## C (EN)
-Make my proposal longer.
+Polish the wording of my proposal.
 
 ## D
-提案要注意什麼？
+請列出一份好提案應該具備的 10 個要素。
 ## D (EN)
-What should proposals watch out for?
+List 10 things every good proposal should have.
 
 ## 解析
-讓 AI 從客戶角度挑毛病，能提前補強弱點。
+讓 AI 從客戶角度挑毛病，能提前補強弱點。正面回饋、修文字、通用要素，都找不出這份提案的問題。
 ## Why
-Having AI critique from the client's view helps you fix weaknesses early.
+Having AI critique as the client exposes weaknesses early. Praise, polishing or a generic checklist won't find this proposal's problems.
 
 ## 提示
 誰的角度最能找出問題？
@@ -329,24 +329,24 @@ Which prompt is most complete?
 From the attached data, make a table of last quarter's top 3 products, with one sentence on why.
 
 ## B
-請分析銷售數據。
+請分析附件的所有銷售數據，把每一項發現都寫成一份完整、詳細的報告。
 ## B (EN)
-Analyze the sales data.
+Analyze all the attached sales data and write up every single finding in a complete, detailed report.
 
 ## C
-請做一份報告。
+請根據附件數據，告訴我哪個產品賣最好。
 ## C (EN)
-Make a report.
+From the attached data, tell me which product sold best.
 
 ## D
-哪個產品賣最好？
+請用表格列出上季的前 3 名產品。
 ## D (EN)
-Which product sold best?
+Make a table of last quarter's top 3 products.
 
 ## 解析
-有資料來源、格式、範圍和說明方式，主管一看就懂。
+資料來源、格式、範圍、說明方式都有，主管一看就懂。完整報告太長；只問賣最好少了格式和原因；沒說依據附件、也沒說明原因。
 ## Why
-Source, format, scope and explanation are all there — your manager gets it instantly.
+Source, format, scope and explanation. A full report is too long, 'best seller' lacks format and reasons, and one option has no source or why.
 
 ## 提示
 資料、格式、範圍都說了嗎？

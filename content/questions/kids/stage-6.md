@@ -23,9 +23,9 @@ You want to bake cookies with your family.
 Which one is best?
 
 ## A
-請寫一個餅乾的故事。
+請告訴我做餅乾的方法，全部寫在一段話裡就好。
 ## A (EN)
-Please write a story about cookies.
+Please tell me how to make cookies all in one paragraph.
 
 ## B
 請把做餅乾的方法分成步驟，一步寫一行。
@@ -33,19 +33,19 @@ Please write a story about cookies.
 Please break the cookie recipe into steps, one per line.
 
 ## C
-餅乾好吃嗎？
+請列出做餅乾需要的所有材料和份量。
 ## C (EN)
-Are cookies tasty?
+Please list all the ingredients and amounts for cookies.
 
 ## D
-請推薦餅乾店。
+請告訴我做餅乾最重要的一個祕訣。
 ## D (EN)
-Recommend a cookie shop.
+Please tell me the single most important cookie tip.
 
 ## 解析
-分步驟，照著一步一步做就不會亂。
+分步驟、一步一行，照著做才不會亂。一段話容易漏步驟；只有材料不知道怎麼做；一個祕訣不夠。
 ## Why
-With steps, you can follow along one by one.
+Steps, one per line, are easy to follow. A paragraph hides steps, ingredients alone don't say how, and one tip isn't enough.
 
 ## 提示
 怎樣最容易跟著做？
@@ -71,24 +71,24 @@ Which one is best?
 Teach me to fold a paper crane step by step. Wait until I say 'OK' before each next step.
 
 ## B
-紙鶴是什麼？
+請把摺紙鶴的全部步驟一次列出來，我自己看。
 ## B (EN)
-What is a paper crane?
+Please list all the paper crane steps at once and I'll read them.
 
 ## C
-請給我一隻紙鶴。
+請告訴我摺紙鶴要用多大、什麼顏色的紙。
 ## C (EN)
-Give me a paper crane.
+Please tell me what size and color paper to use for a crane.
 
 ## D
-請一次講完全部摺法。
+請告訴我紙鶴代表什麼意思、有什麼故事。
 ## D (EN)
-Tell me all the steps at once.
+Please tell me what paper cranes mean and their story.
 
 ## 解析
-一步一步來，還能確認你跟上了。
+一步一步來，還能確認你跟上了，不會摺到一半卡住。一次列完容易跟丟；紙的大小顏色、紙鶴故事都沒教怎麼摺。
 ## Why
-Going step by step lets you check that you're keeping up.
+Step by step lets you check you're keeping up. All at once is easy to lose, and paper size or the story doesn't teach folding.
 
 ## 提示
 一次講完，你記得住嗎？
@@ -109,19 +109,19 @@ You're stuck on a math word problem.
 Which one helps you learn it?
 
 ## A
-直接給我答案。
+請直接給我這一題的答案，我再自己慢慢想想看是怎麼算出來的。
 ## A (EN)
-Just give me the answer.
+Just give me the answer to this one, and I'll slowly figure out how it was worked out.
 
 ## B
-這題好難。
+請告訴我這一題是在考哪一個單元。
 ## B (EN)
-This is so hard.
+Please tell me which unit this problem is from.
 
 ## C
-請出一題新的。
+請給我一題差不多的題目，我先練習看看。
 ## C (EN)
-Give me a new problem.
+Please give me a similar problem to practice first.
 
 ## D
 請先列出題目給的數字，再列算式，最後算出答案。
@@ -129,9 +129,9 @@ Give me a new problem.
 First list the numbers given, then write the equation, then solve it.
 
 ## 解析
-照順序拆開來，你就看得懂每一步是怎麼來的。
+照順序拆開，你就看得懂每一步是怎麼來的。只給答案很難自己推回去；知道單元、換一題都沒解開你卡住的地方。
 ## Why
-Breaking it into steps shows where each part comes from.
+Breaking it down shows where each step comes from. Working back from an answer is hard, and a unit name or new problem doesn't fix where you're stuck.
 
 ## 提示
 學會的秘訣是看答案還是看過程？
@@ -152,14 +152,14 @@ You need to write an essay.
 Which one is best?
 
 ## A
-請直接寫完整篇。
+請直接寫完整篇作文，我再從裡面挑喜歡的句子。
 ## A (EN)
-Write the whole essay now.
+Write the whole essay and I'll pick sentences I like.
 
 ## B
-請幫我想題目就好。
+請給我 10 個作文題目，我再選一個。
 ## B (EN)
-Just give me a title.
+Give me 10 essay topics and I'll choose one.
 
 ## C
 請先幫我列大綱，我確認後再一起寫第一段。
@@ -167,14 +167,14 @@ Just give me a title.
 First help me outline. After I check it, we write the first paragraph together.
 
 ## D
-作文好無聊。
+請幫我寫作文的結尾，前面我自己想。
 ## D (EN)
-Essays are boring.
+Write the ending of my essay and I'll do the rest.
 
 ## 解析
-先大綱、再寫內容，每一步你都能檢查。
+先大綱、再寫內容，每一步都能檢查方向對不對。直接寫完整篇就不是你的；題目已經有了；先寫結尾順序反了。
 ## Why
-Outline first, then write — you can check each step.
+Outline first, then write, checking each step. A full essay isn't yours, you already have a topic, and starting with the ending is backward.
 
 ## 提示
 先做什麼，再做什麼？
@@ -195,9 +195,9 @@ Your room is a mess and you don't know where to start.
 Which one is best?
 
 ## A
-請幫我整理房間。
+請告訴我整理好的房間應該長什麼樣子。
 ## A (EN)
-Please clean my room.
+Please tell me what a tidy room should look like.
 
 ## B
 請把整理房間分成 4 個步驟，每步大約 5 分鐘。
@@ -205,19 +205,19 @@ Please clean my room.
 Break cleaning my room into 4 steps, about 5 minutes each.
 
 ## C
-房間為什麼會亂？
+請給我一句話，讓我有動力去整理房間。
 ## C (EN)
-Why do rooms get messy?
+Please give me one line to motivate me to clean.
 
 ## D
-請寫一篇整理房間的作文。
+請列出我房間裡可能有的所有東西，還有每一樣原本應該放在哪裡。
 ## D (EN)
-Write an essay about cleaning.
+Please list everything that might be in my room and where each thing belongs.
 
 ## 解析
-拆成小步驟，就不會覺得很難開始。
+拆成小步驟、每步幾分鐘，就不會覺得很難開始。知道整理好的樣子、一句加油都沒說先做什麼；列出所有東西更亂。
 ## Why
-Small steps make it easier to get started.
+Small timed steps make it easy to start. A picture of tidy or a pep talk doesn't say what's first, and listing everything is messier.
 
 ## 提示
 大工作怎麼變簡單？
@@ -243,24 +243,24 @@ Which one is best?
 Please use this order: materials → steps → observations → conclusion.
 
 ## B
-請寫實驗紀錄。
+請寫實驗紀錄，想到什麼就寫什麼，自然一點。
 ## B (EN)
-Please write my lab report.
+Write the lab report naturally, whatever comes to mind.
 
 ## C
-請寫得越長越好。
+請先寫結論，再補上材料和步驟。
 ## C (EN)
-Make it as long as possible.
+Write the conclusion first, then add materials and steps.
 
 ## D
-實驗好玩嗎？
+請把實驗紀錄寫成一篇心得文章。
 ## D (EN)
-Are experiments fun?
+Write the lab report as a personal reflection essay.
 
 ## 解析
-給順序，實驗紀錄就不會漏掉步驟。
+給固定順序，紀錄才不會漏掉步驟，別人也看得懂。想到什麼寫什麼容易漏；先寫結論順序反了；心得文章不是紀錄。
 ## Why
-Giving an order means no part gets missed.
+A fixed order means nothing is missed. Writing freely skips parts, conclusion-first is backward, and a reflection isn't a lab report.
 
 ## 提示
 實驗紀錄有哪幾個部分？
@@ -281,19 +281,19 @@ This lesson text is really long.
 Which one is best?
 
 ## A
-請把課文唸一遍。
+請把整篇課文唸一遍，我跟著一次背完。
 ## A (EN)
-Please read the text aloud.
+Please read the whole text once and I'll memorize it all at once.
 
 ## B
-課文好長。
+請把課文改寫成比較短、比較好背的版本，讓我背那個就好。
 ## B (EN)
-The text is long.
+Please rewrite the text shorter and easier so I can memorize that instead.
 
 ## C
-請幫我寫課文心得。
+請告訴我背課文最快的祕訣是什麼。
 ## C (EN)
-Write a reflection on the text.
+Please tell me the fastest trick for memorizing text.
 
 ## D
 請把課文分成 3 小段，一段一段帶我背。
@@ -301,9 +301,9 @@ Write a reflection on the text.
 Split the text into 3 short parts and help me learn them one at a time.
 
 ## 解析
-分段背，一次只背一小段就不累。
+分段背，一次只背一小段比較不累。一次背完太多；改寫過的就不是課文了；祕訣沒有真的帶你背。
 ## Why
-Learning in parts means only a little at a time.
+Learning in parts is easier. All at once is too much, a rewrite isn't the real text, and a trick doesn't walk you through it.
 
 ## 提示
 一次背全部，還是分小段？
@@ -324,14 +324,14 @@ You finished homework and want to know if it's right.
 Which one teaches you the most?
 
 ## A
-請直接幫我改好。
+請直接把我錯的地方都改好，我再把正確答案抄上去就好。
 ## A (EN)
-Just fix it for me.
+Please fix all my mistakes, and I'll just copy the right answers onto my homework.
 
 ## B
-我寫得好嗎？
+請告訴我這份作業大概可以拿幾分。
 ## B (EN)
-Is my work good?
+Please tell me roughly what score this homework would get.
 
 ## C
 請先檢查哪裡錯，再告訴我為什麼錯、怎麼改。
@@ -339,14 +339,14 @@ Is my work good?
 First find mistakes, then tell me why they're wrong and how to fix them.
 
 ## D
-請幫我寫明天的作業。
+請檢查我的作業，錯的地方打叉就好。
 ## D (EN)
-Do tomorrow's homework for me.
+Please check my homework and just mark wrong answers with an X.
 
 ## 解析
-先找錯、再說原因、最後改，你下次就不會再錯。
+先找錯、再說原因、最後改，你下次就不會再錯。直接改好你沒學到；分數和打叉都沒說為什麼錯。
 ## Why
-Find, explain, then fix — so you won't make the same mistake.
+Find, explain, then fix, so you won't repeat it. Copying fixes teaches nothing, and a score or X doesn't say why.
 
 ## 提示
 你想學會，還是只要改好？

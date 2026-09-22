@@ -46,7 +46,7 @@ content/questions/adults/stage-1.md … stage-7.md   成人版
 
 每關至少要 5 題（每場抽 5 題）；選「每關 8 題」時，會抽出該關全部題目，最多 8 題。畫面上的選項順序會打亂，不影響判分。
 
-小提醒：簡單版的正解通常比較完整，也常是最長的選項。想加難度時，可以把錯誤選項寫得一樣長、但少一個關鍵條件。
+**出題原則**：錯誤選項要跟正解差不多長、看起來也合理，但少一個這關的關鍵元素（例如第 2 關少了真正的背景、第 4 關少了目標），或多了一個錯的條件。不要讓「選最長的」就能答對：目前題庫裡正解是最長選項的比例約 25%，跟隨便猜差不多。
 
 ## Vercel 部署
 Framework Preset 選 Other；Build Command：`node scripts/build-bank.mjs`；Output Directory：`dist`；Node.js 22+。`vercel.json` 已含相同設定。

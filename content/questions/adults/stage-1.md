@@ -23,9 +23,9 @@ You have today's meeting notes.
 Which one states the task most clearly?
 
 ## A
-今天的會議紀錄。
+以下是今天的會議紀錄，內容很多，麻煩你看一下。
 ## A (EN)
-Today's meeting notes.
+Here are today's meeting notes. There's a lot, so please take a look.
 
 ## B
 請把以下會議紀錄整理成待辦清單。
@@ -33,19 +33,19 @@ Today's meeting notes.
 Turn the meeting notes below into a to-do list.
 
 ## C
-會議紀錄要怎麼寫比較好？
+請評論這份會議紀錄寫得好不好，並給修改建議。
 ## C (EN)
-How should meeting notes be written?
+Please evaluate whether these notes are well written and suggest edits.
 
 ## D
-請評論這份會議紀錄。
+請把這份會議紀錄完整翻譯成英文。
 ## D (EN)
-Please critique these meeting notes.
+Please translate these meeting notes fully into Japanese.
 
 ## 解析
-「整理成待辦清單」同時說了動作和成品，AI 就不用猜。
+「整理成待辦清單」同時說了動作和成品。「看一下」沒說要做什麼；評論和翻譯是別的任務。
 ## Why
-'Turn into a to-do list' gives both the action and the output.
+'Turn into a to-do list' gives action and output. 'Take a look' asks nothing specific; evaluating and translating are other tasks.
 
 ## 提示
 你最後要拿到的是什麼？
@@ -71,24 +71,24 @@ Which one is clearest?
 Reply to this client email, explaining delivery is delayed by two days.
 
 ## B
-客戶來信了。
+這封客戶信在問交期，我們會延後兩天，請參考。
 ## B (EN)
-A client emailed.
+This client email asks about delivery. We'll be two days late, FYI.
 
 ## C
-商業 Email 怎麼寫？
+請幫我摘要這封客戶信的重點，列成三點。
 ## C (EN)
-How do I write a business email?
+Please summarize this client email into three key points.
 
 ## D
-請翻譯這封信。
+請教我回覆客戶延遲交貨時要注意哪些地方。
 ## D (EN)
-Please translate this email.
+Please teach me what to watch for when telling a client about a delay.
 
 ## 解析
-直接說「回覆」和要說明的事，產出就是能寄的信。
+直接說「回覆」和要說明的事，產出就是能寄的信。「請參考」沒有任務；摘要和教學都不是回信。
 ## Why
-Saying 'reply' and what to explain produces an email you can send.
+Saying 'reply' and what to explain gives a sendable email. 'FYI' has no task; a summary or tips aren't a reply.
 
 ## 提示
 你要 AI 教你寫，還是直接寫？
@@ -109,19 +109,19 @@ A product description is for overseas clients.
 Which one is clearest?
 
 ## A
-英文。
+這段產品介紹要給海外客戶看，他們主要講英文。
 ## A (EN)
-Japanese.
+This product description is for overseas clients, who mainly speak Japanese.
 
 ## B
-翻譯有哪些技巧？
+請把這段產品介紹改寫得更吸引人一點。
 ## B (EN)
-What are some translation tips?
+Please rewrite this product description to be more appealing.
 
 ## C
-請摘要這段產品介紹。
+請把這段產品介紹濃縮成一句宣傳標語。
 ## C (EN)
-Summarize this product description.
+Please condense this product description into one slogan.
 
 ## D
 請把這段產品介紹翻譯成英文。
@@ -129,9 +129,9 @@ Summarize this product description.
 Translate this product description into Japanese.
 
 ## 解析
-動作是「翻譯」，對象和語言都講清楚。
+動作是「翻譯」，語言也說了。只說客戶講什麼語言，AI 不確定要翻譯、改寫還是給建議；改寫和濃縮是別的任務。
 ## Why
-The action is 'translate', with the target language named.
+The action is 'translate', with the language named. Just saying what clients speak leaves AI guessing; rewriting or condensing are other tasks.
 
 ## 提示
 要做的是翻譯、摘要，還是學技巧？
@@ -152,14 +152,14 @@ Your manager sent a 30-page report and you have 5 minutes.
 Which one is clearest?
 
 ## A
-這份報告好長。
+這份報告有 30 頁，我只有 5 分鐘，真的看不完。
 ## A (EN)
-This report is so long.
+This report is 30 pages and I only have 5 minutes. No way I can read it.
 
 ## B
-報告要怎麼寫？
+請幫這份報告挑出錯字和格式問題。
 ## B (EN)
-How do I write a report?
+Please find typos and formatting problems in this report.
 
 ## C
 請把這份報告摘要成 5 個重點。
@@ -167,14 +167,14 @@ How do I write a report?
 Summarize this report in 5 key points.
 
 ## D
-請幫這份報告取個標題。
+請根據這份報告，幫我寫一封回覆主管的信。
 ## D (EN)
-Give this report a title.
+Based on this report, please draft a reply to my manager.
 
 ## 解析
-說出「摘要」和數量，5 分鐘就能讀完。
+說出「摘要」和數量，5 分鐘就讀得完。只說看不完沒有請它做事；挑錯字、寫回信都不是你現在要的。
 ## Why
-'Summarize' plus a number means you can read it in 5 minutes.
+'Summarize' plus a number fits 5 minutes. Saying you can't read it asks nothing; typos or a reply aren't what you need now.
 
 ## 提示
 你需要的是摘要還是標題？
@@ -195,9 +195,9 @@ A new travel mug needs a name.
 Which one is clearest?
 
 ## A
-保溫杯。
+這款保溫杯還沒有名字，行銷部下週就要用了。
 ## A (EN)
-Travel mug.
+This travel mug has no name yet, and marketing needs it next week.
 
 ## B
 請為這款保溫杯想 10 個產品名稱。
@@ -205,19 +205,19 @@ Travel mug.
 Come up with 10 product names for this travel mug.
 
 ## C
-命名有什麼原則？
+請分析市面上保溫杯的命名有哪些趨勢。
 ## C (EN)
-What are good naming principles?
+Please analyze naming trends for travel mugs on the market.
 
 ## D
-請分析保溫杯市場。
+請為這款保溫杯寫一段 100 字的產品介紹。
 ## D (EN)
-Analyze the travel mug market.
+Please write a 100-word description for this travel mug.
 
 ## 解析
-動作加數量，AI 會直接給你可選的名字。
+動作加數量，AI 會直接給你可以挑的名字。只說還沒名字沒有任務；命名趨勢和產品介紹都不是名字。
 ## Why
-Action plus quantity gets you names to choose from.
+Action plus quantity gets names to choose from. Saying it has no name asks nothing; trends or a description aren't names.
 
 ## 提示
 你要名字，還是要理論？
@@ -243,24 +243,24 @@ Which one is clearest?
 Write an Excel formula that sums values in column B greater than 1000.
 
 ## B
-Excel 好難。
+我的 Excel B 欄有很多數字，其中有些大於 1000。
 ## B (EN)
-Excel is hard.
+My Excel column B has lots of numbers, and some are over 1000.
 
 ## C
-Excel 是什麼？
+請解釋 SUMIF 函數的運作原理和使用歷史。
 ## C (EN)
-What is Excel?
+Please explain how the SUMIF function works and its history.
 
 ## D
-請推薦 Excel 課程。
+請幫我把 B 欄所有大於 1000 的數字都標成紅色，方便我一眼看出來。
 ## D (EN)
-Recommend an Excel course.
+Please highlight every number over 1000 in column B in red so I can spot them at a glance.
 
 ## 解析
-把要算什麼講清楚，AI 就能直接給公式。
+把要算什麼講清楚，AI 就能直接給公式。只描述資料沒有任務；解釋函數、標顏色都不是加總。
 ## Why
-Stating exactly what to calculate lets AI give the formula directly.
+State what to calculate and AI gives the formula. Describing data asks nothing; explaining SUMIF or coloring cells isn't summing.
 
 ## 提示
 要 AI 寫公式，還是推薦課程？
@@ -281,19 +281,19 @@ A notice sounds too stiff.
 Which one is clearest?
 
 ## A
-這則公告。
+這則公告大家都反應太生硬，我也這麼覺得。
 ## A (EN)
-This notice.
+People say this notice sounds too stiff, and I agree.
 
 ## B
-請幫這則公告打分數。
+請幫這則公告打分數，滿分 10 分。
 ## B (EN)
-Rate this notice.
+Please rate this notice out of 10.
 
 ## C
-請把公告翻成英文。
+請把這則公告改成英文版，放到官網上。
 ## C (EN)
-Translate this notice.
+Please make an English version of this notice for our website.
 
 ## D
 請把這則公告改寫得更親切。
@@ -301,9 +301,9 @@ Translate this notice.
 Rewrite this notice to sound friendlier.
 
 ## 解析
-動作是「改寫」，方向是「更親切」。
+動作是「改寫」，方向是「更親切」。附和大家的反應沒有任務；打分數和翻譯都不會讓它變親切。
 ## Why
-Action: rewrite. Direction: friendlier.
+Action: rewrite. Direction: friendlier. Agreeing with feedback asks nothing; rating or translating won't make it friendlier.
 
 ## 提示
 你想要改寫、評分，還是翻譯？
@@ -324,14 +324,14 @@ You're going to Taichung on business for three days.
 Which one is clearest?
 
 ## A
-台中出差。
+我下週要去台中出差三天，拜訪三個客戶。
 ## A (EN)
-Taichung trip.
+I'm going to Taichung for three days next week to visit three clients.
 
 ## B
-出差要注意什麼？
+請推薦台中適合商務出差住的飯店。
 ## B (EN)
-What should I watch out for on business trips?
+Please recommend business hotels in Taichung.
 
 ## C
 請幫我排三天的台中出差行程。
@@ -339,14 +339,14 @@ What should I watch out for on business trips?
 Plan a three-day business trip itinerary in Taichung.
 
 ## D
-請推薦台中美食。
+請告訴我出差報帳需要準備哪些單據。
 ## D (EN)
-Recommend food in Taichung.
+Please tell me what receipts I need for travel expenses.
 
 ## 解析
-「排行程」是任務，「三天、台中」讓範圍清楚。
+「排行程」是任務，「三天、台中」是範圍。只說要出差沒有請它做事；訂飯店、報帳是別的事。
 ## Why
-'Plan an itinerary' is the task; 'three days, Taichung' sets the scope.
+'Plan an itinerary' is the task; 'three days, Taichung' is the scope. Just mentioning the trip asks nothing; hotels or receipts are other tasks.
 
 ## 提示
 最後要交出的是什麼？

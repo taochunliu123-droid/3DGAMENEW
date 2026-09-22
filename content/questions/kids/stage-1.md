@@ -28,24 +28,24 @@ Which one clearly tells AI what to do?
 In 5 sentences, tell me what a T. rex ate and where it lived.
 
 ## B
-暴龍。
+我對暴龍超有興趣，牠吃什麼、住在哪裡我都好想知道喔！
 ## B (EN)
-T. rex.
+I'm super into T. rex and really want to know what it ate and where it lived!
 
 ## C
-我好喜歡恐龍喔！
+暴龍、吃什麼、住哪裡、5 句話、要簡單，資料越多越好。
 ## C (EN)
-I love dinosaurs so much!
+T. rex, food, home, 5 sentences, simple, as much info as possible.
 
 ## D
-恐龍的英文怎麼唸？
+請幫我畫一張暴龍在森林裡大口吃東西的圖。
 ## D (EN)
-How do you say dinosaur in Chinese?
+Please draw a picture of a T. rex eating in a forest.
 
 ## 解析
-有「介紹」這個動作，也說了要介紹什麼，AI 就不用猜。
+正解有動作（介紹）也有內容。只說「好想知道」、只丟關鍵字，AI 都要用猜的；畫圖是另一件事。
 ## Why
-It has an action (tell me) and says what to tell, so AI doesn't have to guess.
+The answer has an action (tell me) and content. Saying you're curious or listing keywords makes AI guess; drawing is a different task.
 
 ## 提示
 找找看，哪一句有「要 AI 做的動作」？
@@ -66,19 +66,19 @@ Mom's birthday is coming, and you want AI's help.
 Which one is clearest?
 
 ## A
-媽媽生日。
+媽媽下週生日，她很辛苦，我想讓她知道我很愛她。
 ## A (EN)
-Mom's birthday.
+Mom's birthday is next week. She works so hard and I want her to know I love her.
 
 ## B
-生日蛋糕哪種最好吃？
+請推薦適合送媽媽的生日禮物，預算 300 元以內。
 ## B (EN)
-Which birthday cake is the best?
+Please suggest a birthday gift for Mom under 300 NTD.
 
 ## C
-生日快樂的英文是什麼？
+請告訴我生日卡片通常要寫哪些內容比較好。
 ## C (EN)
-How do you say happy birthday in Chinese?
+Please tell me what people usually write in a birthday card.
 
 ## D
 請幫我寫一張給媽媽的生日卡片。
@@ -86,9 +86,9 @@ How do you say happy birthday in Chinese?
 Please write a birthday card for my mom.
 
 ## 解析
-直接說要「寫卡片」，AI 才知道你要的是卡片。
+你要的是卡片，就直接請 AI「寫卡片」。推薦禮物、教你怎麼寫是別的任務；只說心意沒有請它做事。
 ## Why
-It says 'write a card', so AI knows you want a card.
+You want a card, so ask AI to write one. Gift ideas or tips are different tasks, and sharing feelings asks for nothing.
 
 ## 提示
 你想要 AI 最後交給你什麼？
@@ -109,14 +109,14 @@ You don't know how to solve 3/4 + 1/8.
 Which one gets you the help you need?
 
 ## A
-數學好難喔。
+請直接告訴我 3/4 + 1/8 的答案，我要寫作業。
 ## A (EN)
-Math is so hard.
+Just tell me the answer to 3/4 + 1/8. It's for homework.
 
 ## B
-分數。
+分數加法好難，我每次算 3/4 + 1/8 這種題目都錯。
 ## B (EN)
-Fractions.
+Adding fractions is so hard. I always get ones like 3/4 + 1/8 wrong.
 
 ## C
 請一步一步教我算 3/4 + 1/8。
@@ -124,14 +124,14 @@ Fractions.
 Please teach me step by step how to solve 3/4 + 1/8.
 
 ## D
-請再出一題分數題給我。
+請出 5 題跟 3/4 + 1/8 一樣的分數題給我。
 ## D (EN)
-Give me another fraction problem.
+Please give me 5 more problems like 3/4 + 1/8.
 
 ## 解析
-說清楚要 AI「教我算這一題」，而不是只說心情或換成別的事。
+你想學會，就請 AI「一步一步教」。只給答案學不會；出新題目是另一件事；只抱怨沒有請它做事。
 ## Why
-It asks AI to teach you this exact problem, not just share a feeling or do something else.
+You want to learn, so ask AI to teach step by step. The answer alone won't teach you; new problems are a different task; complaining asks for nothing.
 
 ## 提示
 你要 AI 教你，還是出新題目？
@@ -152,9 +152,9 @@ You want a short bedtime story.
 Which one is clearest?
 
 ## A
-小貓。
+我今天好累想早點睡，小貓和交朋友是我最喜歡的。
 ## A (EN)
-Kitten.
+I'm tired and want to sleep early. Kittens and friends are my favorite.
 
 ## B
 請寫一個小貓找朋友的短故事。
@@ -162,19 +162,19 @@ Kitten.
 Please write a short story about a kitten looking for a friend.
 
 ## C
-我要睡覺了。
+請推薦 3 本適合睡前看的小貓繪本給我。
 ## C (EN)
-I'm going to sleep.
+Please recommend 3 bedtime picture books about kittens.
 
 ## D
-故事書要去哪裡買？
+請告訴我一個好故事需要哪些部分。
 ## D (EN)
-Where can I buy storybooks?
+Please tell me what parts a good story needs.
 
 ## 解析
-說出「寫故事」和故事主角，AI 就能開始寫。
+你要聽故事，就請 AI「寫故事」並說主角。推薦繪本、講故事技巧都不是你要的；說喜歡什麼沒有請它做事。
 ## Why
-It says 'write a story' and who it's about, so AI can start writing.
+You want a story, so ask AI to write one and name the hero. Book picks or story tips aren't what you need, and listing likes asks for nothing.
 
 ## 提示
 哪一句有動作又有主角？
@@ -200,24 +200,24 @@ Which one is clearest?
 Please explain why plants need sunlight.
 
 ## B
-陽光好熱。
+植物需要陽光，課本上也有寫，我覺得好神奇。
 ## B (EN)
-Sunlight is hot.
+Plants need sunlight. It's in our textbook and I think it's amazing.
 
 ## C
-植物好漂亮。
+請畫一張植物在陽光下慢慢長大的圖給我看。
 ## C (EN)
-Plants are pretty.
+Please draw a plant slowly growing in the sun.
 
 ## D
-請畫一棵大樹。
+請列出 10 種最喜歡陽光的植物名字。
 ## D (EN)
-Please draw a big tree.
+Please list 10 plants that love sunlight the most.
 
 ## 解析
-你想「知道原因」，就請 AI「說明為什麼」。
+你想知道「為什麼」，就請 AI「說明原因」。畫圖、列植物名字都沒回答為什麼；說很神奇沒有請它做事。
 ## Why
-You want to know the reason, so ask AI to explain why.
+You want to know why, so ask AI to explain. A drawing or a list doesn't answer why, and saying it's amazing asks for nothing.
 
 ## 提示
 你想知道的是原因，還是一張圖？
@@ -238,19 +238,19 @@ Your class is making a 'Love the Earth' poster.
 Which one is clearest?
 
 ## A
-地球。
+我們班要做愛護地球的海報，大家都很想做好。
 ## A (EN)
-Earth.
+Our class is making a 'Love the Earth' poster and we want it to be great.
 
 ## B
-海報要用什麼紙？
+請告訴我愛護地球的海報用什麼顏色最好看。
 ## B (EN)
-What paper should we use for posters?
+Please tell me which colors look best on an Earth poster.
 
 ## C
-我最喜歡綠色。
+請寫一篇 300 字介紹地球暖化的文章。
 ## C (EN)
-Green is my favorite color.
+Please write a 300-word article about global warming.
 
 ## D
 請幫我想 3 句愛護地球的海報標語。
@@ -258,9 +258,9 @@ Green is my favorite color.
 Please give me 3 slogans for a 'Love the Earth' poster.
 
 ## 解析
-說出要「想標語」和數量，AI 就知道要交出什麼。
+海報需要標語，所以請 AI「想標語」並說數量。挑顏色、寫文章都不是標語；只說要做海報沒有請它做事。
 ## Why
-It says 'give me slogans' and how many, so AI knows what to hand over.
+The poster needs slogans, so ask for slogans and how many. Colors or an article aren't slogans, and just mentioning the poster asks for nothing.
 
 ## 提示
 海報上最需要的是什麼？
@@ -281,14 +281,14 @@ You want to learn fruit words in English.
 Which one is clearest?
 
 ## A
-英文好難。
+我想背水果的英文，可是蘋果、香蕉老是記不住。
 ## A (EN)
-English is hard.
+I want to learn fruit words, but I keep forgetting apple and banana.
 
 ## B
-蘋果很好吃。
+請用英文寫一篇介紹水果營養的短文。
 ## B (EN)
-Apples are yummy.
+Please write a short English article about fruit nutrition.
 
 ## C
 請列出 10 個水果的英文和中文。
@@ -296,14 +296,14 @@ Apples are yummy.
 Please list 10 fruits in English and Chinese.
 
 ## D
-水果。
+請告訴我背英文單字有哪些好方法。
 ## D (EN)
-Fruit.
+Please tell me good ways to memorize English words.
 
 ## 解析
-「列出」是動作，「10 個水果英中對照」是內容，一句就說清楚。
+你要的是單字表，就請 AI「列出」。寫短文、教方法都不是單字表；只說記不住沒有請它做事。
 ## Why
-'List' is the action and '10 fruits in two languages' is the content.
+You want a word list, so ask AI to list. An article or tips aren't a list, and saying you forget asks for nothing.
 
 ## 提示
 哪一句會讓 AI 真的給你單字？
@@ -324,9 +324,9 @@ You're going on a field trip tomorrow.
 Which one is clearest?
 
 ## A
-明天要郊遊。
+明天要去郊遊，我好興奮，可是很怕忘記帶東西。
 ## A (EN)
-Field trip tomorrow.
+Tomorrow's field trip! I'm excited but scared I'll forget something.
 
 ## B
 請幫我列一張郊遊要帶的東西清單。
@@ -334,19 +334,19 @@ Field trip tomorrow.
 Please make a checklist of things to bring on a field trip.
 
 ## C
-郊遊好玩嗎？
+請幫我查明天郊遊地點的天氣和交通方式。
 ## C (EN)
-Are field trips fun?
+Please check the weather and transport for tomorrow's trip spot.
 
 ## D
-明天天氣。
+請推薦幾個適合全班一起去郊遊的地方。
 ## D (EN)
-Weather.
+Please suggest some good places for a class field trip.
 
 ## 解析
-說清楚要一張「清單」，AI 才不會只陪你聊天。
+你需要清單，就請 AI「列清單」。查天氣、推薦地點是別的事；只說怕忘記沒有請它做事。
 ## Why
-It asks for a checklist, so AI won't just chat with you.
+You need a checklist, so ask for one. Weather or places are other tasks, and saying you're worried asks for nothing.
 
 ## 提示
 你需要的是一張什麼？

@@ -23,19 +23,19 @@ Your manager is busy and wants progress fast.
 Which one is best?
 
 ## A
-請用網路流行語報告進度。
+請用詳細完整的方式，把每個細節都向主管報告。
 ## A (EN)
-Report progress using internet slang.
+Report every detail to my manager thoroughly.
 
 ## B
-請把進度寫成一首詩。
+請用輕鬆聊天的語氣，像朋友一樣向主管報告進度。
 ## B (EN)
-Turn the progress into a poem.
+Report progress in a casual, chatty tone, like talking to a friend.
 
 ## C
-請寫一篇詳細的長篇報告。
+請把進度做成 10 頁簡報，向主管報告。
 ## C (EN)
-Write a long, detailed report.
+Turn the progress into a 10-slide deck for my manager.
 
 ## D
 請用正式、簡潔的語氣，三句話向主管報告進度。
@@ -43,9 +43,9 @@ Write a long, detailed report.
 In a formal, concise tone, report progress to my manager in three sentences.
 
 ## 解析
-指定語氣和長度，主管 30 秒就能看完。
+主管很忙，指定正式、簡潔、三句話，30 秒就看完。每個細節、10 頁簡報太長；聊天語氣不夠正式。
 ## Why
-Naming tone and length means your manager reads it in 30 seconds.
+A busy manager needs formal, concise, three sentences. Every detail or 10 slides is too long; chatty isn't formal enough.
 
 ## 提示
 主管喜歡什麼樣的報告？
@@ -66,14 +66,14 @@ You need to compare three vendors.
 Which one is best?
 
 ## A
-請比較三家廠商。
+請分別寫三段文字，介紹三家廠商的特色。
 ## A (EN)
-Compare three vendors.
+Please write three paragraphs introducing each vendor.
 
 ## B
-請寫一篇廠商比較心得。
+請用表格比較三家廠商，欄位你自己決定，最好把你覺得重要的都列進去。
 ## B (EN)
-Write an essay comparing vendors.
+Compare the three vendors in a table. You choose the columns; include whatever you think matters.
 
 ## C
 請用表格比較三家廠商：價格、交期、售後服務。
@@ -81,14 +81,14 @@ Write an essay comparing vendors.
 Compare the three vendors in a table: price, lead time, after-sales service.
 
 ## D
-哪家廠商最好？
+請直接告訴我該選哪一家，不用說明原因。
 ## D (EN)
-Which vendor is best?
+Just tell me which vendor to pick. No reasons needed.
 
 ## 解析
-表格加欄位，比較一目了然。
+表格加上你在乎的欄位，比較才一目了然。三段文字不好對照；欄位讓 AI 決定可能漏掉交期；只給答案看不到依據。
 ## Why
-A table with named columns makes comparison instant.
+A table with your columns makes it instant. Paragraphs are hard to compare, AI-chosen columns may skip lead time, and a bare answer has no basis.
 
 ## 提示
 什麼格式最適合比較？
@@ -109,9 +109,9 @@ The brand is promoting its anniversary on Instagram.
 Which one is best?
 
 ## A
-請用法律文件的語氣寫。
+請用正式新聞稿的格式寫 IG 貼文，顯得專業。
 ## A (EN)
-Write it like a legal document.
+Write the Instagram post as a formal press release to look professional.
 
 ## B
 請用輕鬆活潑、加上表情符號的語氣寫 IG 貼文。
@@ -119,19 +119,19 @@ Write it like a legal document.
 Write an Instagram post in a light, lively tone with emojis.
 
 ## C
-請用新聞稿的語氣寫。
+請寫一篇 IG 貼文，把活動所有細節都寫進去。
 ## C (EN)
-Write it like a press release.
+Write an Instagram post that includes every event detail.
 
 ## D
-請寫一篇 2000 字的文章。
+請用和官網一樣的產品說明文字寫 IG 貼文。
 ## D (EN)
-Write a 2,000-word article.
+Write the Instagram post using the same text as our website.
 
 ## 解析
-社群平台有自己的語氣，要說清楚。
+IG 的語氣輕鬆活潑，要明講。新聞稿、官網說明太硬；寫進所有細節太長，沒人會看完。
 ## Why
-Each platform has its own tone; say it clearly.
+Instagram is light and lively; say so. A press release or website text is stiff, and every detail is too long to read.
 
 ## 提示
 IG 上的貼文通常是什麼感覺？
@@ -157,24 +157,24 @@ Which one is best?
 Turn this into a 10-slide outline, each with a title and 3 points.
 
 ## B
-請幫我做簡報。
+請把內容整理成一篇 3000 字的完整報告。
 ## B (EN)
-Make me a presentation.
+Please turn this into a complete 3,000-word report.
 
 ## C
-請寫一篇文章。
+請整理成簡報大綱，頁數和內容你看著辦。
 ## C (EN)
-Write an article.
+Please make a slide outline. Pages and content are up to you.
 
 ## D
-簡報要做幾頁？
+請整理成 10 頁簡報，每一頁都放滿文字。
 ## D (EN)
-How many slides should I make?
+Please make 10 slides, each packed with text.
 
 ## 解析
-指定頁數和每頁結構，拿到就能開始做投影片。
+指定頁數和每頁結構，拿到就能開始做投影片。報告不是簡報；「看著辦」頁數不受控；每頁放滿文字不好講。
 ## Why
-Slide count and per-slide structure let you start building right away.
+Slide count and structure let you start building. A report isn't slides, 'up to you' has no control, and packed slides are hard to present.
 
 ## 提示
 每一頁要長什麼樣子？
@@ -195,19 +195,19 @@ You need to explain cloud storage to your parents.
 Which one is best?
 
 ## A
-請用技術文件解釋雲端硬碟。
+請用精確的技術用語，完整解釋雲端硬碟的運作原理。
 ## A (EN)
-Explain cloud storage like a technical manual.
+Explain precisely how cloud storage works using technical terms.
 
 ## B
-請列出雲端硬碟規格。
+請用白話解釋雲端硬碟，並附上 5 個英文專有名詞。
 ## B (EN)
-List cloud storage specs.
+Explain cloud storage in plain words and include 5 technical terms.
 
 ## C
-請用英文解釋。
+請比較市面上所有雲端硬碟的價格和容量。
 ## C (EN)
-Explain it in French.
+Compare the prices and capacity of every cloud storage service.
 
 ## D
 請用沒有專業術語的白話，向爸媽解釋雲端硬碟。
@@ -215,9 +215,9 @@ Explain it in French.
 Explain cloud storage to my parents in plain words with no jargon.
 
 ## 解析
-說出對象和「不要術語」，解釋才聽得懂。
+說出對象和「不要術語」，爸媽才聽得懂。技術用語、附專有名詞都更難懂；比價格不是解釋。
 ## Why
-Naming the audience and 'no jargon' makes it understandable.
+Naming the audience and 'no jargon' makes it clear. Technical terms make it harder; comparing prices isn't explaining.
 
 ## 提示
 聽的人熟悉電腦嗎？
@@ -238,14 +238,14 @@ You're sending a meeting notice.
 Which one is best?
 
 ## A
-請寫一封信。
+請寫一段親切的文字，邀請大家來參加會議。
 ## A (EN)
-Write an email.
+Write a friendly paragraph inviting everyone to the meeting.
 
 ## B
-請寫一段會議介紹。
+請寫會議通知，越簡短越好，一句話就夠。
 ## B (EN)
-Write a paragraph about the meeting.
+Write a meeting notice as short as possible. One sentence is enough.
 
 ## C
 請寫成會議通知：時間、地點、議程、需準備事項。
@@ -253,14 +253,14 @@ Write a paragraph about the meeting.
 Write it as a meeting notice: time, place, agenda, what to prepare.
 
 ## D
-會議通知要寫什麼？
+請把會議的背景和緣由詳細寫成通知。
 ## D (EN)
-What goes in a meeting notice?
+Write the notice explaining the meeting's background in detail.
 
 ## 解析
-給固定欄位，通知就不會漏資訊。
+給固定欄位，通知才不會漏資訊。親切邀請、一句話都可能漏掉時間地點；背景寫太多，重點反而找不到。
 ## Why
-Fixed fields mean nothing gets left out.
+Fixed fields mean nothing is missed. A friendly invite or one line may skip time and place; too much background buries the key info.
 
 ## 提示
 會議通知一定要有哪些資訊？
@@ -281,9 +281,9 @@ A project went wrong and you're apologizing to the client.
 Which one is best?
 
 ## A
-請用幽默的語氣寫道歉信。
+請用專業的語氣寫道歉信，說明錯誤是廠商造成的。
 ## A (EN)
-Write a humorous apology.
+Write a professional apology explaining the vendor caused the error.
 
 ## B
 請用誠懇、不推卸責任的語氣寫道歉信。
@@ -291,19 +291,19 @@ Write a humorous apology.
 Write an apology in a sincere tone that takes responsibility.
 
 ## C
-請用強硬的語氣寫道歉信。
+請用輕鬆幽默的語氣寫道歉信，緩和一下氣氛。
 ## C (EN)
-Write a firm apology.
+Write a light, humorous apology to ease the mood.
 
 ## D
-請寫一封很短的道歉。
+請寫一封簡短的道歉信，一句「抱歉造成不便」就好。
 ## D (EN)
-Write a very short apology.
+Write a short apology. Just 'Sorry for the inconvenience' is enough.
 
 ## 解析
-道歉的關鍵是語氣，要明講「誠懇、不推卸」。
+道歉的關鍵是語氣：誠懇、不推卸。怪廠商是推卸；幽默會像不在乎；一句罐頭話不夠誠意。
 ## Why
-The key to an apology is tone; say 'sincere, take responsibility'.
+An apology is about tone: sincere, taking responsibility. Blaming the vendor deflects, humor seems careless, and a canned line isn't sincere.
 
 ## 提示
 道歉最需要什麼態度？
@@ -329,24 +329,24 @@ Which one is best?
 Organize this as a Q&A with 5 questions.
 
 ## B
-請寫一篇說明文章。
+請寫成一篇完整的說明文章，放在官網上。
 ## B (EN)
-Write an explanatory article.
+Write it as a full explanatory article for the website.
 
 ## C
-請寫得詳細一點。
+請整理成 Q&A 格式，把想得到的問題都列出來。
 ## C (EN)
-Make it more detailed.
+Put it in Q&A format and list every question you can think of.
 
 ## D
-常見問題有哪些？
+請寫成客服人員內部使用的作業手冊。
 ## D (EN)
-What are common questions?
+Write it as an internal manual for support staff.
 
 ## 解析
-Q&A 格式讀者最好找答案。
+Q&A 讓客戶最快找到答案，限定題數才不會太長。說明文章不好找答案；問題全列太多；內部手冊不是給客戶看的。
 ## Why
-Q&A format makes answers easy to find.
+Q&A helps customers find answers fast, and a set count keeps it short. An article hides answers, every question is too many, and a manual isn't for customers.
 
 ## 提示
 什麼格式最方便客戶找答案？

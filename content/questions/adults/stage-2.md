@@ -23,14 +23,14 @@ A customer's coffee machine broke after three days, and they're angry.
 Which one is best?
 
 ## A
-請寫一封道歉信。
+請幫我寫一封誠懇、專業、讓客戶滿意的道歉回信。
 ## A (EN)
-Please write an apology.
+Please write a sincere, professional apology that satisfies the customer.
 
 ## B
-請寫一封專業的信。
+我們公司是業界第一品牌，請幫我寫一封道歉回信。
 ## B (EN)
-Please write a professional letter.
+Our company is the industry's top brand. Please write an apology reply.
 
 ## C
 客戶買的咖啡機三天就壞了，很生氣，請幫我寫道歉回信。
@@ -38,14 +38,14 @@ Please write a professional letter.
 A customer's coffee machine broke after three days and they're upset. Please write an apology reply.
 
 ## D
-請寫一封客服信。
+請幫我寫一封道歉回信，內容要針對客戶的問題。
 ## D (EN)
-Please write a customer service email.
+Please write an apology reply that addresses the customer's problem.
 
 ## 解析
-說出發生什麼事，道歉才會具體，不會像罐頭回覆。
+說出發生什麼事，道歉才具體。形容詞不是資訊；業界第一跟這次問題無關；「針對客戶的問題」但 AI 根本不知道問題是什麼。
 ## Why
-Explaining what happened makes the apology specific, not a canned reply.
+Explain what happened so the apology is specific. Adjectives aren't info, being top brand is irrelevant, and AI doesn't know 'the problem'.
 
 ## 提示
 AI 知道客戶為什麼生氣嗎？
@@ -66,9 +66,9 @@ You're interviewing for a marketing role at a startup.
 Which one is best?
 
 ## A
-請給我面試問題。
+我明天要面試，很緊張，請列 5 個可能被問的問題。
 ## A (EN)
-Give me interview questions.
+I have an interview tomorrow and I'm nervous. List 5 questions I might get.
 
 ## B
 我要面試新創公司的行銷企劃，請列 5 個可能被問的問題。
@@ -76,19 +76,19 @@ Give me interview questions.
 I'm interviewing for a marketing role at a startup. List 5 questions I might be asked.
 
 ## C
-面試要穿什麼？
+請列出 5 個最常見、最經典的面試問題。
 ## C (EN)
-What should I wear to an interview?
+List the 5 most common, classic interview questions.
 
 ## D
-請給我 100 個面試問題。
+我大學念企管，畢業後在貿易公司待過兩年，請列 5 個面試可能被問的問題。
 ## D (EN)
-Give me 100 interview questions.
+I majored in business and worked two years at a trading company. List 5 questions I might be asked.
 
 ## 解析
-職位和公司類型決定會被問什麼，要先告訴 AI。
+職位和公司類型決定會被問什麼。緊張不影響題目；經典題太通用；科系有幫助，但不知道應徵什麼職位還是猜不準。
 ## Why
-The role and company type shape the questions, so tell AI first.
+Role and company type shape the questions. Nerves don't; classic questions are generic; a major helps, but without the role AI still guesses.
 
 ## 提示
 AI 知道你要面試什麼職位嗎？
@@ -114,24 +114,24 @@ Which one is best?
 This week we finished the website redesign; the payment feature slipped due to a vendor delay. Please write the weekly report.
 
 ## B
-請寫週報。
+請寫一份專業、有條理、主管會喜歡的週報。
 ## B (EN)
-Please write a weekly report.
+Please write a professional, organized weekly report my manager will like.
 
 ## C
-請寫一份漂亮的週報。
+請根據一般專案的進度，幫我寫一份週報。
 ## C (EN)
-Please write a nice weekly report.
+Please write a weekly report based on typical project progress.
 
 ## D
-週報的格式是什麼？
+我們團隊 5 個人，專案做了三個月，請寫週報。
 ## D (EN)
-What's the weekly report format?
+Our team has 5 people and we're 3 months in. Please write the weekly report.
 
 ## 解析
-把實際進度給 AI，它才不會編出不存在的內容。
+把實際進度給 AI，它才不會編出不存在的內容。形容詞、「一般專案進度」、團隊人數都不是這週發生的事。
 ## Why
-Giving AI the real progress stops it from inventing content.
+Give AI real progress so it doesn't invent any. Adjectives, 'typical progress' or team size aren't what happened this week.
 
 ## 提示
 週報的內容要從哪裡來？
@@ -152,19 +152,19 @@ Your audience is 20 managers new to AI, and you have 10 minutes.
 Which one is best?
 
 ## A
-請幫我寫簡報開場。
+請幫我寫一個幽默、吸睛、讓全場印象深刻的開場。
 ## A (EN)
-Please write a talk opening.
+Please write a funny, eye-catching opening that impresses everyone.
 
 ## B
-請寫一個很厲害的開場。
+我是 AI 專家，教過上百堂課、出過兩本書，請幫我寫一個讓人印象深刻的開場。
 ## B (EN)
-Please write an amazing opening.
+I'm an AI expert who has taught hundreds of classes and written two books. Please write a memorable opening.
 
 ## C
-開場要講多久？
+這場簡報在台北的大飯店舉辦，請幫我寫開場。
 ## C (EN)
-How long should an opening be?
+The talk is at a big hotel in Taipei. Please write my opening.
 
 ## D
 聽眾是 20 位不熟 AI 的主管，時間 10 分鐘，請幫我寫開場。
@@ -172,9 +172,9 @@ How long should an opening be?
 My audience is 20 managers new to AI, and I have 10 minutes. Please write my opening.
 
 ## 解析
-聽眾是誰、時間多長，決定開場怎麼說。
+聽眾是誰、講多久，決定開場怎麼說。形容詞不是資訊；你的經歷、場地在哪，都不如聽眾背景重要。
 ## Why
-Who's listening and for how long decides how to open.
+Who's listening and for how long decide the opening. Adjectives aren't info; your background or the venue matter less than the audience.
 
 ## 提示
 誰在聽？講多久？
@@ -195,14 +195,14 @@ Who is listening, and for how long?
 Which one is best?
 
 ## A
-請推薦聚餐餐廳。
+我們部門要聚餐，大家感情很好，請推薦台北的餐廳。
 ## A (EN)
-Suggest restaurants for a team dinner.
+Our department is having dinner and we get along well. Suggest a Taipei restaurant.
 
 ## B
-請推薦好吃的餐廳。
+12 人聚餐，請推薦台北評價最高、最有名的餐廳。
 ## B (EN)
-Suggest tasty restaurants.
+Dinner for 12. Suggest the top-rated, most famous restaurants in Taipei.
 
 ## C
 12 人聚餐、每人 500 元、2 位吃素，請推薦台北適合的餐廳類型。
@@ -210,14 +210,14 @@ Suggest tasty restaurants.
 12 people, 500 NTD each, 2 vegetarians. Suggest suitable restaurant types in Taipei.
 
 ## D
-請推薦高級餐廳。
+12 人聚餐、每人預算 500 元、週五晚上 7 點，請推薦台北有包廂的燒肉店。
 ## D (EN)
-Suggest fancy restaurants.
+Dinner for 12, 500 NTD each, Friday at 7 p.m. Please suggest a Korean BBQ place in Taipei with a private room.
 
 ## 解析
-人數、預算、吃素都是條件，少一個就可能訂錯。
+人數、預算、吃素都是條件，少一個就可能訂錯。感情好不是條件；最有名可能超預算；燒肉店忘了有人吃素。
 ## Why
-Headcount, budget and vegetarians are all constraints; miss one and you may book wrong.
+Headcount, budget and vegetarians all matter. Getting along isn't a condition, famous may blow the budget, and BBQ forgets the vegetarians.
 
 ## 提示
 哪些條件一定要先講？
@@ -238,9 +238,9 @@ You're an accountant who wants Python for Excel work, 3 hours a week.
 Which one is best?
 
 ## A
-請教我 Python。
+我想學 Python，請規劃一條最完整、最專業的學習路線。
 ## A (EN)
-Teach me Python.
+I want to learn Python. Plan the most complete, professional path.
 
 ## B
 我是會計，想學 Python 處理 Excel，每週 3 小時，請規劃學習路線。
@@ -248,19 +248,19 @@ Teach me Python.
 I'm an accountant wanting to use Python for Excel, 3 hours a week. Please plan a learning path.
 
 ## C
-Python 難嗎？
+我是會計，想學 Python，請規劃一條學習路線，每天讀 4 小時，三個月內學會所有功能。
 ## C (EN)
-Is Python hard?
+I'm an accountant learning Python. Plan a path with 4 hours of study a day to learn everything in 3 months.
 
 ## D
-請推薦最好的程式語言。
+我對寫程式很有興趣，請規劃 Python 學習路線。
 ## D (EN)
-What's the best programming language?
+I'm really interested in coding. Please plan a Python learning path.
 
 ## 解析
-身分、目的、時間都說了，路線才會適合你。
+身分、目的、時間都說了，路線才適合你。「最完整最專業」不是你的需求；每天 4 小時你沒有；有興趣不等於說出用途。
 ## Why
-Role, purpose and time all shape the right path.
+Role, purpose and time make the path fit. 'Most complete' isn't your need, you don't have 4 hours a day, and interest isn't a purpose.
 
 ## 提示
 AI 知道你是誰、想用來做什麼嗎？
@@ -286,24 +286,24 @@ Which one is best?
 This travel mug is for office workers, keeps drinks hot for 12 hours and fits in a bag. Write a one-line ad.
 
 ## B
-請寫保溫杯文案。
+請寫一句有質感、打動人心、讓人想馬上買的保溫杯文案。
 ## B (EN)
-Write travel mug copy.
+Write a classy, moving line that makes people want to buy the mug now.
 
 ## C
-請寫很吸引人的文案。
+我們公司成立 20 年，做過上百款杯子，還得過設計獎，請寫一句保溫杯的廣告文案。
 ## C (EN)
-Write very catchy copy.
+Our company is 20 years old, has made hundreds of cups and won design awards. Write a one-line ad for the mug.
 
 ## D
-請寫一篇保溫杯介紹。
+這款保溫杯有 5 種顏色，請寫一句廣告文案。
 ## D (EN)
-Write a travel mug introduction.
+This travel mug comes in 5 colors. Please write a one-line ad.
 
 ## 解析
-產品賣點和對象是文案的原料，沒給 AI 只能寫空話。
+產品賣點和對象是文案的原料。形容詞寫不出賣點；公司歷史、顏色數量都不是這款杯子最重要的賣點。
 ## Why
-Selling points and audience are the raw material; without them, AI writes fluff.
+Selling points and audience are the raw material. Adjectives can't create them; company age or color count aren't the key selling points.
 
 ## 提示
 文案的賣點從哪裡來？
@@ -324,19 +324,19 @@ The new hire is a fresh graduate in customer service.
 Which one is best?
 
 ## A
-請列新人訓練清單。
+請列一份完整、全面、適合所有新人的訓練清單。
 ## A (EN)
-List new hire training.
+Please list a complete training plan suitable for every new hire.
 
 ## B
-新人要怎麼帶？
+我們公司有 300 人，請列新人第一週的訓練清單。
 ## B (EN)
-How do I coach new hires?
+Our company has 300 people. List first-week training for a new hire.
 
 ## C
-請寫員工手冊。
+新人很聰明、學得很快，請列第一週的訓練清單。
 ## C (EN)
-Write an employee handbook.
+The new hire is smart and learns fast. List first-week training.
 
 ## D
 新人是剛畢業的客服人員，請列出第一週的訓練清單。
@@ -344,9 +344,9 @@ Write an employee handbook.
 The new hire is a fresh graduate in customer service. List their first-week training.
 
 ## 解析
-新人背景不同，訓練內容就不同。
+新人的背景和職位決定要教什麼。適合所有人就不夠針對；公司人數、很聰明，都沒說他做什麼工作。
 ## Why
-Different backgrounds need different training.
+Background and role decide the training. 'Everyone' isn't targeted; company size or being smart doesn't say what the job is.
 
 ## 提示
 這位新人是什麼背景？

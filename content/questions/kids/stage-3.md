@@ -23,14 +23,14 @@ Grandma can't read hard words.
 Which one is best?
 
 ## A
-請用正式公文寫信給阿嬤。
+請用有禮貌、很正式的敬語寫一封給阿嬤的信。
 ## A (EN)
-Please write to Grandma like a formal notice.
+Please write Grandma a very formal, polite letter.
 
 ## B
-請用英文寫信給阿嬤。
+請用有趣的網路用語和表情符號寫信給阿嬤。
 ## B (EN)
-Please write to Grandma in French.
+Please write Grandma a letter with fun internet slang and emojis.
 
 ## C
 請用簡單、溫暖的話寫一封給阿嬤的信。
@@ -38,14 +38,14 @@ Please write to Grandma in French.
 Please write a letter to Grandma in simple, warm words.
 
 ## D
-請用很多成語寫信給阿嬤。
+請用優美的成語和詩句寫一封給阿嬤的信。
 ## D (EN)
-Please write to Grandma with lots of fancy words.
+Please write Grandma a letter full of fancy idioms and poetry.
 
 ## 解析
-說出「簡單、溫暖」，信的語氣才適合阿嬤。
+阿嬤看不懂難字，所以要「簡單、溫暖」。正式敬語太生疏、網路用語她看不懂、成語詩句太難。
 ## Why
-Saying 'simple and warm' makes the letter right for Grandma.
+Grandma can't read hard words, so 'simple and warm'. Formal is distant, slang is confusing, idioms are too hard.
 
 ## 提示
 阿嬤喜歡什麼樣的說話方式？
@@ -66,9 +66,9 @@ You want to sum up this lesson for review.
 Which one is best?
 
 ## A
-請把這一課寫成一首長詩。
+請把這一課的重點寫成一段完整、通順的文章。
 ## A (EN)
-Please turn this lesson into a long poem.
+Please turn this lesson into one smooth, complete paragraph.
 
 ## B
 請把這一課的重點整理成 5 點條列。
@@ -76,19 +76,19 @@ Please turn this lesson into a long poem.
 Please sum up this lesson in 5 bullet points.
 
 ## C
-請寫成很長的一大段話。
+請把這一課的每一句話都整理出來，一句都不漏。
 ## C (EN)
-Please write it as one long paragraph.
+Please list every sentence of this lesson without missing any.
 
 ## D
-請隨便整理一下。
+請把這一課改寫成一個有趣的小故事。
 ## D (EN)
-Just sum it up however.
+Please rewrite this lesson as a fun short story.
 
 ## 解析
-條列最好複習。指定格式，AI 就不會交出一大段。
+複習要一眼看到重點，條列最方便。整段文章不好找重點；每句都抄等於沒整理；小故事好看但不好複習。
 ## Why
-Bullet points are easy to review. Naming the format stops AI from writing a big block.
+Review needs key points at a glance, so bullets. A paragraph hides them, copying everything isn't summarizing, and a story is hard to review.
 
 ## 提示
 什麼樣子最好複習？
@@ -114,24 +114,24 @@ Which one is best?
 Please make the cleaning duties into a table: day, name, area.
 
 ## B
-請寫成一篇作文。
+請把掃地輪值寫成一段話，我唸給全班聽就好。
 ## B (EN)
-Please write it as an essay.
+Please write the cleaning duties as a paragraph I can read aloud.
 
 ## C
-請寫成一個笑話。
+請把掃地輪值做成表格，做得越漂亮越好。
 ## C (EN)
-Please write it as a joke.
+Please make the cleaning duties into a table, as pretty as possible.
 
 ## D
-請寫成一首歌。
+請把掃地輪值依照同學座號，一個一個列出來。
 ## D (EN)
-Please write it as a song.
+Please list the cleaning duties by student number, one by one.
 
 ## 解析
-輪值表用表格一看就懂，還說了要哪幾欄。
+表格一目了然，還要說清楚有哪幾欄。唸一段話記不住；「越漂亮越好」沒說要放什麼；只列名字看不出哪天掃哪裡。
 ## Why
-A table is clear at a glance, and you named the columns.
+A table is clear, and naming columns matters. A paragraph is forgettable, 'pretty' says nothing about content, and names alone don't show day or area.
 
 ## 提示
 大家最想一眼看到什麼？
@@ -152,19 +152,19 @@ You're explaining typhoons to 1st graders.
 Which one is best?
 
 ## A
-請用大學課本的說法解釋颱風。
+請用正確的科學名詞，完整解釋颱風是怎麼形成的。
 ## A (EN)
-Explain typhoons like a college textbook.
+Explain in correct scientific terms exactly how typhoons form.
 
 ## B
-請列出颱風的科學數據。
+請用一年級聽得懂的話，寫一篇 1000 字的颱風介紹。
 ## B (EN)
-List scientific data about typhoons.
+Write a 1,000-word typhoon introduction a 1st grader can understand.
 
 ## C
-請用英文解釋颱風。
+請把颱風的資料整理成表格：風速、雨量、氣壓。
 ## C (EN)
-Explain typhoons in Japanese.
+Make a table of typhoon data: wind speed, rainfall and pressure.
 
 ## D
 請用一年級聽得懂的話，3 句解釋颱風。
@@ -172,9 +172,9 @@ Explain typhoons in Japanese.
 Explain typhoons in 3 sentences a 1st grader can understand.
 
 ## 解析
-說出聽的人是一年級，AI 才會用簡單的話。
+一年級需要簡單又短的說明。科學名詞太難；1000 字太長聽不完；數據表格他們看不懂。
 ## Why
-Saying the listeners are 1st graders makes AI use simple words.
+1st graders need short and simple. Scientific terms are too hard, 1,000 words is too long, and data tables are confusing.
 
 ## 提示
 聽的人幾年級？
@@ -195,14 +195,14 @@ Your classmate is nervous before a contest.
 Which one is best?
 
 ## A
-請用嚴肅的語氣寫一句話。
+請用冷靜、分析的語氣，告訴他比賽輸贏的機率。
 ## A (EN)
-Please write one serious line.
+In a calm, analytical tone, tell them their odds of winning.
 
 ## B
-請用生氣的語氣寫一句話。
+請用嚴格教練的語氣寫一句話，叫他絕對不准失誤。
 ## B (EN)
-Please write one angry line.
+In a strict coach's tone, write one line telling them not to mess up.
 
 ## C
 請用活潑、鼓勵的語氣寫一句加油的話。
@@ -210,14 +210,14 @@ Please write one angry line.
 Please write one cheerful, encouraging line to wish them luck.
 
 ## D
-請用新聞報導的語氣寫一句話。
+請用活潑的語氣寫一篇 500 字的比賽注意事項。
 ## D (EN)
-Please write one line like a news report.
+In a cheerful tone, write a 500-word list of contest rules.
 
 ## 解析
-緊張的人需要被鼓勵，所以要指定「活潑、鼓勵」的語氣。
+緊張的人需要被鼓勵，而且一句就夠。分析機率、嚴格要求會更緊張；500 字的注意事項太長。
 ## Why
-Nervous people need encouragement, so ask for a cheerful, encouraging tone.
+A nervous friend needs one encouraging line. Odds or strict orders add pressure, and 500 words of rules is too much.
 
 ## 提示
 緊張的人想聽到什麼語氣？
@@ -238,9 +238,9 @@ You want to turn 10 words into something easy to memorize.
 Which one is best?
 
 ## A
-請寫成一篇文章。
+請把 10 個單字寫成一篇用到全部單字的短文。
 ## A (EN)
-Please write an essay.
+Please write a short story that uses all 10 words.
 
 ## B
 請做成單字小卡：正面英文，背面中文和一個例句。
@@ -248,19 +248,19 @@ Please write an essay.
 Please make word cards: English on the front, Chinese and an example sentence on the back.
 
 ## C
-請寫成一首詩。
+請把 10 個單字依照字母順序排成一長串。
 ## C (EN)
-Please write a poem.
+Please put the 10 words in one long line in ABC order.
 
 ## D
-請寫成一封信。
+請做成單字小卡，每張寫滿這個字所有的意思。
 ## D (EN)
-Please write a letter.
+Please make word cards, each filled with every meaning of the word.
 
 ## 解析
-說清楚卡片正面、背面放什麼，AI 做出來就能直接用。
+小卡一面一個重點最好背。短文和一長串不好背；每張寫滿所有意思反而記不住。
 ## Why
-Saying what goes on each side means you can use the cards right away.
+Cards with one point per side are easiest. A story or a long line is hard to memorize, and every meaning is too much.
 
 ## 提示
 背單字最好用什麼樣子？
@@ -286,24 +286,24 @@ Which one is best?
 Please give me 3 slogans of 8 words or fewer.
 
 ## B
-請寫一篇 500 字的介紹。
+請給我 3 句寫清楚活動時間、地點和內容的標語。
 ## B (EN)
-Please write a 500-word introduction.
+Please give me 3 slogans that explain the event's time, place and content.
 
 ## C
-請把標語寫長一點。
+請給我 3 句用很多形容詞、很華麗的標語。
 ## C (EN)
-Please make the slogans longer.
+Please give me 3 fancy slogans full of adjectives.
 
 ## D
-請寫一段小故事。
+請給我 30 句標語，越多越好讓我慢慢挑。
 ## D (EN)
-Please write a short story.
+Please give me 30 slogans. The more the better.
 
 ## 解析
-限制「8 個字以內」，標語就會又短又好記。
+海報標語要短，遠遠就看得到。寫滿時間地點太長；華麗形容詞難記；30 句太多挑不完。
 ## Why
-'8 words or fewer' makes slogans short and easy to remember.
+Poster slogans must be short to read from afar. Time and place make them long, adjectives are hard to remember, and 30 is too many.
 
 ## 提示
 標語要多長？
@@ -324,19 +324,19 @@ You want to organize your weekend.
 Which one is best?
 
 ## A
-請寫成日記。
+請把我的週末計畫寫成一篇有開頭和結尾的日記。
 ## A (EN)
-Please write it as a diary.
+Please write my weekend plan as a diary with a beginning and end.
 
 ## B
-請寫成詩。
+請把週末計畫排成時間表，越詳細越好，每 5 分鐘一格。
 ## B (EN)
-Please write it as a poem.
+Please make my weekend a schedule, as detailed as possible, every 5 minutes.
 
 ## C
-請寫成一封信。
+請把我週末想做的事，照喜歡的程度排順序。
 ## C (EN)
-Please write it as a letter.
+Please rank what I want to do this weekend by how much I like it.
 
 ## D
 請把我的週末計畫排成時間表：時間｜要做的事。
@@ -344,9 +344,9 @@ Please write it as a letter.
 Please make my weekend plan into a schedule: time | activity.
 
 ## 解析
-時間表一眼就知道幾點做什麼。
+時間表一眼就知道幾點做什麼。日記不好照著做；每 5 分鐘一格太細；只排喜好沒有時間。
 ## Why
-A schedule shows what to do and when.
+A schedule shows what and when. A diary is hard to follow, 5-minute slots are too fine, and a ranking has no times.
 
 ## 提示
 哪個樣子最容易照著做？
