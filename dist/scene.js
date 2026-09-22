@@ -1,26 +1,26 @@
 import * as THREE from './vendor/three.module.js';
 export const characters=[
-{id:'aria',name:'曙光騎士',gender:'女',kind:'knight',color:0x739b9b,hair:0x7b3d25,skin:0xf2bc91},
-{id:'leo',name:'星火法師',gender:'男',kind:'mage',color:0x76519a,hair:0x302323,skin:0xf1bd94},
-{id:'luna',name:'月光法師',gender:'女',kind:'mage',color:0x378e89,hair:0xd1c6a4,skin:0xefc19f},
-{id:'noah',name:'森林遊俠',gender:'男',kind:'ranger',color:0x5c8659,hair:0x643b27,skin:0xc98961},
-{id:'mika',name:'機巧工匠',gender:'女',kind:'inventor',color:0xcb8e35,hair:0x2d2626,skin:0xc58861},
-{id:'kai',name:'赤焰騎士',gender:'男',kind:'knight',color:0xa45546,hair:0x36292d,skin:0xf0c5a3},
-{id:'ivy',name:'翠羽遊俠',gender:'女',kind:'ranger',color:0x6c8250,hair:0x542e2a,skin:0xedb78b},
-{id:'finn',name:'蒸汽工匠',gender:'男',kind:'inventor',color:0x6885a4,hair:0xc08741,skin:0xf2bf96},
-{id:'nova',name:'紫晶騎士',gender:'女',kind:'knight',color:0x8d759c,hair:0x352b3e,skin:0xa96d4f},
-{id:'ash',name:'沙漠遊俠',gender:'男',kind:'ranger',color:0xbca269,hair:0x251f20,skin:0xa57555},
-{id:'ella',name:'星辰工匠',gender:'女',kind:'inventor',color:0xb96975,hair:0xb66c35,skin:0xf0c3a0},
-{id:'orin',name:'霜雪法師',gender:'男',kind:'mage',color:0x517ca9,hair:0xb5b5ab,skin:0xd1a380}];
+{id:'aria',name:'曙光騎士',en:'Dawn Knight',gender:'女',kind:'knight',color:0x739b9b,hair:0x7b3d25,skin:0xf2bc91},
+{id:'leo',name:'星火法師',en:'Spark Mage',gender:'男',kind:'mage',color:0x76519a,hair:0x302323,skin:0xf1bd94},
+{id:'luna',name:'月光法師',en:'Moon Mage',gender:'女',kind:'mage',color:0x378e89,hair:0xd1c6a4,skin:0xefc19f},
+{id:'noah',name:'森林遊俠',en:'Forest Ranger',gender:'男',kind:'ranger',color:0x5c8659,hair:0x643b27,skin:0xc98961},
+{id:'mika',name:'機巧工匠',en:'Clever Inventor',gender:'女',kind:'inventor',color:0xcb8e35,hair:0x2d2626,skin:0xc58861},
+{id:'kai',name:'赤焰騎士',en:'Flame Knight',gender:'男',kind:'knight',color:0xa45546,hair:0x36292d,skin:0xf0c5a3},
+{id:'ivy',name:'翠羽遊俠',en:'Jade Ranger',gender:'女',kind:'ranger',color:0x6c8250,hair:0x542e2a,skin:0xedb78b},
+{id:'finn',name:'蒸汽工匠',en:'Steam Inventor',gender:'男',kind:'inventor',color:0x6885a4,hair:0xc08741,skin:0xf2bf96},
+{id:'nova',name:'紫晶騎士',en:'Amethyst Knight',gender:'女',kind:'knight',color:0x8d759c,hair:0x352b3e,skin:0xa96d4f},
+{id:'ash',name:'沙漠遊俠',en:'Desert Ranger',gender:'男',kind:'ranger',color:0xbca269,hair:0x251f20,skin:0xa57555},
+{id:'ella',name:'星辰工匠',en:'Star Inventor',gender:'女',kind:'inventor',color:0xb96975,hair:0xb66c35,skin:0xf0c3a0},
+{id:'orin',name:'霜雪法師',en:'Frost Mage',gender:'男',kind:'mage',color:0x517ca9,hair:0xb5b5ab,skin:0xd1a380}];
 export const pets=[
-{id:'dog',name:'小柴犬',color:0xb58553,emoji:'🐕'},
-{id:'cat',name:'小貓咪',color:0xc1b5a4,emoji:'🐈'},
-{id:'rabbit',name:'小白兔',color:0xe5dfce,emoji:'🐇'},
-{id:'fox',name:'小狐狸',color:0xda853b,emoji:'🦊'},
-{id:'bird',name:'機器鳥',color:0x68a1b1,emoji:'🐦'},
-{id:'dragon',name:'小飛龍',color:0x77a68b,emoji:'🐉'},
-{id:'golden',name:'黃金神龍',color:0xe3b53f,base:'dragon',crown:true,emoji:'🐲'}];
-export const egg={id:'egg',name:'神秘蛋',emoji:'🥚'};
+{id:'dog',name:'小柴犬',en:'Shiba Pup',color:0xb58553,emoji:'🐕'},
+{id:'cat',name:'小貓咪',en:'Kitten',color:0xc1b5a4,emoji:'🐈'},
+{id:'rabbit',name:'小白兔',en:'Bunny',color:0xe5dfce,emoji:'🐇'},
+{id:'fox',name:'小狐狸',en:'Little Fox',color:0xda853b,emoji:'🦊'},
+{id:'bird',name:'機器鳥',en:'Robo Bird',color:0x68a1b1,emoji:'🐦'},
+{id:'dragon',name:'小飛龍',en:'Baby Dragon',color:0x77a68b,emoji:'🐉'},
+{id:'golden',name:'黃金神龍',en:'Golden Dragon',color:0xe3b53f,base:'dragon',crown:true,emoji:'🐲'}];
+export const egg={id:'egg',name:'神秘蛋',en:'Mystery Egg',emoji:'🥚'};
 export const petById=id=>pets.find(p=>p.id===id)||egg;
 const mat=(c,metal=0)=>new THREE.MeshStandardMaterial({color:c,roughness:metal?.43:.85,metalness:metal});
 const materials=new Map();function material(c,m=0){const key=c+':'+m;if(!materials.has(key))materials.set(key,mat(c,m));return materials.get(key)}
