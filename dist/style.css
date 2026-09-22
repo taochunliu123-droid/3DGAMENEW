@@ -265,3 +265,20 @@ dialog hr{border:0;border-top:1px solid var(--line);margin:18px 0}
 body[data-lang="both"] .option{padding:8px 14px;line-height:1.4}
 body[data-lang="both"] .question-box{gap:6px}
 body[data-lang="both"] .scenario{padding:7px 14px}
+
+.foot-right{display:flex;gap:10px;align-items:center;margin-left:auto}
+/* 關卡結束演出 */
+.finale-banner{position:absolute;inset:0;z-index:4;display:grid;place-content:center;justify-items:center;gap:8px;text-align:center;pointer-events:none;overflow:hidden}
+.finale-banner strong{position:relative;font-size:clamp(44px,6.5vw,92px);font-weight:900;letter-spacing:4px;line-height:1;color:var(--gold);text-shadow:0 0 18px #f2ce70aa,0 5px 0 #7a5a24,0 10px 24px #000;animation:slam .6s cubic-bezier(.2,1.6,.4,1) both}
+.finale-banner strong .sub{font-size:.42em;letter-spacing:6px;color:#fff;text-shadow:0 3px 10px #000}
+.finale-banner span{position:relative;font-size:clamp(18px,2vw,26px);font-weight:700;color:#fff;text-shadow:0 2px 8px #000;animation:rise .5s .45s both}
+.finale-banner span .sub{display:inline;margin-left:.5em}
+.finale-banner.lose strong{color:#c7d3d8;text-shadow:0 5px 0 #33424a,0 10px 24px #000}
+.fb-rays{position:absolute;left:50%;top:50%;width:160vmax;height:160vmax;margin:-80vmax 0 0 -80vmax;background:repeating-conic-gradient(#f2ce7033 0 7deg,transparent 7deg 18deg);animation:spin 6s linear infinite,fadein .5s both;-webkit-mask:radial-gradient(circle,#000 8%,transparent 45%);mask:radial-gradient(circle,#000 8%,transparent 45%)}
+.finale-banner.lose .fb-rays{display:none}
+.finale-banner.win::after{content:"";position:absolute;inset:0;background:#fff;animation:flash .5s .4s both}
+@keyframes slam{from{transform:scale(3);opacity:0}}
+@keyframes rise{from{transform:translateY(14px);opacity:0}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes fadein{from{opacity:0}}
+@keyframes flash{0%{opacity:0}15%{opacity:.55}100%{opacity:0}}

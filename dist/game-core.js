@@ -26,9 +26,14 @@ export function scoreFor(correct,streakAfter){
   return POINTS.correct+(streakAfter>0&&streakAfter%POINTS.streakEvery===0?POINTS.streakBonus:0);
 }
 
-/** 關卡結算：答對 60% 以上過關，80% 兩星，全對三星 */
+/** 過關規則：最多錯幾題還能帶走寵物 */
+export const MAX_WRONG=1;
+/** 關卡結算：全對 3 星、錯 1 題 2 星（過關）、錯 2 題 1 星（不過關、拿不到寵物）。跳過的題目不算。 */
 export function stageOutcome(correct,total){
-  if(!total)return{stars:0,cleared:false};
-  const r=correct/total;const stars=r>=1?3:r>=.8?2:r>=.6?1:0;
-  return{stars,cleared:stars>0};
+  if(!total)return{stars:0,cleared:false,wrong:0};
+  const wrong=total-correct;const stars=wrong<=0?3:wrong===1?2:wrong===2?1:0;
+  return{stars,cleared:wrong<=MAX_WRONG,wrong};
 }
+
+/** 建議下一關：已過關的最高關卡的下一關（最多到魔王關） */
+export function suggestStage(clearedStages){const top=Math.max(0,...clearedStages);return Math.min(7,top+1)}

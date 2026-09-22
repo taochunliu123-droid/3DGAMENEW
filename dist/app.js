@@ -1,5 +1,5 @@
-import {characters,pets,petById,initScene,setTeams,setEnemy,setBattleMode,attack,petThumb,heroThumb} from './scene.js';
-import {STAGES,shuffle,makeSession,grade,scoreFor,stageOutcome} from './game-core.js';
+import {characters,pets,petById,initScene,setTeams,setEnemy,setBattleMode,attack,playFinale,petThumb,heroThumb} from './scene.js';
+import {STAGES,shuffle,makeSession,grade,scoreFor,stageOutcome,suggestStage} from './game-core.js';
 import {DICT,GUIDE} from './i18n.js';
 
 const $=id=>document.getElementById(id);
@@ -28,6 +28,8 @@ function save(){try{localStorage.setItem(STORE_KEY,JSON.stringify(store))}catch{
 const activeTeams=()=>store.teams.slice(0,store.teamCount);
 const petOf=t=>t.activePet&&t.pets.includes(t.activePet)?t.activePet:(t.pets.at(-1)||'egg');
 const starKey=stage=>store.audience+'-'+stage;
+/** 已有隊伍過關（拿到該關寵物）的關卡 */
+const clearedStages=()=>STAGES.filter(s=>activeTeams().some(t=>t.pets.includes(s.pet))).map(s=>s.id);
 
 /* ---------- 語言 ----------
    雙語值一律用 {zh,en}。tx() 給純文字（按鈕提示、確認視窗），th() 給 HTML（中文在上、英文小字在下）。 */
@@ -159,12 +161,12 @@ function renderMap(){
     const dots=activeTeams().map((t,i)=>{const st=t.stars[starKey(s.id)]||0;return `<span class="dot" style="--team:${TEAM_COLORS[i]}" title="${esc(tx('stars',teamName(i),st))}">${'★'.repeat(st)}${'☆'.repeat(3-st)}</span>`}).join('');
     return `<button class="stage-tile ${s.id===7?'boss':''} ${s.id===state.stage?'active':''}" data-stage="${s.id}" aria-pressed="${s.id===state.stage}">
       <span class="st-letter">${s.letter}</span>
-      <span class="st-text"><small>${tx('stageN',s.id)} · ${tx('qs',n)}</small><b>${bi(stageName(s))}</b></span>
-      <span class="st-reward ${anyone?'':'dim'}">${petImg(s.pet,'st-pet')}<small>${th('reward',escBi(petName(s.pet)))}</small></span>
+      <span class="st-text"><small>${ts('stageN',s.id)} · ${ts('qs',n)}</small><b>${bi(stageName(s))}</b></span>
+      <span class="st-reward ${anyone?'':'dim'}">${petImg(s.pet,'st-pet')}<small>${ts('reward',escBi(petName(s.pet)))}</small></span>
       <span class="st-dots">${dots}</span></button>`}).join('');
   const s=stageOf(state.stage);
-  const head=s.id===7?tx('boss'):`${tx('stageN',s.id)} · ${s.letter} ${s.skill}`;
-  $('stageTip').innerHTML=`<b>${esc(head)}</b>　${bi({zh:s.tip,en:s.tipEn})}<br><small>${th('tipReward',escBi(petName(s.pet)))}</small>`;
+  const head=s.id===7?ts('boss'):`${ts('stageN',s.id)} · ${s.letter} ${s.skill}`;
+  $('stageTip').innerHTML=`<b>${esc(head)}</b>　${bi({zh:s.tip,en:s.tipEn})}<br><small>${ts('tipReward',escBi(petName(s.pet)))}</small>`;
   if(state.bank.length){$('startBtn').disabled=false;$('startBtn').innerHTML=th('start',s.id)}
 }
 $('stageGrid').addEventListener('click',e=>{const b=e.target.closest('[data-stage]');if(!b)return;state.stage=Number(b.dataset.stage);setEnemy(state.stage);$('location').textContent=stageLabel(state.stage);renderMap()});
@@ -175,7 +177,7 @@ $('timerSelect').addEventListener('change',e=>{store.timer=Number(e.target.value
 function paintBadge(){const s=stageOf(state.stage);$('stageBadge').innerHTML=s.id===7?th('bossBadge'):th('stageBadge',s.id,s.letter,escBi(stageName(s)))}
 function startStage(){
   try{state.session=makeSession(state.bank,{audience:store.audience,stage:state.stage,count:store.count})}catch{$('stageTip').innerHTML=th('noQuestions');return}
-  state.index=0;state.streaks=activeTeams().map(()=>0);state.correct=activeTeams().map(()=>0);state.enemyHp=100;
+  state.index=0;state.asked=0;state.finishing=false;state.streaks=activeTeams().map(()=>0);state.correct=activeTeams().map(()=>0);state.enemyHp=100;
   const s=stageOf(state.stage);$('enemyName').textContent=short(enemyName(s));$('location').textContent=stageLabel(s.id);paintBadge();
   setEnemy(s.id);syncScene();go('play');showQuestion();
 }
@@ -211,7 +213,7 @@ $('options').addEventListener('click',e=>{const b=e.target.closest('[data-option
 
 function reveal(){
   if(state.revealed||!Object.keys(state.answers).length)return;
-  stopTimer();state.revealed=true;
+  stopTimer();state.revealed=true;state.asked++;
   const q=state.session[state.index],teams=activeTeams(),winners=[];let bonus=false;
   state.lastResults=teams.map((t,i)=>{
     const pick=state.answers[i];
@@ -241,7 +243,7 @@ function paintFeedback(){
     return `<span class="res ${r.kind}" style="--team:${TEAM_COLORS[r.i]}">${n}　${esc(txt)}</span>`}).join('');
   $('feedback').innerHTML=`<p class="fb-answer"><span class="fb-letter">${esc(tx('answer',L))}</span>${bi(q.explanation)}</p><div class="fb-results">${chips}</div>`;
 }
-function next(){if(!state.revealed)return;if(state.index+1>=state.session.length){finishStage();return}state.index++;showQuestion()}
+function next(){if(!state.revealed||state.finishing)return;if(state.index+1>=state.session.length){finishStage();return}state.index++;showQuestion()}
 function skip(){if(state.revealed)return;stopTimer();state.revealed=true;next()}
 function updateEnemy(){$('enemyHp').value=state.enemyHp;$('enemyHpText').textContent=state.enemyHp}
 
@@ -252,27 +254,48 @@ function stopTimer(){clearInterval(state.timerId);state.timerId=null}
 
 /* ---------- 結算與寵物 ---------- */
 function finishStage(){
-  const s=stageOf(state.stage),total=state.session.length;state.unlockQueue=[];
+  const s=stageOf(state.stage),total=state.asked;state.unlockQueue=[];state.finishing=true;stopTimer();
   state.endRows=activeTeams().map((t,i)=>{
-    const {stars,cleared}=stageOutcome(state.correct[i],total);
+    const {stars,cleared,wrong}=stageOutcome(state.correct[i],total);
     const key=starKey(s.id);t.stars[key]=Math.max(t.stars[key]||0,stars);
     let reward='miss';
     if(cleared&&!t.pets.includes(s.pet)){t.pets.push(s.pet);t.activePet=s.pet;state.unlockQueue.push({team:i,pet:s.pet,stars});reward='new'}
     else if(cleared)reward='owned';
-    return{i,stars,cleared,reward,correct:state.correct[i],total};
+    return{i,stars,cleared,wrong,reward,correct:state.correct[i],total};
   });
-  save();syncScene();go('end');paintEnd();
-  if(state.unlockQueue.length)setTimeout(showUnlock,600);
+  save();
+  const win=state.endRows.some(r=>r.cleared);
+  state.endWin=win;
+  if(win){state.enemyHp=0;updateEnemy()}
+  $('nextBtn').disabled=true;
+  const played=playFinale(win);
+  showBanner(win);
+  (win?sfx.fanfare:sfx.bad)();
+  const wait=played&&!matchMedia('(prefers-reduced-motion: reduce)').matches?2900:1200;
+  setTimeout(()=>{
+    $('finaleBanner').hidden=true;$('nextBtn').disabled=false;state.finishing=false;
+    syncPetsSoon=true;go('end');paintEnd();
+    if(state.unlockQueue.length)setTimeout(showUnlock,350);
+  },wait);
+}
+let syncPetsSoon=false;
+function showBanner(win){
+  const s=stageOf(state.stage),e=escBi(enemyName(s)),b=$('finaleBanner');
+  b.className='finale-banner '+(win?'win':'lose');
+  b.innerHTML=`<div class="fb-rays"></div><strong>${th(win?'victory':'lost')}</strong><span>${th(win?'defeated':'enemyWins',e)}</span>`;
+  b.hidden=false;
 }
 function paintEnd(){
   const s=stageOf(state.stage),rows=state.endRows;if(!rows.length)return;
-  const total=rows[0].total,need=Math.ceil(total*.6),best=Math.max(...rows.map(r=>r.correct)),pet=escBi(petName(s.pet)),enemy=escBi(enemyName(s));
+  if(syncPetsSoon){syncPetsSoon=false;syncScene()}
+  $('retryBtn').className=state.endWin?'quiet':'primary';const nb=$('nextStageBtn');nb.hidden=!(state.endWin&&s.id<7);if(!nb.hidden)nb.innerHTML=th('nextStage',s.id+1);
+  const total=rows[0].total,best=Math.max(...rows.map(r=>r.correct)),pet=escBi(petName(s.pet)),enemy=escBi(enemyName(s));
   $('endTitle').innerHTML=th('endTitle',s.id);
-  $('endSummary').innerHTML=rows.some(r=>r.cleared)?th('endWin',enemy,need,pet):th('endLose',enemy,need);
+  $('endSummary').innerHTML=rows.some(r=>r.cleared)?th('endWin',enemy,pet):th('endLose',enemy);
   $('endRows').innerHTML=rows.map(r=>{
     const reward=r.reward==='new'?`<span class="end-reward new">${petImg(s.pet)}<span>${th('won',pet)}</span></span>`
       :r.reward==='owned'?`<span class="end-reward">${petImg(s.pet)}<span>${th('owned',pet)}</span></span>`
-      :`<span class="end-reward muted">${th('moreToWin',need-r.correct)}</span>`;
+      :`<span class="end-reward muted">${th('moreToWin',r.wrong)}</span>`;
     return `<div class="end-row ${r.cleared?'cleared':''}" style="--team:${TEAM_COLORS[r.i]}">
     <b class="end-name">${esc(biText(teamName(r.i)))}${rows.length>1&&r.correct===best&&best>0?`<span class="mvp">${tx('mvp')}</span>`:''}</b>
     <span class="end-score">${tx('scoreLine',r.correct,total)}</span>
@@ -297,6 +320,8 @@ $('unlockBtn').addEventListener('click',showUnlock);
 document.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>{if(state.screen==='play'&&state.index>0&&!state.revealed&&!confirm(tx('leaveConfirm')))return;go(b.dataset.go)}));
 $('startBtn').addEventListener('click',startStage);
 $('retryBtn').addEventListener('click',startStage);
+$('nextStageBtn').addEventListener('click',()=>{state.stage=Math.min(7,state.stage+1);startStage()});
+document.querySelector('#screen-end [data-go="map"]').addEventListener('click',()=>{if(state.endWin&&state.stage<7){state.stage++;setEnemy(state.stage);renderMap();$('location').textContent=stageLabel(state.stage)}},{capture:true});
 $('exitBtn').addEventListener('click',()=>{if(state.index>0&&!confirm(tx('leaveConfirm')))return;go('map')});
 $('revealBtn').addEventListener('click',reveal);
 $('nextBtn').addEventListener('click',next);
@@ -315,7 +340,27 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Enter'&&!e.target.matches('button')){e.preventDefault();state.revealed?next():reveal()}
 });
 
+/* ---------- 自動縮放：確保一個畫面放得下，不用捲動 ---------- */
+let fitQueued=false;
+function fitPanel(){
+  if(fitQueued)return;fitQueued=true;
+  requestAnimationFrame(()=>{fitQueued=false;
+    const panel=document.querySelector('.panel'),scr=$('screen-'+state.screen);if(!scr)return;
+    if(matchMedia('(max-width:900px)').matches){scr.style.zoom='';return}
+    let z=1;scr.style.zoom='1';
+    for(let k=0;k<12;k++){
+      const over=panel.scrollHeight-panel.clientHeight,overW=panel.scrollWidth-panel.clientWidth;
+      if(over<=1&&overW<=1)break;
+      z=Math.max(.72,Math.min(z-.02,z*Math.min(panel.clientHeight/panel.scrollHeight,panel.clientWidth/panel.scrollWidth)));
+      scr.style.zoom=String(z.toFixed(3));if(z<=.72)break;
+    }
+  });
+}
+new ResizeObserver(fitPanel).observe(document.querySelector('.panel'));
+new MutationObserver(fitPanel).observe(document.querySelector('.panel'),{childList:true,subtree:true,attributes:true,attributeFilter:['hidden']});
+
 /* ---------- 啟動 ---------- */
+state.stage=suggestStage(clearedStages());
 applyStatic();initScene();syncScene();go('teams');$('startBtn').textContent=tx('loading');
 fetch('/questions.json').then(r=>{if(!r.ok)throw 0;return r.json()}).then(bank=>{
   if(!Array.isArray(bank)||!bank.length)throw 0;
