@@ -1,4 +1,5 @@
-<!-- 要新增題目：把下面「# 題目標題」到「## Hint」整段複製，貼到對應關卡檔案（例如 content/questions/kids/stage-1.md）的最後面，再改內容。
+<!-- 題型：選項都是同一個 prompt 裡的句子，各屬於不同的 ACTORS 字母，長度要差不多。
+     要新增題目：把下面「# 題目標題」到「## Hint」整段複製，貼到對應關卡檔案（例如 content/questions/kids/stage-1.md）的最後面，再改內容。
      英文章節（Scenario / Question / A (EN)… / Why / Hint）可以先不寫，英文模式會暫時顯示中文，建置時也會提醒哪幾題還沒翻。 -->
 
 # 題目標題 | English title
@@ -10,9 +11,9 @@
 One sentence describing the situation.
 
 ## 問題
-哪一句最好？
+哪一句才是 A「演誰」？
 ## Question
-Which one is best?
+Which line is A (Act: who AI plays)?
 
 ## A
 錯誤選項一

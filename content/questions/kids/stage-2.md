@@ -4,351 +4,352 @@ stage: 2
 ---
 
 <!--
-第 2 關：C 給足背景（學生版）｜Stage 2: C · Content (Kids)
+第 2 關：C 背景（學生版）｜Stage 2: C · Content (Kids)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 自我介紹 | Introduce Yourself
+# 奶奶生日卡 | Grandma's Card
 答案：B
 
 ## 情境
-你要在新班級自我介紹。
+你要請 AI 幫忙寫給奶奶的生日卡片。
 ## Scenario
-You need to introduce yourself to a new class.
+You want AI to help write a birthday card for Grandma.
 
 ## 問題
-哪一句能讓介紹最像你？
+哪一句才是 C「背景」？
 ## Question
-Which one makes the intro sound most like you?
+Which line is C (Content: background & facts)?
 
 ## A
-請幫我寫一段很有趣、很特別、大家都會記住的 30 秒自我介紹。
+你是一位很會寫溫暖小卡的作家。
 ## A (EN)
-Please write a fun, unique, memorable 30-second self-introduction.
+You're a writer of warm little cards.
 
 ## B
-我四年級，喜歡畫畫和籃球，請幫我寫 30 秒的自我介紹。
+奶奶最近開始學畫畫，還送我一張圖。
 ## B (EN)
-I'm in 4th grade and I like drawing and basketball. Please write a 30-second self-introduction.
+Grandma started painting and gave me a picture.
 
 ## C
-請幫我寫 30 秒的自我介紹，要寫出我的興趣和優點。
+語氣可愛一點，大概寫四句就好。
 ## C (EN)
-Please write a 30-second self-introduction that shows my hobbies and strengths.
+Make it cute, about four lines.
 
 ## D
-我們班導師很嚴格，請幫我寫一段 30 秒的自我介紹。
+要讓奶奶看完笑出來，覺得心裡暖暖的。
 ## D (EN)
-My homeroom teacher is strict. Please write a 30-second self-introduction.
+Grandma should smile and feel happy.
 
 ## 解析
-AI 不認識你，要告訴它年級和興趣。形容詞再多、叫它寫「我的興趣」，它也只能亂編；導師嚴格跟介紹無關。
+只有「奶奶開始學畫畫」是 AI 不知道的事。有了這件事，卡片才會寫得像給「你的」奶奶。
 ## Why
-AI doesn't know you, so give your grade and hobbies. Adjectives or 'my hobbies' make it invent things; a strict teacher is irrelevant.
+Only "Grandma started painting" is something AI couldn't know. It makes the card about your grandma.
 
 ## 提示
-AI 認識你嗎？要先告訴它什麼？
+哪一句是只有你才知道的事？
 ## Hint
-Does AI know you? What should you tell it first?
+Which line is something only you know?
 
-# 不吃辣 | No Spicy Food
-答案：A
-
-## 情境
-你不吃辣，想找午餐建議。
-## Scenario
-You don't eat spicy food and want lunch ideas.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-我不吃辣，請推薦 3 道學校午餐常見的菜。
-## A (EN)
-I don't eat spicy food. Please suggest 3 common school lunch dishes.
-
-## B
-請推薦 3 道好吃、健康、營養均衡的學校午餐常見菜。
-## B (EN)
-Please suggest 3 tasty, healthy, balanced school lunch dishes.
-
-## C
-我最喜歡吃甜點，請推薦 3 道學校午餐常見的菜。
-## C (EN)
-I love desserts. Please suggest 3 common school lunch dishes.
-
-## D
-請推薦 3 道學校午餐常見的菜，要適合我吃的。
-## D (EN)
-Please suggest 3 common school lunch dishes that suit me.
-
-## 解析
-「不吃辣」是 AI 一定要知道的條件。好吃健康、「適合我」，AI 都不知道你不吃辣；喜歡甜點跟午餐無關。
-## Why
-'No spicy food' is the must-know condition. 'Healthy' or 'suits me' doesn't tell AI that; loving desserts is irrelevant.
-
-## 提示
-有什麼是 AI 一定要先知道的？
-## Hint
-What must AI know first?
-
-# 考前計畫 | Test Plan
+# 郊遊準備 | Field Trip
 答案：D
 
 ## 情境
-下週五考自然，你每天只有 30 分鐘。
+你要請 AI 幫你列郊遊要帶的東西。四句裡有三句在說情況。
 ## Scenario
-You have a science test next Friday and only 30 minutes a day.
+You want AI to list things for a field trip. Three lines describe the situation.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 C「背景」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT C (Content: background & facts). Which one?
 
 ## A
-我快要考自然了，請幫我排一個很有效率、一定考高分的讀書計畫。
+我們星期五要去陽明山郊遊。
 ## A (EN)
-My science test is coming. Please make an efficient plan that guarantees a high score.
+We go to Yangmingshan on Friday.
 
 ## B
-我的自然成績不太好，請幫我排一個讀書計畫。
+氣象說那天下午可能會下雨。
 ## B (EN)
-My science grades aren't great. Please make me a study plan.
+The forecast says it may rain that afternoon.
 
 ## C
-下週五考自然，請幫我排一個每天讀 3 小時的讀書計畫。
+我們要搭遊覽車，大概坐一小時。
 ## C (EN)
-My science test is next Friday. Please make a plan with 3 hours of study a day.
+We take a bus for about an hour.
 
 ## D
-下週五考自然，我每天有 30 分鐘，請幫我排讀書計畫。
+參考老師發的那張郊遊注意事項。
 ## D (EN)
-My science test is next Friday and I have 30 minutes a day. Please make me a study plan.
+Use the trip notes the teacher handed out.
 
 ## 解析
-計畫要做得到，AI 需要考試日期和你每天真正有的時間。「一定考高分」不是資訊；每天 3 小時你根本沒有。
+「參考老師的注意事項」是給 AI 一份參考資料，屬於 R。去哪裡、天氣、怎麼去，都是在說情況（C）。
 ## Why
-A doable plan needs the test date and the time you really have. 'Guaranteed high score' isn't info, and you don't have 3 hours a day.
+"Use the teacher's notes" gives AI a reference (R). Where, weather and travel are the situation (C).
 
 ## 提示
-計畫要排多久？每天多少時間？
+哪一句是叫 AI「去看某樣東西」？
 ## Hint
-How long is the plan? How much time each day?
+Which line tells AI to look at something?
 
-# 謝謝小安 | Thank You, An
+# 選生日禮物 | Gift Ideas
+答案：A
+
+## 情境
+你請 AI 推薦送好朋友的生日禮物，它推薦了咖啡機和領帶。
+## Scenario
+You asked AI for a gift for your best friend, and it suggested a coffee maker and a tie.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+她是我同學，最愛畫畫和貓。
+## A (EN)
+She's my classmate and loves drawing and cats.
+
+## B
+你是很會挑禮物的百貨公司店員。
+## B (EN)
+You're a store clerk who's great at picking gifts.
+
+## C
+請列成三個選項，附上理由。
+## C (EN)
+Give three choices with reasons.
+
+## D
+目標是讓朋友打開時嚇一大跳。
+## D (EN)
+The goal is to surprise my friend.
+
+## 解析
+AI 以為你在送大人禮物，因為它不知道朋友是誰。說出朋友的年紀和喜好，推薦才會對。
+## Why
+AI thought it was a gift for an adult because it didn't know who your friend is. Tell it.
+
+## 提示
+AI 知道你的朋友是誰嗎？
+## Hint
+Does AI know who your friend is?
+
+# 分組報告 | Group Project
 答案：C
 
 ## 情境
-同學小安幫你撿起掉滿地的鉛筆。
+你要請 AI 幫你們這組分配報告工作。
 ## Scenario
-Your classmate An helped pick up the pencils you dropped everywhere.
+You want AI to split up work for your group project.
 
 ## 問題
-哪一句寫出的卡片最貼心？
+哪一句才是 C「背景」？
 ## Question
-Which one makes the nicest card?
+Which line is C (Content: background & facts)?
 
 ## A
-請寫一張很感人、很溫暖、讓小安看了會哭的謝謝卡。
+你是一位很會分配工作的小組長。
 ## A (EN)
-Please write a touching, warm thank-you card that will make An cry.
+You're a group leader good at sharing work.
 
 ## B
-小安是我們班的同學，他很高，請寫一張謝謝卡給他。
+每個人的工作要差不多一樣多。
 ## B (EN)
-An is in my class and he's tall. Please write him a thank-you card.
+Everyone should have about the same amount.
 
 ## C
-小安幫我撿起掉滿地的鉛筆，請寫一張謝謝卡給他。
+我們這組四個人，阿哲最會畫圖。
 ## C (EN)
-An helped me pick up the pencils I dropped everywhere. Please write a thank-you card to him.
+There are four of us; Zhe draws best.
 
 ## D
-請寫一張謝謝卡給小安，謝謝他幫了我的忙。
+用表格列出誰做什麼、哪天交。
 ## D (EN)
-Please write a thank-you card to An for helping me out.
+Make a table: who does what, and when.
 
 ## 解析
-說出小安幫了什麼忙，卡片才寫得具體。「很感人」「幫了我的忙」太模糊；他很高跟謝謝無關。
+組員人數和誰會畫圖，是 AI 不知道的情況（C）。小組長是角色，工作一樣多是目標，表格是格式。
 ## Why
-Say what An did so the card is specific. 'Touching' or 'helping me out' is vague; being tall is irrelevant.
+Group size and who draws best are facts AI can't know (C). The leader is a role, equal work is the goal, the table is format.
 
 ## 提示
-AI 知道你為什麼要謝謝他嗎？
+哪一句在介紹你們這一組？
 ## Hint
-Does AI know why you're thanking him?
+Which line describes your group?
 
-# 養寵物 | Getting a Pet
+# 看不懂的算法 | Too Advanced
+答案：D
+
+## 情境
+你問 AI 一題數學，它用了國中才學的方程式，你完全看不懂。
+## Scenario
+You asked AI a math question and it used algebra you haven't learned.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+你是很有耐心的數學家教老師。
+## A (EN)
+You're a patient math tutor.
+
+## B
+請一步一步慢慢算，不要跳過。
+## B (EN)
+Go step by step; don't skip any.
+
+## C
+請用畫圖或畫格子的方式說明。
+## C (EN)
+Explain with pictures or boxes.
+
+## D
+我是四年級，還沒學過方程式。
+## D (EN)
+I'm in 4th grade and haven't learned equations.
+
+## 解析
+AI 不知道你學到哪裡，所以用了太難的方法。告訴它你幾年級、還沒學什麼，它才會用你會的方法。
+## Why
+AI didn't know what you've learned, so it used a hard method. Tell it your grade.
+
+## 提示
+AI 知道你學到哪裡了嗎？
+## Hint
+Does AI know how far you've learned?
+
+# 能不能養狗 | Can We Get a Dog?
+答案：A
+
+## 情境
+你想請 AI 幫你想想家裡適不適合養狗。四句裡有三句在說情況。
+## Scenario
+You want AI to help you think about getting a dog. Three lines describe your situation.
+
+## 問題
+四句裡有一句不是 C「背景」，是哪一句？
+## Question
+One of these is NOT C (Content: background & facts). Which one?
+
+## A
+想好之後，我要能說服爸媽答應。
+## A (EN)
+Afterward I want to convince my parents.
+
+## B
+我們家住在沒有電梯的五樓老公寓。
+## B (EN)
+We live on the 5th floor with no elevator.
+
+## C
+爸媽白天都要上班到傍晚。
+## C (EN)
+My parents work until evening.
+
+## D
+我每天放學四點就到家了。
+## D (EN)
+I get home from school at four.
+
+## 解析
+「要能說服爸媽」是想達成的事，屬於目標（O）。住幾樓、爸媽上班、你幾點回家，都是情況（C）。
+## Why
+"Convince my parents" is what you want to achieve (O). The rest describe your home life (C).
+
+## 提示
+哪一句是「想要的結果」？
+## Hint
+Which line is the result you want?
+
+# 寫日記 | Diary
+答案：C
+
+## 情境
+你要請 AI 幫你把今天的事寫成日記。
+## Scenario
+You want AI to help turn your day into a diary entry.
+
+## 問題
+哪一句才是 C「背景」？
+## Question
+Which line is C (Content: background & facts)?
+
+## A
+你是一位很會寫童話故事的作家。
+## A (EN)
+You're a writer of fairy tales.
+
+## B
+用第一人稱寫，大約一百字。
+## B (EN)
+First person, about 100 words.
+
+## C
+今天體育課，我第一次跳過了跳箱。
+## C (EN)
+Today in PE I cleared the vaulting box for the first time.
+
+## D
+參考我上週寫的那篇日記格式。
+## D (EN)
+Use the format of my diary from last week.
+
+## 解析
+今天發生了什麼事，只有你知道，這就是背景（C）。沒有這句，AI 只能亂編。
+## Why
+What happened today is something only you know (C). Without it, AI has to make things up.
+
+## 提示
+沒有哪一句，AI 就只能亂編？
+## Hint
+Without which line would AI have to make it up?
+
+# 加油口號 | Team Cheer
 答案：B
 
 ## 情境
-你家住公寓，沒有院子。
+AI 幫你們班想運動會加油口號，但寫的都是別班也能用的話。
 ## Scenario
-You live in an apartment with no yard.
+AI wrote sports-day cheers for your class, but any class could use them.
 
 ## 問題
-哪一句問得最好？
+最該補上哪一句？
 ## Question
-Which question is best?
+Which line should you add?
 
 ## A
-我超級喜歡動物，每一種都好可愛，適合養什麼寵物？
+你是很會帶動氣氛的啦啦隊長。
 ## A (EN)
-I love animals so much and they're all cute. What pet should I get?
+You're a cheer captain who pumps everyone up.
 
 ## B
-我家是公寓、沒有院子，適合養什麼寵物？
+我們是五年三班，班寵是烏龜。
 ## B (EN)
-I live in an apartment with no yard. What pet would suit me?
+We're Class 5-3; our class pet is a turtle.
 
 ## C
-我家附近有一間很大的寵物店，適合養什麼寵物？
+口號要短短的，最好押韻、好記。
 ## C (EN)
-There's a big pet shop near my home. What pet should I get?
+Short, rhyming and easy to remember.
 
 ## D
-請推薦最受歡迎、最好照顧的寵物給我。
+要讓全班喊的時候很有精神。
 ## D (EN)
-Please recommend the most popular, easiest pets.
+The whole class should sound full of energy.
 
 ## 解析
-家是公寓、沒院子，才是決定能養什麼的關鍵。喜歡動物、附近有寵物店、最受歡迎，都不會改變答案。
+要讓口號「只屬於你們班」，就要告訴 AI 你們班的特色。押韻、有精神，別班的口號也做得到。
 ## Why
-An apartment with no yard is what decides it. Loving animals, a nearby shop or popularity don't change the answer.
+To make it yours, tell AI what makes your class special. Any class can rhyme and be loud.
 
 ## 提示
-你家有什麼限制？
+什麼資料能讓口號變成「你們班專用」？
 ## Hint
-What limits does your home have?
-
-# 派對遊戲 | Party Games
-答案：A
-
-## 情境
-生日派對有 6 個 8 歲小朋友，在客廳玩。
-## Scenario
-Six 8-year-olds are at a birthday party in the living room.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-6 個 8 歲小朋友在客廳，請推薦 3 個派對遊戲。
-## A (EN)
-Six 8-year-olds are in a living room. Please suggest 3 party games.
-
-## B
-請推薦 3 個超好玩、大家都會笑的生日派對遊戲。
-## B (EN)
-Please suggest 3 super fun party games that make everyone laugh.
-
-## C
-今天是我的生日，我好開心，請推薦 3 個派對遊戲。
-## C (EN)
-It's my birthday and I'm so happy! Please suggest 3 party games.
-
-## D
-請推薦 3 個可以在大公園裡跑來跑去、玩到流汗的派對遊戲。
-## D (EN)
-Please suggest 3 party games with lots of running around in a big park until everyone's sweaty.
-
-## 解析
-人數、年紀、在客廳，決定遊戲玩不玩得起來。「超好玩」不是資訊；公園跑跳在客廳做不到。
-## Why
-Number, age and a living room decide what works. 'Super fun' isn't info; park running won't work indoors.
-
-## 提示
-幾個人？幾歲？在哪裡玩？
-## Hint
-How many? How old? Where?
-
-# 小王子心得 | The Little Prince
-答案：D
-
-## 情境
-你讀完《小王子》，最喜歡裡面的狐狸。
-## Scenario
-You finished The Little Prince, and the fox is your favorite.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請幫我列一份《小王子》讀書心得的大綱，要寫得有深度。
-## A (EN)
-Please outline a deep, insightful book report on The Little Prince.
-
-## B
-我很喜歡看書，一個月看 5 本，請幫我列心得的大綱。
-## B (EN)
-I love reading, 5 books a month. Please help me outline my report.
-
-## C
-我讀完《小王子》，請幫我寫一篇完整的心得讓我交。
-## C (EN)
-I finished The Little Prince. Please write the whole report for me to hand in.
-
-## D
-我讀完《小王子》，最喜歡狐狸，請幫我列心得的大綱。
-## D (EN)
-I finished The Little Prince and my favorite part is the fox. Please help me outline my book report.
-
-## 解析
-心得要有你的想法，所以要說你最喜歡哪裡。「有深度」不是你的想法；看幾本書跟這本無關；直接寫好就不是你的心得。
-## Why
-A report needs your own thoughts, so say what you liked. 'Deep' isn't a thought, reading habits are irrelevant, and a finished report isn't yours.
-
-## 提示
-心得裡最重要的是誰的想法？
-## Hint
-Whose ideas matter most in a book report?
-
-# 綠豆科展 | Bean Science Fair
-答案：C
-
-## 情境
-你的科展想比較 3 種土讓綠豆發芽。
-## Scenario
-Your science project compares 3 kinds of soil for growing mung beans.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-我要參加科展，想拿第一名，請幫我想實驗步驟。
-## A (EN)
-I'm in the science fair and want first place. Please plan my experiment steps.
-
-## B
-我很喜歡植物，家裡也有種綠豆，請幫我想實驗步驟。
-## B (EN)
-I love plants and grow mung beans at home. Please plan my experiment steps.
-
-## C
-我要比較 3 種土讓綠豆發芽，請幫我想實驗步驟。
-## C (EN)
-I'm comparing 3 kinds of soil for growing mung beans. Please help me plan the experiment steps.
-
-## D
-請幫我想一個讓綠豆長得最快、最高的實驗，步驟越多越好。
-## D (EN)
-Please plan an experiment to make mung beans grow fastest and tallest, with as many steps as possible.
-
-## 解析
-AI 要知道你的題目（比較 3 種土）才能設計步驟。想拿第一、家裡有種綠豆都不是題目；步驟越多越好也不是好條件。
-## Why
-AI needs your topic (comparing 3 soils) to plan steps. Wanting first place or growing beans isn't a topic, and 'more steps' isn't a good condition.
-
-## 提示
-你的科展題目，AI 知道嗎？
-## Hint
-Does AI know your topic?
+What would make the cheer only yours?

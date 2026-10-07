@@ -4,351 +4,352 @@ stage: 3
 ---
 
 <!--
-第 3 關：T 指定風格（學生版）｜Stage 3: T · Style (Kids)
+第 3 關：T 風格（學生版）｜Stage 3: T · Style (Kids)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 給阿嬤的信 | Letter to Grandma
-答案：C
-
-## 情境
-阿嬤看不懂太難的字。
-## Scenario
-Grandma can't read hard words.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請用有禮貌、很正式的敬語寫一封給阿嬤的信。
-## A (EN)
-Please write Grandma a very formal, polite letter.
-
-## B
-請用有趣的網路用語和表情符號寫信給阿嬤。
-## B (EN)
-Please write Grandma a letter with fun internet slang and emojis.
-
-## C
-請用簡單、溫暖的話寫一封給阿嬤的信。
-## C (EN)
-Please write a letter to Grandma in simple, warm words.
-
-## D
-請用優美的成語和詩句寫一封給阿嬤的信。
-## D (EN)
-Please write Grandma a letter full of fancy idioms and poetry.
-
-## 解析
-阿嬤看不懂難字，所以要「簡單、溫暖」。正式敬語太生疏、網路用語她看不懂、成語詩句太難。
-## Why
-Grandma can't read hard words, so 'simple and warm'. Formal is distant, slang is confusing, idioms are too hard.
-
-## 提示
-阿嬤喜歡什麼樣的說話方式？
-## Hint
-How does Grandma like people to talk?
-
-# 複習重點 | Review Notes
+# 水果單字 | Fruit Words
 答案：B
 
 ## 情境
-你想把這一課的重點整理好複習。
+你要請 AI 幫你整理十個水果的英文單字。
 ## Scenario
-You want to sum up this lesson for review.
+You want AI to list ten fruit words in English.
 
 ## 問題
-哪一句最好？
+哪一句才是 T「風格」？
 ## Question
-Which one is best?
+Which line is T (Style: tone & format)?
 
 ## A
-請把這一課的重點寫成一段完整、通順的文章。
+你是很會教小朋友的英文老師。
 ## A (EN)
-Please turn this lesson into one smooth, complete paragraph.
+You're an English teacher for kids.
 
 ## B
-請把這一課的重點整理成 5 點條列。
+做成表格，一邊英文、一邊中文。
 ## B (EN)
-Please sum up this lesson in 5 bullet points.
+A table: English on one side, Chinese on the other.
 
 ## C
-請把這一課的每一句話都整理出來，一句都不漏。
+下星期一英文課要考這些單字。
 ## C (EN)
-Please list every sentence of this lesson without missing any.
+There's a test on these next Monday.
 
 ## D
-請把這一課改寫成一個有趣的小故事。
+只用英文課本第三課的單字。
 ## D (EN)
-Please rewrite this lesson as a fun short story.
+Use only words from Unit 3 of my textbook.
 
 ## 解析
-複習要一眼看到重點，條列最方便。整段文章不好找重點；每句都抄等於沒整理；小故事好看但不好複習。
+表格、一邊英文一邊中文，是在說成品長什麼樣子，這就是 T。「只用第三課」是限制（R）。
 ## Why
-Review needs key points at a glance, so bullets. A paragraph hides them, copying everything isn't summarizing, and a story is hard to review.
+A two-sided table describes how the result looks (T). "Only Unit 3" is a limit (R).
 
 ## 提示
-什麼樣子最好複習？
+哪一句在說「長什麼樣子」？
 ## Hint
-What's easiest to review?
+Which line says what it looks like?
 
-# 掃地輪值 | Cleaning Duty
-答案：A
-
-## 情境
-班會上要宣布掃地輪值。
-## Scenario
-You'll announce cleaning duties at the class meeting.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請把掃地輪值做成表格：星期、名字、掃地區域。
-## A (EN)
-Please make the cleaning duties into a table: day, name, area.
-
-## B
-請把掃地輪值寫成一段話，我唸給全班聽就好。
-## B (EN)
-Please write the cleaning duties as a paragraph I can read aloud.
-
-## C
-請把掃地輪值做成表格，做得越漂亮越好。
-## C (EN)
-Please make the cleaning duties into a table, as pretty as possible.
-
-## D
-請把掃地輪值依照同學座號，一個一個列出來。
-## D (EN)
-Please list the cleaning duties by student number, one by one.
-
-## 解析
-表格一目了然，還要說清楚有哪幾欄。唸一段話記不住；「越漂亮越好」沒說要放什麼；只列名字看不出哪天掃哪裡。
-## Why
-A table is clear, and naming columns matters. A paragraph is forgettable, 'pretty' says nothing about content, and names alone don't show day or area.
-
-## 提示
-大家最想一眼看到什麼？
-## Hint
-What does everyone want to see quickly?
-
-# 解釋颱風 | What's a Typhoon?
+# 謝師卡 | Thank-You Card
 答案：D
 
 ## 情境
-你要向一年級學弟妹解釋颱風。
+你要請 AI 寫一張謝謝老師的卡片。四句裡有三句在說語氣或格式。
 ## Scenario
-You're explaining typhoons to 1st graders.
+You want AI to write a thank-you card for your teacher. Three lines set tone or format.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 T「風格」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT T (Style: tone & format). Which one?
 
 ## A
-請用正確的科學名詞，完整解釋颱風是怎麼形成的。
+語氣要溫暖，像在跟老師說悄悄話。
 ## A (EN)
-Explain in correct scientific terms exactly how typhoons form.
+Warm, like whispering to the teacher.
 
 ## B
-請用一年級聽得懂的話，寫一篇 1000 字的颱風介紹。
+寫成三句話，最後加一個笑臉。
 ## B (EN)
-Write a 1,000-word typhoon introduction a 1st grader can understand.
+Three sentences, with a smiley at the end.
 
 ## C
-請把颱風的資料整理成表格：風速、雨量、氣壓。
+不要用難的成語，用平常說話的方式。
 ## C (EN)
-Make a table of typhoon data: wind speed, rainfall and pressure.
+No hard idioms; write like you talk.
 
 ## D
-請用一年級聽得懂的話，3 句解釋颱風。
+照我去年寫給老師的那張卡片來寫。
 ## D (EN)
-Explain typhoons in 3 sentences a 1st grader can understand.
+Write it like the card I gave my teacher last year.
 
 ## 解析
-一年級需要簡單又短的說明。科學名詞太難；1000 字太長聽不完；數據表格他們看不懂。
+「照去年那張卡片寫」是拿範本給 AI 參考，屬於 R。其他三句都直接說出語氣和格式。
 ## Why
-1st graders need short and simple. Scientific terms are too hard, 1,000 words is too long, and data tables are confusing.
+"Like last year's card" gives AI a model (R). The other three state tone and format directly.
 
 ## 提示
-聽的人幾年級？
+哪一句是叫 AI 去「照著」別的東西？
 ## Hint
-What grade are the listeners?
+Which line tells AI to copy something?
 
-# 比賽加油 | Good Luck!
+# 光合作用 | Photosynthesis
+答案：A
+
+## 情境
+AI 解釋「光合作用」時，用了一大堆你沒學過的詞。
+## Scenario
+AI explained photosynthesis with lots of words you don't know.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+請用二年級學生看得懂的話來說。
+## A (EN)
+Use words a second grader can understand.
+
+## B
+光合作用是下週自然課要考的。
+## B (EN)
+Photosynthesis is on next week's science test.
+
+## C
+你是一位很會說故事的自然老師。
+## C (EN)
+You're a science teacher who tells good stories.
+
+## D
+說完再問我一題，看我懂了沒。
+## D (EN)
+Then ask me one question to check.
+
+## 解析
+問題是用詞太難，就直接指定「用二年級看得懂的話」。會說故事的老師不一定會換掉難的詞。
+## Why
+The words are too hard, so set the level directly. A storyteller might still use hard words.
+
+## 提示
+要改的是「說法」還是「內容」？
+## Hint
+Do you need to change the wording or the content?
+
+# 睡前故事 | Bedtime Story
 答案：C
 
 ## 情境
-同學比賽前很緊張。
+你要請 AI 寫一個睡前故事給妹妹聽。
 ## Scenario
-Your classmate is nervous before a contest.
+You want AI to write a bedtime story for your little sister.
 
 ## 問題
-哪一句最好？
+哪一句才是 T「風格」？
 ## Question
-Which one is best?
+Which line is T (Style: tone & format)?
 
 ## A
-請用冷靜、分析的語氣，告訴他比賽輸贏的機率。
+妹妹最喜歡兔子，也很喜歡看月亮。
 ## A (EN)
-In a calm, analytical tone, tell them their odds of winning.
+My sister loves rabbits and the moon.
 
 ## B
-請用嚴格教練的語氣寫一句話，叫他絕對不准失誤。
+你是一位很會說床邊故事的老奶奶。
 ## B (EN)
-In a strict coach's tone, write one line telling them not to mess up.
+You're a grandma who tells great bedtime stories.
 
 ## C
-請用活潑、鼓勵的語氣寫一句加油的話。
+用溫柔、慢慢的語氣，結尾要安安靜靜。
 ## C (EN)
-Please write one cheerful, encouraging line to wish them luck.
+Gentle and slow, with a quiet ending.
 
 ## D
-請用活潑的語氣寫一篇 500 字的比賽注意事項。
+這個故事的目的是讓妹妹聽完就乖乖睡覺。
 ## D (EN)
-In a cheerful tone, write a 500-word list of contest rules.
+The story should help her fall asleep.
 
 ## 解析
-緊張的人需要被鼓勵，而且一句就夠。分析機率、嚴格要求會更緊張；500 字的注意事項太長。
+溫柔、慢慢、安靜的結尾，都在說故事「聽起來」的感覺，這是風格（T）。
 ## Why
-A nervous friend needs one encouraging line. Odds or strict orders add pressure, and 500 words of rules is too much.
+Gentle, slow and a quiet ending describe how the story sounds (T).
 
 ## 提示
-緊張的人想聽到什麼語氣？
+哪一句在說「聽起來的感覺」？
 ## Hint
-What tone helps a nervous friend?
+Which line is about how it sounds?
 
-# 單字小卡 | Word Cards
-答案：B
-
-## 情境
-你想把 10 個單字做成好背的樣子。
-## Scenario
-You want to turn 10 words into something easy to memorize.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請把 10 個單字寫成一篇用到全部單字的短文。
-## A (EN)
-Please write a short story that uses all 10 words.
-
-## B
-請做成單字小卡：正面英文，背面中文和一個例句。
-## B (EN)
-Please make word cards: English on the front, Chinese and an example sentence on the back.
-
-## C
-請把 10 個單字依照字母順序排成一長串。
-## C (EN)
-Please put the 10 words in one long line in ABC order.
-
-## D
-請做成單字小卡，每張寫滿這個字所有的意思。
-## D (EN)
-Please make word cards, each filled with every meaning of the word.
-
-## 解析
-小卡一面一個重點最好背。短文和一長串不好背；每張寫滿所有意思反而記不住。
-## Why
-Cards with one point per side are easiest. A story or a long line is hard to memorize, and every meaning is too much.
-
-## 提示
-背單字最好用什麼樣子？
-## Hint
-What's the best way to memorize words?
-
-# 海報標語 | Poster Slogan
-答案：A
-
-## 情境
-海報上的標語要短，大家才看得到。
-## Scenario
-Poster slogans must be short so everyone can see them.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請給我 3 句 8 個字以內的標語。
-## A (EN)
-Please give me 3 slogans of 8 words or fewer.
-
-## B
-請給我 3 句寫清楚活動時間、地點和內容的標語。
-## B (EN)
-Please give me 3 slogans that explain the event's time, place and content.
-
-## C
-請給我 3 句用很多形容詞、很華麗的標語。
-## C (EN)
-Please give me 3 fancy slogans full of adjectives.
-
-## D
-請給我 30 句標語，越多越好讓我慢慢挑。
-## D (EN)
-Please give me 30 slogans. The more the better.
-
-## 解析
-海報標語要短，遠遠就看得到。寫滿時間地點太長；華麗形容詞難記；30 句太多挑不完。
-## Why
-Poster slogans must be short to read from afar. Time and place make them long, adjectives are hard to remember, and 30 is too many.
-
-## 提示
-標語要多長？
-## Hint
-How long should a slogan be?
-
-# 週末計畫 | Weekend Plan
+# 複習重點 | Study Notes
 答案：D
 
 ## 情境
-你想把週末要做的事排好。
+AI 幫你整理社會課重點，結果是一大段文字，很難複習。
 ## Scenario
-You want to organize your weekend.
+AI's social studies notes are one big paragraph, hard to review.
 
 ## 問題
-哪一句最好？
+最該補上哪一句？
 ## Question
-Which one is best?
+Which line should you add?
 
 ## A
-請把我的週末計畫寫成一篇有開頭和結尾的日記。
+這些是第五課〈台灣的河流〉的重點。
 ## A (EN)
-Please write my weekend plan as a diary with a beginning and end.
+These are notes for Lesson 5, Rivers of Taiwan.
 
 ## B
-請把週末計畫排成時間表，越詳細越好，每 5 分鐘一格。
+你是很會整理筆記的學霸學長。
 ## B (EN)
-Please make my weekend a schedule, as detailed as possible, every 5 minutes.
+You're a top student great at notes.
 
 ## C
-請把我週末想做的事，照喜歡的程度排順序。
+目的是讓我考試拿到九十分。
 ## C (EN)
-Please rank what I want to do this weekend by how much I like it.
+I want to get 90 on the test.
 
 ## D
-請把我的週末計畫排成時間表：時間｜要做的事。
+改成條列，每點一行，重要的字加粗。
 ## D (EN)
-Please make my weekend plan into a schedule: time | activity.
+Use bullets, one line each, key words in bold.
 
 ## 解析
-時間表一眼就知道幾點做什麼。日記不好照著做；每 5 分鐘一格太細；只排喜好沒有時間。
+一大段很難讀，是排版的問題。改成條列、加粗重點，就是在指定格式（T）。
 ## Why
-A schedule shows what and when. A diary is hard to follow, 5-minute slots are too fine, and a ranking has no times.
+A wall of text is a layout problem. Bullets and bold set the format (T).
 
 ## 提示
-哪個樣子最容易照著做？
+難複習是因為內容，還是排版？
 ## Hint
-Which format is easiest to follow?
+Is it hard because of content or layout?
+
+# 開學自我介紹 | First-Day Intro
+答案：A
+
+## 情境
+你要請 AI 幫你寫開學自我介紹。四句裡有三句在說語氣或格式。
+## Scenario
+You want AI to write your first-day intro. Three lines set tone or format.
+
+## 問題
+四句裡有一句不是 T「風格」，是哪一句？
+## Question
+One of these is NOT T (Style: tone & format). Which one?
+
+## A
+你是很會交朋友、超開朗的同學。
+## A (EN)
+You're a super cheerful classmate who makes friends easily.
+
+## B
+語氣輕鬆一點，可以有一點好笑。
+## B (EN)
+Keep it light, a little funny.
+
+## C
+分三段：名字、興趣、想交的朋友。
+## C (EN)
+Three parts: name, hobbies, friends you want.
+
+## D
+用說話的口氣，不要像在寫作文。
+## D (EN)
+Sound like talking, not like an essay.
+
+## 解析
+「很開朗的同學」聽起來像語氣，但它是請 AI 扮演一個人，是 A。其他三句才是在說語氣和格式。
+## Why
+"A cheerful classmate" sounds like tone but casts a role (A). The other three set tone and format.
+
+## 提示
+哪一句不是在說「怎麼寫」？
+## Hint
+Which line isn't about how to write it?
+
+# 摺紙鶴 | Paper Crane
+答案：C
+
+## 情境
+你要請 AI 教你摺紙鶴。
+## Scenario
+You want AI to teach you to fold a paper crane.
+
+## 問題
+哪一句才是 T「風格」？
+## Question
+Which line is T (Style: tone & format)?
+
+## A
+我會摺紙飛機，但沒摺過紙鶴。
+## A (EN)
+I can fold planes but never a crane.
+
+## B
+每教完一步，先停下來等我摺好。
+## B (EN)
+After each step, wait until I finish folding.
+
+## C
+用編號1、2、3寫，每步一句話。
+## C (EN)
+Number it 1, 2, 3, one sentence per step.
+
+## D
+摺完要像真的鶴，能站在桌上。
+## D (EN)
+It should look real and stand on the table.
+
+## 解析
+「用編號寫」是成品長的樣子（T）。「每一步停下來等我」是 AI 做事的流程（S）——兩句都有「步」，但不一樣。
+## Why
+"Number it" is how the result looks (T). "Wait after each step" is AI's process (S). Both mention steps but differ.
+
+## 提示
+是「寫成什麼樣子」，還是「怎麼進行」？
+## Hint
+Is it how it looks, or how it goes?
+
+# 太可怕了 | Too Scary
+答案：B
+
+## 情境
+AI 寫的萬聖節故事太恐怖，弟弟聽完哭了。
+## Scenario
+AI's Halloween story was so scary your brother cried.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+這是要在班上萬聖節派對講的。
+## A (EN)
+It's for our class Halloween party.
+
+## B
+語氣要可愛搞笑，鬼怪都是好朋友。
+## B (EN)
+Make it cute and funny; the monsters are friends.
+
+## C
+你是兒童節目裡很會說故事的姐姐。
+## C (EN)
+You're the storyteller on a kids' TV show.
+
+## D
+先寫開頭給我看，再寫整個故事。
+## D (EN)
+Show me the beginning first, then the rest.
+
+## 解析
+太恐怖是「感覺」的問題，直接說要可愛搞笑最有效。派對、角色、先寫開頭，都不保證不嚇人。
+## Why
+Too scary is a feeling problem; asking for cute and funny fixes it. The others don't promise that.
+
+## 提示
+哪一句會直接改變故事的感覺？
+## Hint
+Which line changes the feel of the story?

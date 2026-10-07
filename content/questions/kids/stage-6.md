@@ -4,351 +4,352 @@ stage: 6
 ---
 
 <!--
-第 6 關：S 分好步驟（學生版）｜Stage 6: S · Steps (Kids)
+第 6 關：S 步驟（學生版）｜Stage 6: S · Steps (Kids)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 做餅乾 | Baking Cookies
+# 應用題 | Word Problem
 答案：B
 
 ## 情境
-你想和家人一起做餅乾。
+你請 AI 教你一題買鉛筆找錢的應用題。
 ## Scenario
-You want to bake cookies with your family.
+You ask AI to help with a word problem about buying pencils.
 
 ## 問題
-哪一句最好？
+哪一句才是 S「步驟」？
 ## Question
-Which one is best?
+Which line is S (Steps: process & checkpoints)?
 
 ## A
-請告訴我做餅乾的方法，全部寫在一段話裡就好。
+這題是在算買鉛筆要找多少錢。
 ## A (EN)
-Please tell me how to make cookies all in one paragraph.
+It asks how much change you get.
 
 ## B
-請把做餅乾的方法分成步驟，一步寫一行。
+先看問什麼，再列式、驗算。
 ## B (EN)
-Please break the cookie recipe into steps, one per line.
+See what it asks, then write it out and check.
 
 ## C
-請列出做餅乾需要的所有材料和份量。
+答案寫成「答：○○元」的格式。
 ## C (EN)
-Please list all the ingredients and amounts for cookies.
+Write the answer as "Answer: __ dollars".
 
 ## D
-請告訴我做餅乾最重要的一個祕訣。
+你是很會教數學的補習班老師。
 ## D (EN)
-Please tell me the single most important cookie tip.
+You're a tutor who teaches math well.
 
 ## 解析
-分步驟、一步一行，照著做才不會亂。一段話容易漏步驟；只有材料不知道怎麼做；一個祕訣不夠。
+「先…再…最後驗算」安排了做事的順序和檢查點，這就是步驟（S）。
 ## Why
-Steps, one per line, are easy to follow. A paragraph hides steps, ingredients alone don't say how, and one tip isn't enough.
+"First… then… finally check" sets an order and a checkpoint (S).
 
 ## 提示
-怎樣最容易跟著做？
+哪一句在安排做事的順序？
 ## Hint
-What's easiest to follow?
-
-# 摺紙鶴 | Paper Crane
-答案：A
-
-## 情境
-你想學摺紙鶴。
-## Scenario
-You want to learn to fold a paper crane.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請一步一步教我摺紙鶴，每一步等我說「好」再繼續。
-## A (EN)
-Teach me to fold a paper crane step by step. Wait until I say 'OK' before each next step.
-
-## B
-請把摺紙鶴的全部步驟一次列出來，我自己看。
-## B (EN)
-Please list all the paper crane steps at once and I'll read them.
-
-## C
-請告訴我摺紙鶴要用多大、什麼顏色的紙。
-## C (EN)
-Please tell me what size and color paper to use for a crane.
-
-## D
-請告訴我紙鶴代表什麼意思、有什麼故事。
-## D (EN)
-Please tell me what paper cranes mean and their story.
-
-## 解析
-一步一步來，還能確認你跟上了，不會摺到一半卡住。一次列完容易跟丟；紙的大小顏色、紙鶴故事都沒教怎麼摺。
-## Why
-Step by step lets you check you're keeping up. All at once is easy to lose, and paper size or the story doesn't teach folding.
-
-## 提示
-一次講完，你記得住嗎？
-## Hint
-Could you remember everything at once?
-
-# 應用題 | Word Problem
-答案：D
-
-## 情境
-你卡在一題數學應用題。
-## Scenario
-You're stuck on a math word problem.
-
-## 問題
-哪一句最能幫你學會？
-## Question
-Which one helps you learn it?
-
-## A
-請直接給我這一題的答案，我再自己慢慢想想看是怎麼算出來的。
-## A (EN)
-Just give me the answer to this one, and I'll slowly figure out how it was worked out.
-
-## B
-請告訴我這一題是在考哪一個單元。
-## B (EN)
-Please tell me which unit this problem is from.
-
-## C
-請給我一題差不多的題目，我先練習看看。
-## C (EN)
-Please give me a similar problem to practice first.
-
-## D
-請先列出題目給的數字，再列算式，最後算出答案。
-## D (EN)
-First list the numbers given, then write the equation, then solve it.
-
-## 解析
-照順序拆開，你就看得懂每一步是怎麼來的。只給答案很難自己推回去；知道單元、換一題都沒解開你卡住的地方。
-## Why
-Breaking it down shows where each step comes from. Working back from an answer is hard, and a unit name or new problem doesn't fix where you're stuck.
-
-## 提示
-學會的秘訣是看答案還是看過程？
-## Hint
-Do you learn from the answer or the process?
+Which line sets the order of work?
 
 # 寫作文 | Writing an Essay
-答案：C
-
-## 情境
-你要寫一篇作文。
-## Scenario
-You need to write an essay.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請直接寫完整篇作文，我再從裡面挑喜歡的句子。
-## A (EN)
-Write the whole essay and I'll pick sentences I like.
-
-## B
-請給我 10 個作文題目，我再選一個。
-## B (EN)
-Give me 10 essay topics and I'll choose one.
-
-## C
-請先幫我列大綱，我確認後再一起寫第一段。
-## C (EN)
-First help me outline. After I check it, we write the first paragraph together.
-
-## D
-請幫我寫作文的結尾，前面我自己想。
-## D (EN)
-Write the ending of my essay and I'll do the rest.
-
-## 解析
-先大綱、再寫內容，每一步都能檢查方向對不對。直接寫完整篇就不是你的；題目已經有了；先寫結尾順序反了。
-## Why
-Outline first, then write, checking each step. A full essay isn't yours, you already have a topic, and starting with the ending is backward.
-
-## 提示
-先做什麼，再做什麼？
-## Hint
-What comes first, and what comes next?
-
-# 整理房間 | Messy Room
-答案：B
-
-## 情境
-房間好亂，不知道從哪裡開始。
-## Scenario
-Your room is a mess and you don't know where to start.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請告訴我整理好的房間應該長什麼樣子。
-## A (EN)
-Please tell me what a tidy room should look like.
-
-## B
-請把整理房間分成 4 個步驟，每步大約 5 分鐘。
-## B (EN)
-Break cleaning my room into 4 steps, about 5 minutes each.
-
-## C
-請給我一句話，讓我有動力去整理房間。
-## C (EN)
-Please give me one line to motivate me to clean.
-
-## D
-請列出我房間裡可能有的所有東西，還有每一樣原本應該放在哪裡。
-## D (EN)
-Please list everything that might be in my room and where each thing belongs.
-
-## 解析
-拆成小步驟、每步幾分鐘，就不會覺得很難開始。知道整理好的樣子、一句加油都沒說先做什麼；列出所有東西更亂。
-## Why
-Small timed steps make it easy to start. A picture of tidy or a pep talk doesn't say what's first, and listing everything is messier.
-
-## 提示
-大工作怎麼變簡單？
-## Hint
-How can a big job feel small?
-
-# 科學實驗 | Science Lab
-答案：A
-
-## 情境
-你要寫實驗紀錄。
-## Scenario
-You need to write up an experiment.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請照這個順序寫：準備材料→實驗步驟→觀察結果→結論。
-## A (EN)
-Please use this order: materials → steps → observations → conclusion.
-
-## B
-請寫實驗紀錄，想到什麼就寫什麼，自然一點。
-## B (EN)
-Write the lab report naturally, whatever comes to mind.
-
-## C
-請先寫結論，再補上材料和步驟。
-## C (EN)
-Write the conclusion first, then add materials and steps.
-
-## D
-請把實驗紀錄寫成一篇心得文章。
-## D (EN)
-Write the lab report as a personal reflection essay.
-
-## 解析
-給固定順序，紀錄才不會漏掉步驟，別人也看得懂。想到什麼寫什麼容易漏；先寫結論順序反了；心得文章不是紀錄。
-## Why
-A fixed order means nothing is missed. Writing freely skips parts, conclusion-first is backward, and a reflection isn't a lab report.
-
-## 提示
-實驗紀錄有哪幾個部分？
-## Hint
-What parts does a lab report have?
-
-# 背課文 | Memorizing Text
 答案：D
 
 ## 情境
-這一課課文好長。
+你要請 AI 陪你寫作文。四句裡有三句是步驟或檢查點。
 ## Scenario
-This lesson text is really long.
+You want AI to help you write an essay. Three lines are steps or checkpoints.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 S「步驟」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT S (Steps: process & checkpoints). Which one?
 
 ## A
-請把整篇課文唸一遍，我跟著一次背完。
+先跟我討論要寫哪件事，再動筆。
 ## A (EN)
-Please read the whole text once and I'll memorize it all at once.
+Talk with me about what to write before starting.
 
 ## B
-請把課文改寫成比較短、比較好背的版本，讓我背那個就好。
+每寫完一段，先給我看看。
 ## B (EN)
-Please rewrite the text shorter and easier so I can memorize that instead.
+Show me each paragraph when it's done.
 
 ## C
-請告訴我背課文最快的祕訣是什麼。
+寫完再檢查有沒有錯字。
 ## C (EN)
-Please tell me the fastest trick for memorizing text.
+Check for typos at the end.
 
 ## D
-請把課文分成 3 小段，一段一段帶我背。
+作文分成開頭、中間、結尾三段。
 ## D (EN)
-Split the text into 3 short parts and help me learn them one at a time.
+The essay has three parts: start, middle, end.
 
 ## 解析
-分段背，一次只背一小段比較不累。一次背完太多；改寫過的就不是課文了；祕訣沒有真的帶你背。
+「分成三段」是成品的樣子，是格式（T）。其他三句都在安排 AI 先做什麼、什麼時候停下來檢查。
 ## Why
-Learning in parts is easier. All at once is too much, a rewrite isn't the real text, and a trick doesn't walk you through it.
+"Three parts" is the output's shape (T). The others plan what AI does first and when to check.
 
 ## 提示
-一次背全部，還是分小段？
+哪一句說的是「成品」，不是「過程」？
 ## Hint
-All at once, or small parts?
+Which line is about the result, not the process?
 
-# 檢查作業 | Checking Homework
+# 火山實驗 | Volcano Experiment
+答案：A
+
+## 情境
+AI 一次給你整個實驗說明，你做到第三步就搞混了。
+## Scenario
+AI gave you all the experiment steps at once, and you got lost at step three.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+一次只說一步，等我做完再說下一步。
+## A (EN)
+One step at a time; wait until I finish.
+
+## B
+這是用醋和小蘇打做火山的實驗。
+## B (EN)
+It's a vinegar and baking-soda volcano.
+
+## C
+每一步前面都加上數字和小圖示。
+## C (EN)
+Put a number and a small icon before each step.
+
+## D
+你是電視上很會做實驗的科學老師。
+## D (EN)
+You're a TV science teacher.
+
+## 解析
+搞混是因為一次太多。讓 AI 一次一步、等你做完再繼續，就是安排節奏和檢查點（S）。加數字和圖示只是排版。
+## Why
+You got lost because it was too much at once. One step at a time is S. Numbers and icons are just layout.
+
+## 提示
+要改的是「長相」，還是「節奏」？
+## Hint
+Change how it looks, or the pace?
+
+# 背唐詩 | Learning a Poem
 答案：C
 
 ## 情境
-你寫完作業，想知道有沒有錯。
+你請 AI 幫你背李白的〈靜夜思〉。
 ## Scenario
-You finished homework and want to know if it's right.
+You ask AI to help you memorize a famous four-line poem.
 
 ## 問題
-哪一句最能學到東西？
+哪一句才是 S「步驟」？
 ## Question
-Which one teaches you the most?
+Which line is S (Steps: process & checkpoints)?
 
 ## A
-請直接把我錯的地方都改好，我再把正確答案抄上去就好。
+這首詩一共有四句，我還沒背過。
 ## A (EN)
-Please fix all my mistakes, and I'll just copy the right answers onto my homework.
+The poem has four lines, and I haven't learned it.
 
 ## B
-請告訴我這份作業大概可以拿幾分。
+背完要能一個字都不錯地唸出來。
 ## B (EN)
-Please tell me roughly what score this homework would get.
+I can say it without a single mistake.
 
 ## C
-請先檢查哪裡錯，再告訴我為什麼錯、怎麼改。
+先一句一句帶我念，再抽考我。
 ## C (EN)
-First find mistakes, then tell me why they're wrong and how to fix them.
+Read it with me line by line, then quiz me.
 
 ## D
-請檢查我的作業，錯的地方打叉就好。
+比較難的字，請在旁邊標上注音。
 ## D (EN)
-Please check my homework and just mark wrong answers with an X.
+Add pronunciation marks to the hard words.
 
 ## 解析
-先找錯、再說原因、最後改，你下次就不會再錯。直接改好你沒學到；分數和打叉都沒說為什麼錯。
+「先帶念，再抽考」安排了練習順序和檢查點，這是 S。不念錯一個字是目標（O），標注音是格式（T）。
 ## Why
-Find, explain, then fix, so you won't repeat it. Copying fixes teaches nothing, and a score or X doesn't say why.
+"Read along, then quiz" orders the practice and adds a check (S). No mistakes is O; pronunciation marks are T.
 
 ## 提示
-你想學會，還是只要改好？
+哪一句說了「先」做什麼？
 ## Hint
-Do you want to learn, or just have it fixed?
+Which line says what to do first?
+
+# 作業漏一題 | Missed Homework
+答案：D
+
+## 情境
+你請 AI 檢查作業，它說「都寫完了」，但其實你漏了一題。
+## Scenario
+AI said your homework was all done, but you missed one question.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+今天的作業有國語、數學和英文。
+## A (EN)
+Today's homework is reading, math and English.
+
+## B
+你是班上最細心、最會檢查的小老師。
+## B (EN)
+You're the most careful checker in class.
+
+## C
+用表格列出每一科有沒有寫完。
+## C (EN)
+Make a table showing if each subject is done.
+
+## D
+請對照聯絡簿，一題一題打勾確認。
+## D (EN)
+Check against my homework list, ticking each item.
+
+## 解析
+漏掉是因為沒有一項一項對照。安排「對照聯絡簿、逐題打勾」這個檢查步驟，才抓得到。說它很細心不等於它真的會檢查。
+## Why
+It missed one because nothing was checked item by item. A tick-each-item step catches it. "Careful" alone doesn't.
+
+## 提示
+要怎麼「檢查」才不會漏？
+## Hint
+How should it check so nothing is missed?
+
+# 整理書包 | Pack Your Bag
+答案：A
+
+## 情境
+你要請 AI 幫你整理明天的書包。四句裡有三句是步驟或檢查點。
+## Scenario
+You want AI to help pack your school bag. Three lines are steps or checkpoints.
+
+## 問題
+四句裡有一句不是 S「步驟」，是哪一句？
+## Question
+One of these is NOT S (Steps: process & checkpoints). Which one?
+
+## A
+明天到學校時，什麼都不能少帶。
+## A (EN)
+Tomorrow I must not forget anything.
+
+## B
+先看明天的課表，再列要帶的東西。
+## B (EN)
+Check tomorrow's timetable, then list what to bring.
+
+## C
+每放進一樣東西，就打一個勾。
+## C (EN)
+Tick each item as it goes in.
+
+## D
+最後再對照清單檢查一遍。
+## D (EN)
+At the end, check against the list once more.
+
+## 解析
+「什麼都不能少帶」是想要的結果（O）。看課表、打勾、最後對照，都是過程中的步驟和檢查。
+## Why
+"Forget nothing" is the result (O). Timetable, ticking and a final check are steps.
+
+## 提示
+哪一句只說了「結果」？
+## Hint
+Which line only states a result?
+
+# 畫畫比賽 | Art Contest
+答案：C
+
+## 情境
+你要請 AI 幫你準備畫畫比賽。
+## Scenario
+You want AI to help you prepare for an art contest.
+
+## 問題
+哪一句才是 S「步驟」？
+## Question
+Which line is S (Steps: process & checkpoints)?
+
+## A
+比賽主題是「我心中的未來城市」。
+## A (EN)
+The theme is "My Future City".
+
+## B
+可以參考去年得獎的那幾張作品。
+## B (EN)
+You can refer to last year's winning pictures.
+
+## C
+先給三個主題選，再教我構圖。
+## C (EN)
+Give three ideas to pick, then teach me the layout.
+
+## D
+要讓評審老師一眼就記住我的畫。
+## D (EN)
+The judges should remember my picture at a glance.
+
+## 解析
+「先想主題給我選，選好再教構圖」有順序也有讓你決定的時間點，這是 S。
+## Why
+"Ideas first, I pick, then layout" has an order and a moment for you to decide (S).
+
+## 提示
+哪一句讓你可以中途做決定？
+## Hint
+Which line lets you decide halfway?
+
+# 一次學太多 | All at Once
+答案：B
+
+## 情境
+你請 AI 一次教你乘法、除法和分數，結果三樣都沒學會。
+## Scenario
+You asked AI to teach multiplication, division and fractions at once, and learned none.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+我是三年級，數學常常不太懂。
+## A (EN)
+I'm in 3rd grade and math is hard for me.
+
+## B
+先教乘法，我會了以後再教除法。
+## B (EN)
+Teach multiplication first, then division once I get it.
+
+## C
+你是很溫柔、很有耐心的家教。
+## C (EN)
+You're a kind, patient tutor.
+
+## D
+用玩遊戲的方式來教，不要太無聊。
+## D (EN)
+Teach with games so it's not boring.
+
+## 解析
+三樣一起學太多了。拆成順序，學會一樣再學下一樣，就是安排步驟和檢查點。
+## Why
+Three at once is too much. Learn one, check, then move on — that's S.
+
+## 提示
+一起學，還是一樣一樣來？
+## Hint
+All together, or one at a time?

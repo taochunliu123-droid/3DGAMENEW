@@ -4,351 +4,352 @@ stage: 4
 ---
 
 <!--
-第 4 關：O 講明目標（成人版）｜Stage 4: O · Goal (Adults)
+第 4 關：O 目標（成人版）｜Stage 4: O · Goal (Adults)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 延期提案 | Extension Request
-答案：A
-
-## 情境
-專案需要多兩週。
-## Scenario
-The project needs two more weeks.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請寫一份提案，目標是讓主管同意延長兩週。
-## A (EN)
-Write a proposal whose goal is getting my manager to approve a two-week extension.
-
-## B
-請寫一份提案，詳細說明專案目前遇到的所有困難。
-## B (EN)
-Write a proposal detailing every problem the project has hit.
-
-## C
-請寫一份提案，內容專業、格式漂亮、要有圖表。
-## C (EN)
-Write a professional, nicely formatted proposal with charts.
-
-## D
-請寫一份提案，目標是讓主管知道延誤不是我的錯。
-## D (EN)
-Write a proposal whose goal is showing my manager the delay isn't my fault.
-
-## 解析
-說出想要的結果（同意延長兩週），提案才會朝說服主管寫。列所有困難、格式漂亮沒有方向；證明不是你的錯不等於拿到時間。
-## Why
-Stating the outcome (approve two weeks) aims the proposal. Listing problems or nice formatting has no direction; proving it's not your fault doesn't get you time.
-
-## 提示
-提案要讓主管做什麼決定？
-## Hint
-What decision should your manager make?
-
-# 修改履歷 | Tailor Your Resume
-答案：D
-
-## 情境
-你要應徵專案經理。
-## Scenario
-You're applying for a project manager role.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請修改我的履歷，讓它看起來更漂亮、更專業。
-## A (EN)
-Revise my resume to look nicer and more professional.
-
-## B
-請修改我的履歷，把做過的所有工作都寫得更詳細。
-## B (EN)
-Revise my resume to describe every job in more detail.
-
-## C
-請修改我的履歷，目標是讓它適合投所有工作。
-## C (EN)
-Revise my resume so it works for any job.
-
-## D
-請修改我的履歷，目標是更符合「專案經理」職缺。
-## D (EN)
-Revise my resume to better match a 'Project Manager' opening.
-
-## 解析
-有明確職缺，AI 才知道要強調哪些經歷。漂亮專業、全部寫詳細都沒有重點；適合所有工作等於沒有目標。
-## Why
-A target role tells AI what to highlight. 'Nicer' or more detail has no focus, and 'any job' is no goal at all.
-
-## 提示
-這份履歷要投什麼職位？
-## Hint
-Which role is this resume for?
-
-# 命名會議 | Naming Meeting
-答案：C
-
-## 情境
-下午要開會決定新產品名稱。
-## Scenario
-This afternoon's meeting must pick a product name.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請設計會議議程，讓每個人都能充分發表意見，不要限制發言時間。
-## A (EN)
-Design an agenda where everyone can fully share their views, with no time limit on speaking.
-
-## B
-請設計一個完整的議程，包含開場、討論和總結。
-## B (EN)
-Design a complete agenda with an opening, discussion and wrap-up.
-
-## C
-請設計會議議程，目標是 30 分鐘內決定新產品名稱。
-## C (EN)
-Design an agenda whose goal is choosing a product name within 30 minutes.
-
-## D
-請設計會議議程，目標是想出越多名字越好。
-## D (EN)
-Design an agenda whose goal is coming up with as many names as possible.
-
-## 解析
-目標是「30 分鐘內決定」，議程才會聚焦在收斂。人人充分發言可能超時；有頭有尾是格式不是目標；想越多名字只發散不收斂。
-## Why
-The goal 'decide in 30 minutes' focuses on converging. Everyone speaking fully runs over, structure isn't a goal, and more names only diverges.
-
-## 提示
-會議結束時要得到什麼？
-## Hint
-What should you have when the meeting ends?
-
-# 催報價 | Chasing a Quote
+# 季度簡報 | Quarterly Briefing
 答案：B
 
 ## 情境
-客戶一直沒回報價。
+你請 AI 幫你準備部門的季度簡報。
 ## Scenario
-A client hasn't replied to your quote.
+You ask AI to help prepare your team's quarterly briefing.
 
 ## 問題
-哪一句最好？
+哪一句才是 O「目標」？
 ## Question
-Which one is best?
+Which line is O (Goal: purpose & what "done" means)?
 
 ## A
-請寫一封信，禮貌地問候客戶最近好不好。
+這季完成了八個專案，有兩個延期。
 ## A (EN)
-Write an email politely asking how the client has been.
+We finished eight projects this quarter; two slipped.
 
 ## B
-請寫這封信，目標是讓客戶在週五前回覆報價。
+要讓主管同意明年多給兩個人力。
 ## B (EN)
-Write this email with the goal of getting the client to reply to the quote by Friday.
+It must get my manager to approve two more people next year.
 
 ## C
-請寫一封信，再完整介紹一次我們的報價內容。
+每頁只放一個重點，字要夠大。
 ## C (EN)
-Write an email re-explaining our quote in full.
+One point per slide, big text.
 
 ## D
-請寫一封信，表達我們很重視這次的合作。
+你是擅長說服高層的簡報教練。
 ## D (EN)
-Write an email saying how much we value this partnership.
+You're a coach who's great at persuading executives.
 
 ## 解析
-目標和期限明確，信才會有清楚的行動要求。問候、重新介紹、表達重視都很客氣，但客戶看完不知道要做什麼。
+「要讓主管同意多給人力」說出這份簡報要達成什麼，就是 O。專案數字是背景，版面是風格，教練是角色。
 ## Why
-A clear goal and deadline create a clear ask. Greetings, re-explaining or valuing the partnership are polite, but the client won't know what to do.
+"Get approval for two more people" states what the deck must achieve (O). Numbers are context, layout is style, the coach is a role.
 
 ## 提示
-你希望客戶看完做什麼？
+這份簡報做完，你想得到什麼？
 ## Hint
-What should the client do after reading?
+What do you want to get out of this deck?
 
-# 報帳教學 | Expense Training
-答案：A
-
-## 情境
-新人老是不會用報帳系統。
-## Scenario
-New hires keep struggling with the expense system.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請設計練習，目標是讓新人能自己完成報帳。
-## A (EN)
-Design practice so new hires can file expenses on their own.
-
-## B
-請把報帳系統的所有功能整理成一份說明文件。
-## B (EN)
-Document every feature of the expense system.
-
-## C
-請設計一堂 2 小時的報帳系統介紹課程。
-## C (EN)
-Design a 2-hour introduction class on the expense system.
-
-## D
-請列出新人報帳最常犯的 10 個錯誤。
-## D (EN)
-List the 10 most common expense mistakes new hires make.
-
-## 解析
-目標是「能自己完成」，所以要動手練習。說明文件、介紹課程、錯誤清單都是看和聽，不保證會做。
-## Why
-The goal is doing it alone, so hands-on practice. Docs, a class or a mistake list are reading and listening, not doing.
-
-## 提示
-新人要做到什麼程度？
-## Hint
-What should new hires be able to do?
-
-# 說明書 | One-Page Guide
+# 怎樣算做好 | What "Done" Means
 答案：D
 
 ## 情境
-新產品要附一頁說明。
+同事寫了四句要求。三句在說「怎樣才算做好」，有一句不是。
 ## Scenario
-A new product needs a one-page guide.
+A colleague wrote four requirements. Three define "done well"; one doesn't.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 O「目標」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT O (Goal: purpose & what "done" means). Which one?
 
 ## A
-請寫產品說明，把所有功能和規格都寫進去。
+新客戶讀完，就知道下一步要找誰。
 ## A (EN)
-Write a product guide covering every feature and spec.
+New clients know who to contact next after reading.
 
 ## B
-請寫產品說明，用詞要專業、多用技術名詞，讓客戶覺得我們很厲害。
+看的人五分鐘內能決定要不要報名。
 ## B (EN)
-Write a product guide in professional terms with lots of technical words so clients think we're impressive.
+Readers can decide whether to sign up within five minutes.
 
 ## C
-請寫產品說明，長度剛好一頁 A4 紙。
+寫完能直接寄出，不用我再修改。
 ## C (EN)
-Write a product guide exactly one A4 page long.
+I can send it as is, without edits.
 
 ## D
-請寫產品說明，要讓沒用過的人 1 分鐘看懂。
+請先列大綱給我確認，再寫全文。
 ## D (EN)
-Write a product guide a first-time user can understand in 1 minute.
+Show me an outline first, then write it all.
 
 ## 解析
-說出「怎樣才算好」（1 分鐘看懂），AI 才知道要多簡單。寫進所有功能太多；專業用詞更難懂；一頁 A4 只限制長度，沒說要讓誰看懂。
+「先列大綱再寫全文」是在安排做事的順序，屬於 S。另外三句都說出「做到什麼程度才算好」。
 ## Why
-Saying what 'good' means (understood in 1 minute) sets simplicity. Every feature is too much, jargon is harder, and one page limits length, not clarity.
+"Outline first, then write" sets the order of work (S). The other three say what counts as done well.
 
 ## 提示
-成功的標準是什麼？
+哪一句在講「過程」而不是「結果」？
 ## Hint
-What's the success standard?
+Which line is about process, not result?
 
-# 問卷分析 | Survey Analysis
+# 客訴整理 | Complaint Summary
+答案：A
+
+## 情境
+AI 把客訴整理得很完整，可是拿去開會時，大家不知道接下來要做什麼。
+## Scenario
+AI summarized the complaints thoroughly, but in the meeting nobody knew what to do next.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+整理完要讓會議能決定先修哪三個問題。
+## A (EN)
+The summary should let the meeting pick the top three fixes.
+
+## B
+這些客訴來自上個月的客服紀錄。
+## B (EN)
+These come from last month's support logs.
+
+## C
+請用表格呈現，依客訴次數排序。
+## C (EN)
+Use a table sorted by number of complaints.
+
+## D
+你是很擅長把客戶意見變成行動的產品經理。
+## D (EN)
+You're a product manager who turns feedback into action.
+
+## 解析
+整理得「完整」不等於「有用」。說出這份資料要拿來決定什麼，AI 才會往能做決定的方向整理。
+## Why
+Complete is not the same as useful. Say what decision it serves, and AI will organize it for that decision.
+
+## 提示
+AI 知道這份整理是要拿來做什麼嗎？
+## Hint
+Does AI know what the summary is for?
+
+# 推薦信 | Reference Letter
 答案：C
 
 ## 情境
-你收到 200 份客戶問卷。
+你要請 AI 幫忙寫一封給研究所的推薦信。
 ## Scenario
-You got 200 customer surveys.
+You want AI to help write a grad-school reference letter.
 
 ## 問題
-哪一句最好？
+哪一句才是 O「目標」？
 ## Question
-Which one is best?
+Which line is O (Goal: purpose & what "done" means)?
 
 ## A
-請把問卷的每一題都做成圓餅圖。
+她在我們團隊做了兩年的資料分析。
 ## A (EN)
-Make a pie chart for every survey question.
+She did data analysis on our team for two years.
 
 ## B
-請完整分析這份問卷，越詳細越好。
+你是在大學任教多年的指導教授。
 ## B (EN)
-Analyze this survey fully, in as much detail as possible.
+You're a professor who has advised students for years.
 
 ## C
-請分析問卷，找出客戶最不滿意的前 3 項。
+希望研究所看完，願意給她面試機會。
 ## C (EN)
-Analyze the surveys and find customers' top 3 complaints.
+The school should want to interview her after reading.
 
 ## D
-請找出客戶最滿意的地方，做成宣傳素材。
+參考附件那封被錄取的推薦信寫法。
 ## D (EN)
-Find what customers liked most and turn it into marketing material.
+Follow the style of the successful letter attached.
 
 ## 解析
-目標明確，分析才不會變成一堆數字。每題做圖、越詳細越好都沒有重點；最滿意的地方不是你想解決的問題。
+「希望研究所願意給面試」是這封信要達成的結果（O）。她的經歷是背景，教授是角色，附件範本是參考。
 ## Why
-A clear goal keeps analysis from being a pile of numbers. A chart per question or max detail has no focus; what customers liked isn't the problem to solve.
+"The school should want to interview her" is the result the letter must achieve (O). Her experience is C, the professor is A, the sample is R.
 
 ## 提示
-你最想從問卷知道什麼？
+信寄出去以後，你希望發生什麼事？
 ## Hint
-What do you most want to learn?
+After the letter is sent, what should happen?
 
-# 老闆決策 | Boss Decision
+# 改不完的首頁 | Endless Edits
+答案：D
+
+## 情境
+AI 幫你改網站首頁文字改了五版，每版都說「還可以更好」，你不知道何時該停。
+## Scenario
+AI rewrote your homepage five times and keeps saying it could be better. You don't know when to stop.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+我們是賣有機蔬菜的訂購平台。
+## A (EN)
+We run an organic vegetable ordering site.
+
+## B
+你是做過很多電商首頁的文案寫手。
+## B (EN)
+You're a copywriter who has written many shop homepages.
+
+## C
+每次只改一個地方，並說明為什麼這樣改。
+## C (EN)
+Change one thing at a time and explain why.
+
+## D
+訪客三秒內看懂我們賣什麼就算完成。
+## D (EN)
+It's done when visitors get what we sell in 3 seconds.
+
+## 解析
+沒有「完成標準」，就永遠能再改。說清楚怎樣算做好，你和 AI 都知道什麼時候可以停。
+## Why
+Without a finish line you can edit forever. Define "done" and both of you know when to stop.
+
+## 提示
+什麼時候可以說「好，就這版」？
+## Hint
+When can you say "this version is it"?
+
+# 活動檢討 | Event Review
+答案：A
+
+## 情境
+你要請 AI 寫活動檢討報告。四句裡有三句在說目的或完成標準。
+## Scenario
+You want AI to write an event review. Three lines state purpose or success criteria.
+
+## 問題
+四句裡有一句不是 O「目標」，是哪一句？
+## Question
+One of these is NOT O (Goal: purpose & what "done" means). Which one?
+
+## A
+寫得簡潔有力，不要超過一頁。
+## A (EN)
+Keep it punchy and under one page.
+
+## B
+讓沒到場的主管也看得懂哪裡出錯。
+## B (EN)
+Managers who weren't there can see what went wrong.
+
+## C
+檢討的目的是讓下一場報名人數翻倍。
+## C (EN)
+The aim is to double sign-ups next time.
+
+## D
+每個問題都有負責人和日期才算完整。
+## D (EN)
+It's complete only if every issue has an owner and date.
+
+## 解析
+「簡潔有力、不超過一頁」聽起來像標準，其實是在規定寫法和篇幅，屬於 T。其他三句才是在說要達成什麼。
+## Why
+"Punchy, under a page" sounds like a standard but sets style and length (T). The other three say what to achieve.
+
+## 提示
+「寫得怎樣」和「達成什麼」不一樣。
+## Hint
+"How it's written" is not "what it achieves".
+
+# 選專案軟體 | Choosing a Tool
+答案：C
+
+## 情境
+你請 AI 比較兩套專案管理軟體。
+## Scenario
+You ask AI to compare two project-management tools.
+
+## 問題
+哪一句才是 O「目標」？
+## Question
+Which line is O (Goal: purpose & what "done" means)?
+
+## A
+我們團隊十二個人，大多不熟英文介面。
+## A (EN)
+We're twelve people, mostly not used to English interfaces.
+
+## B
+用兩欄比較表，最後一行寫建議。
+## B (EN)
+A two-column table with a recommendation at the end.
+
+## C
+比完我要能跟主管講出選哪套、為什麼。
+## C (EN)
+Afterward I should be able to tell my boss which one and why.
+
+## D
+先列評比項目，我確認後再開始比。
+## D (EN)
+List the criteria first; compare after I approve.
+
+## 解析
+「要能跟主管講出選哪套、為什麼」說出比較完要達到的結果（O）。團隊狀況是 C，比較表是 T，先列項目是 S。
+## Why
+"Tell my boss which one and why" is the outcome (O). Team facts are C, the table is T, criteria first is S.
+
+## 提示
+比完之後，你要拿它去做什麼？
+## Hint
+What will you do with the comparison?
+
+# 資安教育訓練 | Security Training
 答案：B
 
 ## 情境
-老闆只有 5 分鐘聽你報告。
+AI 做的資安課簡報內容很多，但你擔心同仁上完課還是會點開釣魚信。
 ## Scenario
-Your boss has only 5 minutes for your update.
+AI's security-training deck has lots of content, but you worry staff will still click phishing emails.
 
 ## 問題
-哪一句最好？
+最該補上哪一句？
 ## Question
-Which one is best?
+Which line should you add?
 
 ## A
-請調整簡報，讓設計更美觀、配色更一致。
+你是在銀行做了十年的資安主管。
 ## A (EN)
-Adjust the deck so the design looks nicer and colors match.
+You're a bank security head with ten years' experience.
 
 ## B
-請調整簡報，目標是讓老闆 5 分鐘內能做決定。
+同仁要能自己認出可疑信。
 ## B (EN)
-Adjust the deck so my boss can decide within 5 minutes.
+Staff can spot suspicious emails on their own.
 
 ## C
-請調整簡報，補充更多背景資料讓老闆更了解。
+去年公司有三位同仁點了釣魚連結。
 ## C (EN)
-Adjust the deck with more background so my boss understands better.
+Last year three staff clicked phishing links.
 
 ## D
-請調整簡報，把所有數據都放進去以示完整。
+請用輕鬆的語氣，不要嚇人。
 ## D (EN)
-Adjust the deck to include all the data to show we're thorough.
+Keep it light, not scary.
 
 ## 解析
-目標是「做決定」，AI 會把結論和選項放前面。美化、補背景、塞滿數據，都會讓老闆 5 分鐘內更難決定。
+內容多不代表有效。把成功標準定成「同仁能自己認出可疑信」，AI 才會把課程重心放在練習辨識上。
 ## Why
-The goal is a decision, so conclusions come first. Polishing, more background or all the data make a 5-minute decision harder.
+More content isn't more effective. Set success as "staff can spot it themselves" and AI will focus on practice.
 
 ## 提示
-老闆看完要做什麼？
+上完課，同仁要「會」什麼？
 ## Hint
-What should your boss do after seeing it?
+After class, what should staff be able to do?

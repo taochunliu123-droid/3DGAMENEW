@@ -5,350 +5,351 @@ stage: 5
 
 <!--
 第 5 關：R 參考與限制（成人版）｜Stage 5: R · Refer (Adults)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 照範例寫 | Follow the Sample
+# 新聞稿 | Press Release
 答案：B
 
 ## 情境
-你有一篇很喜歡的舊產品介紹。
+你要請 AI 寫一篇開新分店的新聞稿。
 ## Scenario
-You have an old product description you love.
+You want AI to write a press release about a new branch.
 
 ## 問題
-哪一句最好？
+哪一句才是 R「參考與限制」？
 ## Question
-Which one is best?
+Which line is R (Refer: examples, limits, benchmarks)?
 
 ## A
-請寫新產品的介紹，要寫得比以前所有的產品介紹都更好、更吸引人。
+這次是宣布在台中開第二家分店。
 ## A (EN)
-Write the new product description, better and more appealing than every one before it.
+We're announcing our second branch, in Taichung.
 
 ## B
-請照這篇範例的長度和語氣，寫新產品的介紹。
+照附件去年那篇新聞稿的段落安排。
 ## B (EN)
-Match this sample's length and tone to write the new product description.
+Follow the paragraph layout of last year's release (attached).
 
 ## C
-請寫新產品的介紹，風格你自由發揮就好。
+語氣正式，標題不超過二十個字。
 ## C (EN)
-Write the new product description in any style you like.
+Formal tone; headline under twenty characters.
 
 ## D
-請照這篇範例，把產品名稱換掉就好。
+要讓記者看完標題就想往下讀。
 ## D (EN)
-Use this sample and just swap in the new product name.
+Reporters should want to read on after the headline.
 
 ## 解析
-給範例並說要參考長度和語氣，AI 就能對齊你的風格。「比以前好」「自由發揮」沒有標準；只換名稱就是抄舊文。
+拿去年那篇當範本，是在給參考（R）。分店消息是 C，語氣和標題長度是 T，吸引記者是 O。
 ## Why
-A sample plus 'match length and tone' aligns the style. 'Better' or 'any style' has no standard; swapping the name is copying.
+Using last year's release as a model is R. The branch news is C, tone and headline length are T, hooking reporters is O.
 
 ## 提示
-有沒有現成的好例子可以給 AI？
+哪一句給了 AI 一個可以「照著做」的東西？
 ## Hint
-Is there a good example to give AI?
+Which line gives AI something to copy from?
 
-# 只看合約 | Contract Only
-答案：A
-
-## 情境
-你想問合約裡的付款條件。
-## Scenario
-You want to ask about payment terms in a contract.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請只根據附件合約回答；合約沒寫的，就說「未提及」。
-## A (EN)
-Answer only from the attached contract; if it's not there, say 'Not mentioned.'
-
-## B
-請根據附件合約回答，不清楚的地方就依一般商業慣例補充。
-## B (EN)
-Answer from the attached contract, filling unclear parts with common practice.
-
-## C
-請根據附件合約回答，並加上你的法律建議。
-## C (EN)
-Answer from the attached contract and add your legal advice.
-
-## D
-請詳細回答付款條件的相關問題，越完整越好。
-## D (EN)
-Answer questions about payment terms in as much detail as possible.
-
-## 解析
-限定來源並說好沒寫時怎麼辦，才不會編出合約沒有的條款。用慣例補、加法律建議、越完整越好，都可能混進合約以外的內容。
-## Why
-Limit the source and say what to do if missing. Common practice, legal advice or 'max detail' can all mix in things outside the contract.
-
-## 提示
-答案只能從哪裡來？
-## Hint
-Where must the answer come from?
-
-# 活動簡介 | Event Blurb
+# 人事規章問答 | HR Policy Q&A
 答案：D
 
 ## 情境
-簡介要放在海報上，不想要誇張用詞。
+你要請 AI 回答同仁的請假問題。四句裡有三句是參考或限制。
 ## Scenario
-The blurb goes on a poster; you don't want hype words.
+You want AI to answer staff leave questions. Three lines are references or limits.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 R「參考與限制」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT R (Refer: examples, limits, benchmarks). Which one?
 
 ## A
-請寫一段吸引人的活動簡介，讓大家都想報名。
+只能根據附件的人事規章回答。
 ## A (EN)
-Write an appealing event blurb that makes everyone want to sign up.
+Answer only from the attached HR policy.
 
 ## B
-請寫一段 50 字以內的活動簡介，用最吸睛、最有衝擊力的字眼讓大家想報名。
+規章沒寫的，請直接說「查無規定」。
 ## B (EN)
-Write an event blurb under 50 words, using the most eye-catching, powerful words to drive sign-ups.
+If the policy doesn't say, answer "no rule found".
 
 ## C
-請寫活動簡介，不要太長，也不要太短。
+不要引用網路上其他公司的做法。
 ## C (EN)
-Write an event blurb, not too long and not too short.
+Don't cite other companies' practices from the web.
 
 ## D
-請寫 50 字以內的活動簡介，不要用「革命性」這類誇張詞。
+回答要讓同仁不用再打電話問人資。
 ## D (EN)
-Write an event blurb under 50 words, without hype words like 'revolutionary'.
+Answers should save staff from calling HR.
 
 ## 解析
-字數限制加上「不要什麼」，結果才接近你要的。只說吸引人、越吸睛越好，容易出現誇張詞；「不要太長也不要太短」沒有標準。
+「不用再打電話問人資」是說要達到什麼效果，屬於 O。另外三句都在劃界線：只能用什麼、沒有就說沒有、不能用什麼。
 ## Why
-A word limit plus a 'don't' gets close. 'Appealing' or 'eye-catching' invites hype, and 'not too long or short' has no standard.
+"Save staff a call" is the outcome (O). The other three draw lines: use only this, say so if missing, don't use that.
 
 ## 提示
-有哪些限制要先講？
+哪一句沒有在「劃界線」？
 ## Hint
-Which limits should you state first?
+Which line doesn't set a boundary?
 
-# 方案比較 | Compare Options
+# 找不到的研究 | Missing Study
+答案：A
+
+## 情境
+AI 寫的市場分析引用了一份「2025 年某研究」，你怎麼找都找不到。
+## Scenario
+AI's market analysis cites a "2025 study" you can't find anywhere.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+只用我給的報告，沒有就寫「無資料」。
+## A (EN)
+Use only my reports; write "no data" if a number is missing.
+
+## B
+你是一位很嚴謹、非常重視出處的研究員。
+## B (EN)
+You're a careful researcher who values sources.
+
+## C
+用表格整理，每列附上數字和年份。
+## C (EN)
+Use a table with the number and year in each row.
+
+## D
+這份分析是要交給董事會看的。
+## D (EN)
+This analysis goes to the board.
+
+## 解析
+AI 會編來源，是因為沒人限制它能用什麼。規定「只用我給的」、沒有就寫無資料，才把亂編的路堵住。「很嚴謹的研究員」只是期待，不是規則。
+## Why
+AI made up a source because nothing limited it. "Only my reports, else no data" blocks that. "A careful researcher" is a hope, not a rule.
+
+## 提示
+要的是「期待」，還是「規則」？
+## Hint
+Do you need a hope or a rule?
+
+# 留言分類 | Tag Comments
 答案：C
 
 ## 情境
-兩個方案，你要選一個。
+你要 AI 把一千則顧客留言分成「稱讚／抱怨／建議」。
 ## Scenario
-Two options — you need to pick one.
+You want AI to sort 1,000 comments into praise, complaint and suggestion.
 
 ## 問題
-哪一句最好？
+哪一句才是 R「參考與限制」？
 ## Question
-Which one is best?
+Which line is R (Refer: examples, limits, benchmarks)?
 
 ## A
-請全面比較兩個方案，列出所有的差異。
+留言是上個月三家門市問卷收來的。
 ## A (EN)
-Compare the two options fully, listing every difference.
+They come from last month's surveys at three stores.
 
 ## B
-請比較兩個方案，然後直接告訴我該選哪個。
+結果整理成三欄的表格，每一欄附上留言則數。
 ## B (EN)
-Compare the two options and just tell me which to pick.
+Show a three-column table with counts.
 
 ## C
-請用「成本、時間、風險」三個標準比較兩個方案。
+例：「店員親切」算稱讚，「開晚點」算建議。
 ## C (EN)
-Compare the two options on cost, time and risk.
+E.g. "Friendly staff" is praise; "open later" is a suggestion.
 
 ## D
-請比較兩個方案，看哪個比較有創意。
+分完之後，店長要能一眼看出最該先改哪一項。
 ## D (EN)
-Compare the two options by which is more creative.
+Store managers should see what to fix first.
 
 ## 解析
-給判斷標準，比較才有依據。列所有差異沒有重點；直接給答案看不到理由；有創意不是你這次的判斷標準。
+先給 AI 幾個分好的例子，它就知道你心中的分類標準，這是參考（R）。來源是 C，表格是 T，店長要知道先改什麼是 O。
 ## Why
-Criteria give the comparison a basis. Every difference has no focus, a bare pick has no reasons, and creativity isn't your criterion here.
+Sample labels show AI your standard (R). The source is C, the table is T, what to fix first is O.
 
 ## 提示
-你用什麼標準做決定？
+哪一句是在「示範」給 AI 看？
 ## Hint
-What criteria decide it for you?
+Which line shows AI an example?
 
-# 留言分類 | Sort Comments
+# 不像我們家 | Off-Brand
+答案：D
+
+## 情境
+AI 寫的社群貼文很通順，但完全不像你們品牌平常的感覺。
+## Scenario
+AI's social post reads fine but doesn't sound like your brand at all.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+語氣要親切、活潑，多用一點表情符號。
+## A (EN)
+Be friendly and lively, with more emojis.
+
+## B
+我們是賣手工皂的小品牌，客群是年輕媽媽。
+## B (EN)
+We're a small handmade-soap brand for young moms.
+
+## C
+目標是讓這篇的留言數比上週多。
+## C (EN)
+The goal is more comments than last week.
+
+## D
+這是我們最受歡迎的三篇貼文，照這感覺寫。
+## D (EN)
+Here are our three most popular posts; match their feel.
+
+## 解析
+「親切活潑」每個品牌都這樣說，AI 還是寫不出「你們的味道」。直接給真實貼文當範例，最能對準品牌感覺。
+## Why
+Every brand says "friendly and lively". Real posts as examples are what pin down your brand's voice.
+
+## 提示
+用形容詞描述，還是直接拿給它看？
+## Hint
+Describe it with adjectives, or show it?
+
+# 評估新網站 | Website Review
+答案：A
+
+## 情境
+你要請 AI 評估新版網站。四句裡有三句是參考、限制或比較基準。
+## Scenario
+You want AI to review the new website. Three lines are references, limits or baselines.
+
+## 問題
+四句裡有一句不是 R「參考與限制」，是哪一句？
+## Question
+One of these is NOT R (Refer: examples, limits, benchmarks). Which one?
+
+## A
+先找出問題，再依嚴重程度排序。
+## A (EN)
+Find the problems first, then rank by severity.
+
+## B
+請拿舊版網站當比較基準。
+## B (EN)
+Use the old site as the baseline.
+
+## C
+不能建議需要改後台程式的做法。
+## C (EN)
+Don't suggest anything that needs backend changes.
+
+## D
+參考兩家大型電商的結帳流程來比。
+## D (EN)
+Compare with two big online shops' checkout flows.
+
+## 解析
+「先找問題再排序」是在安排做事順序，屬於 S。舊版當基準、不能改後台、參考別家結帳，都是 R。
+## Why
+"Find, then rank" orders the work (S). The old site as a baseline, no backend changes and other shops' checkouts are R.
+
+## 提示
+哪一句在講「先後順序」？
+## Hint
+Which line is about order of work?
+
+# 改寫請假規定 | Rewrite the Rules
+答案：C
+
+## 情境
+你要請 AI 把公司的請假規定改寫得好讀一點，給新人看。
+## Scenario
+You want AI to rewrite the leave policy so new staff can read it easily.
+
+## 問題
+哪一句才是 R「參考與限制」？
+## Question
+Which line is R (Refer: examples, limits, benchmarks)?
+
+## A
+改寫成一問一答，每題不超過三行。
+## A (EN)
+Make it Q&A, each answer three lines max.
+
+## B
+新人看完要能自己算出還有幾天特休。
+## B (EN)
+New staff should be able to count their own leave.
+
+## C
+不能改動任何天數和金額，只改說法。
+## C (EN)
+Don't change any days or amounts — only the wording.
+
+## D
+原本的規定是十年前寫的，很多公文腔。
+## D (EN)
+The original is ten years old and very bureaucratic.
+
+## 解析
+「不能改天數和金額」是在劃一條 AI 不能越過的線，這是限制（R）。問答形式是 T，算得出特休是 O，十年前寫的是 C。
+## Why
+"Don't change days or amounts" is a line AI must not cross (R). Q&A is T, counting leave is O, the old wording is C.
+
+## 提示
+哪一句在說「不准」？
+## Hint
+Which line says "don't"?
+
+# 規章和法規不同 | Policy vs. Law
 答案：B
 
 ## 情境
-客戶留言一大堆，要分類。
+同仁問加班補休，AI 用一般勞基法回答，但公司規章其實給得比較多。
 ## Scenario
-You have a flood of customer comments to categorize.
+A colleague asked about comp time; AI answered from general labor law, but company policy gives more.
 
 ## 問題
-哪一句最好？
+最該補上哪一句？
 ## Question
-Which one is best?
+Which line should you add?
 
 ## A
-請把留言分類，要分幾類由你判斷。
+你是熟悉勞基法的資深人資專員。
 ## A (EN)
-Categorize the comments. You decide how many categories.
+You're a senior HR officer who knows labor law.
 
 ## B
-請把留言分成稱讚、抱怨、建議；例如「出貨太慢」算抱怨。
+以公司規章為準，和法規不同時要註明。
 ## B (EN)
-Sort comments into praise, complaint, suggestion; e.g. 'Shipping is slow' is a complaint.
+Company policy comes first; note where it differs from law.
 
 ## C
-請把留言分成正面和負面兩類。
+請用條列回答，最後附上條號。
 ## C (EN)
-Sort the comments into positive and negative.
+Answer in bullets, with article numbers at the end.
 
 ## D
-請把所有客戶留言整理好，分成稱讚、抱怨、建議三類，每一類再依數量排序。
+目標是讓同仁不必再跑來問人資。
 ## D (EN)
-Sort all the customer comments into praise, complaint and suggestion, and rank each group by count.
+The goal is that staff don't need to ask HR again.
 
 ## 解析
-分類加上一個例子，AI 分得最準。自己判斷類別會亂；正負兩類看不出建議；只給類別沒給例子，模糊的留言容易分錯。
+AI 拿錯了依據。指定「以公司規章為準」就是告訴它參考哪一份、以哪一份為基準。熟悉勞基法的角色反而會更偏向法規。
 ## Why
-Categories plus an example sort most accurately. AI-chosen categories vary, positive/negative hides suggestions, and without an example vague comments get misfiled.
+AI used the wrong source. "Company policy first" tells it what to rely on. A labor-law expert role would lean even more on the law.
 
 ## 提示
-分類規則可以舉例嗎？
+AI 是根據哪一份資料回答的？
 ## Hint
-Can you give an example of the rule?
-
-# 保留數字 | Keep the Numbers
-答案：A
-
-## 情境
-你想潤飾一段文字，裡面有日期和金額。
-## Scenario
-You want to polish text that contains dates and amounts.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請潤飾這段文字，但不要改動任何數字和日期。
-## A (EN)
-Polish this text, but don't change any numbers or dates.
-
-## B
-請潤飾這段文字，讓它更專業、更流暢。
-## B (EN)
-Polish this text to be more professional and fluent.
-
-## C
-請潤飾這段文字，數字可以改成約略值比較好讀。
-## C (EN)
-Polish this text, and round the numbers so they're easier to read.
-
-## D
-請把這段文字重寫一遍，意思差不多就好。
-## D (EN)
-Rewrite this text. Roughly the same meaning is fine.
-
-## 解析
-說出「不要改什麼」，重要資訊才不會被改掉。只說更專業、改成約略值、意思差不多，都可能動到數字和日期。
-## Why
-Saying what not to change protects key info. 'More professional', rounding or 'roughly the same' can all alter numbers and dates.
-
-## 提示
-哪些東西一定不能動？
-## Hint
-What must stay untouched?
-
-# 沿用格式 | Reuse the Format
-答案：D
-
-## 情境
-今年要寫活動報告。
-## Scenario
-You need this year's event report.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請寫今年的活動報告，格式要新穎、跟以前不一樣。
-## A (EN)
-Write this year's event report in a fresh format, different from before.
-
-## B
-請寫今年的活動報告，內容越豐富越好。
-## B (EN)
-Write this year's event report with as much content as possible.
-
-## C
-請直接把去年的報告改個日期當今年的。
-## C (EN)
-Just change the date on last year's report and use it.
-
-## D
-請參考去年的活動報告格式，寫今年的報告。
-## D (EN)
-Follow last year's event report format for this year's report.
-
-## 解析
-沿用參考格式，報告前後一致，主管也好比較。新格式沒辦法比較；內容豐富沒有格式；只改日期就是舊報告。
-## Why
-Reusing the format keeps reports consistent and comparable. A new format can't be compared, 'rich content' has no format, and changing the date is the old report.
-
-## 提示
-有沒有現成格式可以沿用？
-## Hint
-Is there an existing format to reuse?
-
-# 員工旅遊 | Company Trip
-答案：C
-
-## 情境
-要規劃員工旅遊。
-## Scenario
-You're planning a company outing.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請推薦三個最多人去、評價最好的員工旅遊地點。
-## A (EN)
-Suggest three of the most popular, best-rated company trip spots.
-
-## B
-請推薦三個員工旅遊地點，預算不是問題。
-## B (EN)
-Suggest three company trip spots. Budget isn't an issue.
-
-## C
-員工旅遊每人預算 3000 元以內，請推薦三個地點。
-## C (EN)
-Budget is under 3,000 NTD per person. Suggest three destinations for a company outing.
-
-## D
-請推薦三個員工旅遊地點，越便宜越好。
-## D (EN)
-Suggest three company trip spots, the cheaper the better.
-
-## 解析
-預算是限制條件，要講清楚數字。最熱門可能超預算；「不是問題」不符合事實；越便宜越好可能品質太差。
-## Why
-The budget is a constraint; give the number. Popular may exceed it, 'not an issue' isn't true, and cheapest may be poor quality.
-
-## 提示
-有什麼限制是 AI 要知道的？
-## Hint
-What limits does AI need to know?
+Which source did AI rely on?

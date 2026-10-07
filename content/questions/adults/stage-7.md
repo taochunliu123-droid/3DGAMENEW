@@ -4,351 +4,352 @@ stage: 7
 ---
 
 <!--
-第 7 關：魔王關（成人版）｜Stage 7: Boss (Adults)
+魔王關：ACTORS 綜合（成人版）｜Boss: ACTORS Mix (Adults)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 歡迎信 | Welcome Letter
-答案：D
-
-## 情境
-HR 要寫歡迎信給新同事。
-## Scenario
-HR is writing a welcome letter to a new colleague.
-
-## 問題
-哪一個問法最完整？
-## Question
-Which prompt is most complete?
-
-## A
-請寫一封溫暖、專業、讓新同事感動的歡迎信。
-## A (EN)
-Write a warm, professional welcome letter that moves the new colleague.
-
-## B
-我是 HR，請寫一封歡迎信，盡量完整，提到公司所有福利。
-## B (EN)
-I'm in HR. Write a welcome letter covering all company benefits in full.
-
-## C
-請寫一封 300 字以內的歡迎信，語氣要溫暖。
-## C (EN)
-Write a warm welcome letter under 300 words.
-
-## D
-我是 HR，請寫新同事歡迎信，語氣溫暖、300 字內，並提醒第一天 9 點報到。
-## D (EN)
-I'm in HR. Write a warm welcome letter for a new colleague, under 300 words, reminding them to report at 9 a.m. on day one.
-
-## 解析
-任務、背景、語氣、長度、必要資訊都有，一次到位。形容詞不是資訊；所有福利太長；少了報到時間這個必要資訊。
-## Why
-Task, background, tone, length and must-have info. Adjectives aren't info, every benefit is too long, and one option misses the 9 a.m. start.
-
-## 提示
-哪一句 ACTORS 元素最多又最清楚？
-## Hint
-Which one has the most ACTORS parts, stated clearly?
-
-# 找不到的研究 | Missing Study
-答案：C
-
-## 情境
-AI 引用了一份你查不到的研究。
-## Scenario
-AI cited a study you can't find.
-
-## 問題
-下一步最好怎麼做？
-## Question
-What's the best next step?
-
-## A
-AI 引用的應該有根據，我直接放進報告。
-## A (EN)
-AI probably has a source, so I'll put it straight into the report.
-
-## B
-請把這份研究的結論改寫得更有說服力。
-## B (EN)
-Rewrite this study's conclusion to be more persuasive.
-
-## C
-請提供這份研究的出處；找不到就標示為「無法確認」。
-## C (EN)
-Give me the source for this study; if you can't find it, mark it 'unverified'.
-
-## D
-請再多找幾份結論類似的研究，一起放進報告裡來支持這個論點。
-## D (EN)
-Find a few more studies with similar conclusions and add them all to the report to back this up.
-
-## 解析
-AI 可能編造資料，要求出處，找不到就不要用。直接用、改寫、找更多「類似研究」，都可能讓假資料更多。
-## Why
-AI can invent sources. Ask for one and drop it if unverified. Using it, rewriting it or finding 'similar studies' can multiply fake data.
-
-## 提示
-這份資料可以直接用嗎？
-## Hint
-Can you use this data as-is?
-
-# 太籠統 | Too Vague
+# 缺哪一塊？ | What's Missing?
 答案：B
 
 ## 情境
-AI 給的建議太籠統，用不上。
+同事的 prompt：「你是資深人資。我們公司 50 人，下個月要辦新人訓練。請用條列、語氣親切。參考附件去年的課表。先列大綱，我確認後再寫。」
 ## Scenario
-AI's advice is too vague to use.
+A colleague's prompt: "You're a senior HR lead. We have 50 staff and run onboarding next month. Use bullets, friendly tone. Refer to last year's schedule attached. Outline first; write after I approve."
 
 ## 問題
-下一句怎麼說最好？
+以 ACTORS 來看，這段 prompt 少了哪一塊？
 ## Question
-What should you say next?
+By ACTORS, which part is missing?
 
 ## A
-請再詳細一點，多給我一些建議。
+C 背景：沒說公司和新人狀況
 ## A (EN)
-More detail, please. Give me more suggestions.
+C 背景: no company or new-hire context
 
 ## B
-請針對我們 20 人的門市，給 3 個本週就能做的具體做法。
+O 目標：沒說訓練要達成什麼
 ## B (EN)
-For our 20-person retail store, give 3 specific actions we can take this week.
+O 目標: no goal for the training
 
 ## C
-請用更專業的角度重新回答一次。
+R 參考：沒有範本或任何限制
 ## C (EN)
-Answer again from a more professional angle.
+R 參考: no sample or limits
 
 ## D
-請給我 10 個國際知名企業都在用的業界最佳實務做法，越詳細越好。
+S 步驟：沒有安排順序或確認
 ## D (EN)
-Give me 10 best practices used by famous global companies, in as much detail as possible.
+S 步驟: no order or checkpoint
 
 ## 解析
-補上你的情況和「具體、本週可做」，建議才能落地。多給、更專業、業界最佳實務，都還是通用建議。
+角色（資深人資）、背景（50 人、下個月）、風格（條列、親切）、參考（去年課表）、步驟（先大綱）都有，唯獨沒說訓練完新人要能做到什麼。
 ## Why
-Adding your situation and 'specific, this week' makes it actionable. More, more professional or best practices are still generic.
+Role, context, style, reference and steps are all there. It never says what new hires should be able to do afterward.
 
 ## 提示
-要怎麼讓建議變具體？
+一個字母一個字母對對看。
 ## Hint
-How do you make advice concrete?
+Check the prompt letter by letter.
 
-# 機密資料 | Confidential Data
-答案：A
-
-## 情境
-你想請 AI 摘要一份客戶合約。
-## Scenario
-You want AI to summarize a client contract.
-
-## 問題
-哪個做法最好？
-## Question
-What's the best approach?
-
-## A
-先把客戶名稱、金額等機密資訊遮掉，再貼給 AI。
-## A (EN)
-First mask client names, amounts and other confidential details, then paste it.
-
-## B
-只貼合約的前半段，有金額的後半段就不貼。
-## B (EN)
-Paste only the first half; skip the part with amounts.
-
-## C
-貼上完整合約，最後加一句「請保密」。
-## C (EN)
-Paste the full contract and add 'please keep this confidential'.
-
-## D
-貼上完整合約，用完再把對話刪掉就好。
-## D (EN)
-Paste the full contract and delete the chat afterward.
-
-## 解析
-機密資料先去識別化再使用，才能保護客戶和公司。只貼一半可能還有客戶名稱；叫 AI 保密、事後刪對話都收不回已送出的資料。
-## Why
-De-identify confidential data first. Half the contract may still name the client, and asking for secrecy or deleting later can't recall what was sent.
-
-## 提示
-貼給 AI 之前要先做什麼？
-## Hint
-What should you do before pasting?
-
-# 文案太長 | Copy Too Long
+# 貼錯標籤 | Wrong Label
 答案：D
 
 ## 情境
-AI 寫的文案太長，但第一句很好。
+同事把 prompt 拆成四句，各貼上一個 ACTORS 標籤。
 ## Scenario
-AI's copy is too long, but the first sentence is great.
+A colleague split a prompt into four lines and labeled each with an ACTORS letter.
 
 ## 問題
-下一句怎麼說最好？
+哪一個標籤貼錯了？
 ## Question
-What should you say next?
+Which label is wrong?
 
 ## A
-請縮短一點。
+A：你是有十年經驗的業務主管
 ## A (EN)
-Make it a bit shorter.
+A: You're a sales lead with ten years' experience
 
 ## B
-請重新寫一個比較短、比較精簡、比較有力的版本。
+C：這次要賣的是企業版方案
 ## B (EN)
-Please rewrite a shorter, tighter, punchier version of the whole thing for me.
+C: This time we're selling the enterprise plan
 
 ## C
-請把整段縮短成 30 字以內。
+T：請用三點條列，口氣直接
 ## C (EN)
-Shorten the whole thing to under 30 words.
+T: Three bullets, direct tone
 
 ## D
-請保留第一句，其餘縮短成 30 字以內。
+O：照附件那份提案的架構來寫
 ## D (EN)
-Keep the first sentence and shorten the rest to under 30 words.
+O: Follow the structure of the attached proposal
 
 ## 解析
-說清楚保留什麼、改成多長，一次就改對。「短一點」沒有標準；重寫、整段縮短都可能把你喜歡的第一句改掉。
+「照附件提案的架構」是拿範本當參考，應該是 R，不是 O（目標）。其他三個標籤都貼對了。
 ## Why
-Say what to keep and how short. 'A bit shorter' has no standard; rewriting or shortening everything may lose the first sentence you liked.
+"Follow the attached structure" uses a model, so it's R, not O. The other three labels are right.
 
 ## 提示
-哪裡要留？改成多長？
+每一句真的在做標籤說的那件事嗎？
 ## Hint
-What stays, and how short?
+Does each line really do what its label says?
 
-# 總額怪怪的 | Odd Total
-答案：C
-
-## 情境
-AI 算出來的總額看起來不對。
-## Scenario
-AI's total looks wrong.
-
-## 問題
-下一句怎麼說最好？
-## Question
-What should you say next?
-
-## A
-請再算一次，確認一下。
-## A (EN)
-Calculate it again to confirm.
-
-## B
-你算錯了，請重新計算，並直接給我正確的總額。
-## B (EN)
-You got it wrong. Recalculate and just give me the correct total, please.
-
-## C
-請列出計算過程，讓我逐項核對。
-## C (EN)
-Show the calculation step by step so I can check each item.
-
-## D
-請把總額四捨五入到千位就好。
-## D (EN)
-Just round the total to the nearest thousand.
-
-## 解析
-看到計算過程，才能找出哪一步錯，也能確認結果。再算一次可能錯在同一個地方；只要總額還是無法核對；四捨五入沒解決問題。
-## Why
-Seeing the steps shows where it went wrong. Recalculating may repeat the error, a new total still can't be checked, and rounding fixes nothing.
-
-## 提示
-要怎麼確認數字對不對？
-## Hint
-How can you confirm the number?
-
-# 提案演練 | Pitch Rehearsal
-答案：B
-
-## 情境
-明天要向客戶提案。
-## Scenario
-You're pitching to a client tomorrow.
-
-## 問題
-哪一句最能幫你準備？
-## Question
-Which one helps you prepare most?
-
-## A
-請看看我的提案，多給一些正面的回饋和鼓勵，讓我明天更有信心上台。
-## A (EN)
-Look at my proposal and give lots of positive feedback and encouragement so I feel confident tomorrow.
-
-## B
-請扮演挑剔的客戶，指出這份提案最可能被拒絕的 3 個原因。
-## B (EN)
-Play a tough client and point out the 3 most likely reasons this proposal gets rejected.
-
-## C
-請幫我把提案的文字修得更漂亮。
-## C (EN)
-Polish the wording of my proposal.
-
-## D
-請列出一份好提案應該具備的 10 個要素。
-## D (EN)
-List 10 things every good proposal should have.
-
-## 解析
-讓 AI 從客戶角度挑毛病，能提前補強弱點。正面回饋、修文字、通用要素，都找不出這份提案的問題。
-## Why
-Having AI critique as the client exposes weaknesses early. Praise, polishing or a generic checklist won't find this proposal's problems.
-
-## 提示
-誰的角度最能找出問題？
-## Hint
-Whose view finds problems best?
-
-# 給主管的數據 | Data for Your Manager
+# 道歉信少了什麼 | Apology Gap
 答案：A
 
 ## 情境
-附件是上季銷售數據，要給主管看。
+prompt：「你是公關經理。請寫一封道歉信，語氣誠懇、三段以內。目標是讓客戶願意繼續合作。不要承諾賠償金額。先寫草稿，再自己檢查一次語氣。」
 ## Scenario
-The attachment is last quarter's sales data for your manager.
+Prompt: "You're a PR manager. Write an apology, sincere, three paragraphs max. Goal: the client keeps working with us. Don't promise compensation amounts. Draft first, then check the tone yourself."
 
 ## 問題
-哪一個問法最完整？
+以 ACTORS 來看，這段 prompt 少了哪一塊？
 ## Question
-Which prompt is most complete?
+By ACTORS, which part is missing?
 
 ## A
-根據附件數據，用表格列出上季前 3 名產品，並用一句話說明原因。
+C 背景：沒說到底發生了什麼事
 ## A (EN)
-From the attached data, make a table of last quarter's top 3 products, with one sentence on why.
+C 背景: never says what happened
 
 ## B
-請分析附件的所有銷售數據，把每一項發現都寫成一份完整、詳細的報告。
+A 演誰：沒說 AI 要扮演誰
 ## B (EN)
-Analyze all the attached sales data and write up every single finding in a complete, detailed report.
+A 演誰: no role for AI
 
 ## C
-請根據附件數據，告訴我哪個產品賣最好。
+R 參考：沒有範本或任何限制
 ## C (EN)
-From the attached data, tell me which product sold best.
+R 參考: no sample or limits
 
 ## D
-請用表格列出上季的前 3 名產品。
+S 步驟：沒有安排順序或確認
 ## D (EN)
-Make a table of last quarter's top 3 products.
+S 步驟: no order or checkpoint
 
 ## 解析
-資料來源、格式、範圍、說明方式都有，主管一看就懂。完整報告太長；只問賣最好少了格式和原因；沒說依據附件、也沒說明原因。
+它什麼都有，就是沒說客戶為什麼生氣。少了背景，再好的角色和步驟也只能寫出空泛的道歉。「不要承諾金額」就是 R。
 ## Why
-Source, format, scope and explanation. A full report is too long, 'best seller' lacks format and reasons, and one option has no source or why.
+Everything is there except what went wrong. Without context, even a great role and steps give a hollow apology. "No amounts" is R.
 
 ## 提示
-資料、格式、範圍都說了嗎？
+AI 知道要為「什麼事」道歉嗎？
 ## Hint
-Did you state data, format and scope?
+Does AI know what it's apologizing for?
+
+# 一句兩用 | Two in One
+答案：C
+
+## 情境
+「你是帶過新創團隊的財務長，請用白話、條列的方式回答。」
+## Scenario
+"You're a CFO who has led startup teams; answer in plain words and bullets."
+
+## 問題
+這一句同時做到哪兩個字母？
+## Question
+Which two letters does this line cover?
+
+## A
+A 演誰 ＋ C 背景
+## A (EN)
+A (Act) + C (Content)
+
+## B
+C 背景 ＋ T 風格
+## B (EN)
+C (Content) + T (Style)
+
+## C
+A 演誰 ＋ T 風格
+## C (EN)
+A (Act) + T (Style)
+
+## D
+A 演誰 ＋ O 目標
+## D (EN)
+A (Act) + O (Goal)
+
+## 解析
+「你是…財務長」是 A；「白話、條列」是語氣加格式，屬於 T。「帶過新創團隊」是在描述角色，不是在交代你的背景。
+## Why
+"You're a CFO" is A; "plain words, bullets" is T. "Led startup teams" describes the role, not your situation.
+
+## 提示
+「帶過新創團隊」是在說誰？
+## Hint
+Who does "led startup teams" describe?
+
+# 財報一句話 | One Line on Financials
+答案：D
+
+## 情境
+「只根據附件的財報，先算出毛利率，再跟去年同期比較。」
+## Scenario
+"Using only the attached financials, first compute gross margin, then compare with last year."
+
+## 問題
+這一句同時做到哪兩個字母？
+## Question
+Which two letters does this line cover?
+
+## A
+C 背景 ＋ S 步驟
+## A (EN)
+C (Content) + S (Steps)
+
+## B
+R 參考與限制 ＋ T 風格
+## B (EN)
+R (Refer) + T (Style)
+
+## C
+C 背景 ＋ O 目標
+## C (EN)
+C (Content) + O (Goal)
+
+## D
+R 參考與限制 ＋ S 步驟
+## D (EN)
+R (Refer) + S (Steps)
+
+## 解析
+「只根據附件」是限制資料來源，屬於 R；「先算…再比較」是安排順序，屬於 S。這句沒有真的把財報內容給出來，所以不算 C。
+## Why
+"Only the attached" limits the source (R); "first… then compare" orders the work (S). It doesn't supply the data itself, so it isn't C.
+
+## 提示
+「只根據」是在給資料，還是在劃界線？
+## Hint
+Is "only from" giving data or drawing a line?
+
+# 又貼錯了 | Mislabeled Again
+答案：A
+
+## 情境
+另一位同事也替 prompt 貼了 ACTORS 標籤。
+## Scenario
+Another colleague labeled a prompt with ACTORS letters.
+
+## 問題
+哪一個標籤貼錯了？
+## Question
+Which label is wrong?
+
+## A
+A：我是剛升遷的業務經理
+## A (EN)
+A: I'm a newly promoted sales manager
+
+## B
+C：客戶上週剛換了採購窗口
+## B (EN)
+C: The client changed its buyer last week
+
+## C
+T：用表格，一列一位客戶
+## C (EN)
+T: A table, one row per client
+
+## D
+S：先分等級，再排拜訪順序
+## D (EN)
+S: Rank clients first, then plan visit order
+
+## 解析
+「我是剛升遷的業務經理」說的是你自己，屬於背景（C）。A 是請 AI 扮演誰，主詞應該是「你」。
+## Why
+"I'm a newly promoted manager" is about you (C). A tells AI who to be, so the subject is "you".
+
+## 提示
+「我是」和「你是」差在哪？
+## Hint
+What's the difference between "I am" and "you are"?
+
+# 只給角色 | Role Only
+答案：C
+
+## 情境
+你的 prompt 只有一句：「你是頂尖行銷專家，幫我寫新品貼文。」AI 寫出一篇很普通的貼文。
+## Scenario
+Your whole prompt: "You're a top marketing expert; write a post for our new product." The result is bland.
+
+## 問題
+以 ACTORS 來看，最該先補哪一塊？
+## Question
+By ACTORS, what should you add first?
+
+## A
+A 演誰：換一個更厲害的專家
+## A (EN)
+A 演誰: an even better expert
+
+## B
+T 風格：指定語氣和字數
+## B (EN)
+T 風格: set tone and length
+
+## C
+C 背景：產品是什麼、賣給誰
+## C (EN)
+C 背景: what the product is, who buys it
+
+## D
+S 步驟：先列三個標題再寫
+## D (EN)
+S 步驟: three headlines first, then write
+
+## 解析
+再厲害的專家，不知道產品是什麼、賣給誰，也只能寫通用文案。角色已經有了，缺的是背景。
+## Why
+Even the best expert writes generic copy without knowing the product and buyer. The role is there; context is missing.
+
+## 提示
+專家寫得普通，是因為不夠厲害，還是因為不知道？
+## Hint
+Is the expert bland from lack of skill, or lack of facts?
+
+# 科展計畫 | Science Fair Plan
+答案：B
+
+## 情境
+prompt：「你是國小自然老師。我女兒四年級，要做綠豆發芽的科展。目標是她能自己做完、看得懂。請用簡單的話，做成一張表。參考學校的科展評分表。」
+## Scenario
+Prompt: "You're an elementary science teacher. My daughter is in 4th grade, doing a bean-sprout project. Goal: she can do it herself and understand it. Simple words, one table. Refer to the school's rubric."
+
+## 問題
+以 ACTORS 來看，這段 prompt 少了哪一塊？
+## Question
+By ACTORS, which part is missing?
+
+## A
+O 目標：沒說怎樣才算做好
+## A (EN)
+O 目標: no success criteria
+
+## B
+S 步驟：沒安排順序和檢查點
+## B (EN)
+S 步驟: no order or checkpoints
+
+## C
+T 風格：沒指定語氣和格式
+## C (EN)
+T 風格: no tone or format
+
+## D
+R 參考：沒有範本或任何限制
+## D (EN)
+R 參考: no sample or limits
+
+## 解析
+A（自然老師）、C（四年級、綠豆）、O（自己做完、看得懂）、T（簡單的話、一張表）、R（評分表）都有，缺的是要 AI 怎麼一步步做、哪裡要確認。
+## Why
+A, C, O, T and R are all there. What's missing is how AI should work step by step and where to check.
+
+## 提示
+「做成一張表」是成品格式，不是工作流程。
+## Hint
+"One table" is output format, not process.

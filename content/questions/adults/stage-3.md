@@ -4,351 +4,352 @@ stage: 3
 ---
 
 <!--
-第 3 關：T 指定風格（成人版）｜Stage 3: T · Style (Adults)
+第 3 關：T 風格（成人版）｜Stage 3: T · Style (Adults)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 向主管報告 | Update Your Manager
-答案：D
-
-## 情境
-主管很忙，只想快速知道進度。
-## Scenario
-Your manager is busy and wants progress fast.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請用詳細完整的方式，把每個細節都向主管報告。
-## A (EN)
-Report every detail to my manager thoroughly.
-
-## B
-請用輕鬆聊天的語氣，像朋友一樣向主管報告進度。
-## B (EN)
-Report progress in a casual, chatty tone, like talking to a friend.
-
-## C
-請把進度做成 10 頁簡報，向主管報告。
-## C (EN)
-Turn the progress into a 10-slide deck for my manager.
-
-## D
-請用正式、簡潔的語氣，三句話向主管報告進度。
-## D (EN)
-In a formal, concise tone, report progress to my manager in three sentences.
-
-## 解析
-主管很忙，指定正式、簡潔、三句話，30 秒就看完。每個細節、10 頁簡報太長；聊天語氣不夠正式。
-## Why
-A busy manager needs formal, concise, three sentences. Every detail or 10 slides is too long; chatty isn't formal enough.
-
-## 提示
-主管喜歡什麼樣的報告？
-## Hint
-What kind of report does your manager like?
-
-# 比較廠商 | Compare Vendors
-答案：C
-
-## 情境
-你要比較三家廠商。
-## Scenario
-You need to compare three vendors.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請分別寫三段文字，介紹三家廠商的特色。
-## A (EN)
-Please write three paragraphs introducing each vendor.
-
-## B
-請用表格比較三家廠商，欄位你自己決定，最好把你覺得重要的都列進去。
-## B (EN)
-Compare the three vendors in a table. You choose the columns; include whatever you think matters.
-
-## C
-請用表格比較三家廠商：價格、交期、售後服務。
-## C (EN)
-Compare the three vendors in a table: price, lead time, after-sales service.
-
-## D
-請直接告訴我該選哪一家，不用說明原因。
-## D (EN)
-Just tell me which vendor to pick. No reasons needed.
-
-## 解析
-表格加上你在乎的欄位，比較才一目了然。三段文字不好對照；欄位讓 AI 決定可能漏掉交期；只給答案看不到依據。
-## Why
-A table with your columns makes it instant. Paragraphs are hard to compare, AI-chosen columns may skip lead time, and a bare answer has no basis.
-
-## 提示
-什麼格式最適合比較？
-## Hint
-What format suits comparison?
-
-# IG 貼文 | Instagram Post
+# 施工公告 | Construction Notice
 答案：B
 
 ## 情境
-品牌要在 IG 宣傳週年活動。
+你要請 AI 寫一則公司停車場施工的公告。
 ## Scenario
-The brand is promoting its anniversary on Instagram.
+You want AI to write a notice about parking-lot construction.
 
 ## 問題
-哪一句最好？
+哪一句才是 T「風格」？
 ## Question
-Which one is best?
+Which line is T (Style: tone & format)?
 
 ## A
-請用正式新聞稿的格式寫 IG 貼文，顯得專業。
+你是行政部負責對內公告的專員。
 ## A (EN)
-Write the Instagram post as a formal press release to look professional.
+You're the admin officer in charge of internal notices.
 
 ## B
-請用輕鬆活潑、加上表情符號的語氣寫 IG 貼文。
+用條列寫，重點放前面，口氣客氣。
 ## B (EN)
-Write an Instagram post in a light, lively tone with emojis.
+Use bullets, key info first, polite tone.
 
 ## C
-請寫一篇 IG 貼文，把活動所有細節都寫進去。
+施工期間是十月十日到十月二十日。
 ## C (EN)
-Write an Instagram post that includes every event detail.
+Work runs from Oct 10 to Oct 20.
 
 ## D
-請用和官網一樣的產品說明文字寫 IG 貼文。
+請參考上次電梯維修的那則公告。
 ## D (EN)
-Write the Instagram post using the same text as our website.
+Refer to the notice from the last elevator repair.
 
 ## 解析
-IG 的語氣輕鬆活潑，要明講。新聞稿、官網說明太硬；寫進所有細節太長，沒人會看完。
+條列、重點在前、口氣客氣，都在說成品長什麼樣子、怎麼說話，這就是 T。其他三句分別是 A、C、R。
 ## Why
-Instagram is light and lively; say so. A press release or website text is stiff, and every detail is too long to read.
+Bullets, key info first and a polite tone describe how the result looks and sounds (T). The others are A, C and R.
 
 ## 提示
-IG 上的貼文通常是什麼感覺？
+哪一句在描述「成品的樣子」？
 ## Hint
-What do Instagram posts usually feel like?
+Which line describes what the result looks like?
 
-# 簡報大綱 | Slide Outline
-答案：A
-
-## 情境
-你要做一份 10 頁簡報。
-## Scenario
-You need a 10-slide deck.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請整理成 10 頁簡報大綱，每頁一個標題加 3 個重點。
-## A (EN)
-Turn this into a 10-slide outline, each with a title and 3 points.
-
-## B
-請把內容整理成一篇 3000 字的完整報告。
-## B (EN)
-Please turn this into a complete 3,000-word report.
-
-## C
-請整理成簡報大綱，頁數和內容你看著辦。
-## C (EN)
-Please make a slide outline. Pages and content are up to you.
-
-## D
-請整理成 10 頁簡報，每一頁都放滿文字。
-## D (EN)
-Please make 10 slides, each packed with text.
-
-## 解析
-指定頁數和每頁結構，拿到就能開始做投影片。報告不是簡報；「看著辦」頁數不受控；每頁放滿文字不好講。
-## Why
-Slide count and structure let you start building. A report isn't slides, 'up to you' has no control, and packed slides are hard to present.
-
-## 提示
-每一頁要長什麼樣子？
-## Hint
-What should each slide look like?
-
-# 跟爸媽解釋 | Explain to Parents
+# 專案週報 | Weekly Report
 答案：D
 
 ## 情境
-你要跟爸媽解釋什麼是雲端硬碟。
+你要請 AI 整理專案週報。四句裡有三句在說語氣或格式。
 ## Scenario
-You need to explain cloud storage to your parents.
+You want AI to write a project weekly report. Three lines set tone or format.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 T「風格」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT T (Style: tone & format). Which one?
 
 ## A
-請用精確的技術用語，完整解釋雲端硬碟的運作原理。
+用表格呈現，欄位是項目、進度、風險。
 ## A (EN)
-Explain precisely how cloud storage works using technical terms.
+Use a table: item, progress, risk.
 
 ## B
-請用白話解釋雲端硬碟，並附上 5 個英文專有名詞。
+每個項目一句話說完，不用形容詞。
 ## B (EN)
-Explain cloud storage in plain words and include 5 technical terms.
+One sentence per item, no adjectives.
 
 ## C
-請比較市面上所有雲端硬碟的價格和容量。
+語氣客觀，像在報告事實，不邀功。
 ## C (EN)
-Compare the prices and capacity of every cloud storage service.
+Neutral tone; report facts, don't brag.
 
 ## D
-請用沒有專業術語的白話，向爸媽解釋雲端硬碟。
+主管只想知道哪裡卡住、需要誰幫忙。
 ## D (EN)
-Explain cloud storage to my parents in plain words with no jargon.
+My manager only wants to know what's stuck and who can help.
 
 ## 解析
-說出對象和「不要術語」，爸媽才聽得懂。技術用語、附專有名詞都更難懂；比價格不是解釋。
+「主管只想知道哪裡卡住」是在說讀者需要什麼，屬於背景與目標，不是格式。其他三句都在規定怎麼呈現、怎麼說。
 ## Why
-Naming the audience and 'no jargon' makes it clear. Technical terms make it harder; comparing prices isn't explaining.
+"My manager wants to know what's stuck" is about the reader's need, not format. The other three set layout and tone.
 
 ## 提示
-聽的人熟悉電腦嗎？
+哪一句沒有規定「怎麼寫」？
 ## Hint
-Are the listeners tech-savvy?
+Which line doesn't say how to write it?
 
-# 會議通知 | Meeting Notice
-答案：C
-
-## 情境
-你要發一封會議通知。
-## Scenario
-You're sending a meeting notice.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請寫一段親切的文字，邀請大家來參加會議。
-## A (EN)
-Write a friendly paragraph inviting everyone to the meeting.
-
-## B
-請寫會議通知，越簡短越好，一句話就夠。
-## B (EN)
-Write a meeting notice as short as possible. One sentence is enough.
-
-## C
-請寫成會議通知：時間、地點、議程、需準備事項。
-## C (EN)
-Write it as a meeting notice: time, place, agenda, what to prepare.
-
-## D
-請把會議的背景和緣由詳細寫成通知。
-## D (EN)
-Write the notice explaining the meeting's background in detail.
-
-## 解析
-給固定欄位，通知才不會漏資訊。親切邀請、一句話都可能漏掉時間地點；背景寫太多，重點反而找不到。
-## Why
-Fixed fields mean nothing is missed. A friendly invite or one line may skip time and place; too much background buries the key info.
-
-## 提示
-會議通知一定要有哪些資訊？
-## Hint
-What info must a notice include?
-
-# 出錯道歉 | Apology for an Error
-答案：B
-
-## 情境
-專案出錯，你要向客戶道歉。
-## Scenario
-A project went wrong and you're apologizing to the client.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請用專業的語氣寫道歉信，說明錯誤是廠商造成的。
-## A (EN)
-Write a professional apology explaining the vendor caused the error.
-
-## B
-請用誠懇、不推卸責任的語氣寫道歉信。
-## B (EN)
-Write an apology in a sincere tone that takes responsibility.
-
-## C
-請用輕鬆幽默的語氣寫道歉信，緩和一下氣氛。
-## C (EN)
-Write a light, humorous apology to ease the mood.
-
-## D
-請寫一封簡短的道歉信，一句「抱歉造成不便」就好。
-## D (EN)
-Write a short apology. Just 'Sorry for the inconvenience' is enough.
-
-## 解析
-道歉的關鍵是語氣：誠懇、不推卸。怪廠商是推卸；幽默會像不在乎；一句罐頭話不夠誠意。
-## Why
-An apology is about tone: sincere, taking responsibility. Blaming the vendor deflects, humor seems careless, and a canned line isn't sincere.
-
-## 提示
-道歉最需要什麼態度？
-## Hint
-What attitude does an apology need?
-
-# 常見問題 | FAQ
+# 群組提醒太長 | Too Wordy
 答案：A
 
 ## 情境
-客服常被問同樣的問題。
+AI 幫你寫的群組提醒像一篇作文，同事都懶得看。
 ## Scenario
-Support keeps getting the same questions.
+The group reminder AI wrote reads like an essay, and nobody reads it.
 
 ## 問題
-哪一句最好？
+最該補上哪一句？
 ## Question
-Which one is best?
+Which line should you add?
 
 ## A
-請整理成 Q&A 格式，共 5 題。
+三行內，像同事傳訊息那樣。
 ## A (EN)
-Organize this as a Q&A with 5 questions.
+Three lines max, like a coworker's text.
 
 ## B
-請寫成一篇完整的說明文章，放在官網上。
+這是提醒大家週五前交出差旅單。
 ## B (EN)
-Write it as a full explanatory article for the website.
+It reminds everyone to submit travel forms by Friday.
 
 ## C
-請整理成 Q&A 格式，把想得到的問題都列出來。
+你是部門裡人緣最好的行政助理。
 ## C (EN)
-Put it in Q&A format and list every question you can think of.
+You're the most popular admin assistant in the team.
 
 ## D
-請寫成客服人員內部使用的作業手冊。
+寫完先檢查日期和連結有沒有錯。
 ## D (EN)
-Write it as an internal manual for support staff.
+Check the date and link before sending.
 
 ## 解析
-Q&A 讓客戶最快找到答案，限定題數才不會太長。說明文章不好找答案；問題全列太多；內部手冊不是給客戶看的。
+問題在長度和口氣，直接規定「三行以內、像傳訊息」最有效。內容、角色、檢查都改不了它寫成作文的習慣。
 ## Why
-Q&A helps customers find answers fast, and a set count keeps it short. An article hides answers, every question is too many, and a manual isn't for customers.
+The problem is length and tone, so set "three lines, like a text". Content, role or checks won't stop the essay style.
 
 ## 提示
-什麼格式最方便客戶找答案？
+問題出在內容，還是出在寫法？
 ## Hint
-What format helps customers find answers?
+Is the problem the content or the way it's written?
+
+# 商品頁 | Product Page
+答案：C
+
+## 情境
+你要請 AI 寫電動牙刷的商品頁。
+## Scenario
+You want AI to write a product page for an electric toothbrush.
+
+## 問題
+哪一句才是 T「風格」？
+## Question
+Which line is T (Style: tone & format)?
+
+## A
+照附件競品頁面的段落結構來寫。
+## A (EN)
+Follow the section layout of the competitor's page (attached).
+
+## B
+主要買家是第一次買電動牙刷的人。
+## B (EN)
+Most buyers are first-time electric toothbrush buyers.
+
+## C
+分三個小標題，語氣活潑但不誇張。
+## C (EN)
+Three subheadings; lively but no hype.
+
+## D
+讓讀者三十秒內看懂它跟別款差在哪。
+## D (EN)
+Readers should see how it differs within 30 seconds.
+
+## 解析
+「照競品頁面的結構」是拿別人的東西當範本，屬於 R。自己直接說出要怎麼分段、用什麼口氣，才是 T。
+## Why
+"Follow the competitor's layout" uses someone else's page as a model (R). Stating the sections and tone yourself is T.
+
+## 提示
+是自己說出格式，還是叫 AI 去照別人的？
+## Hint
+Do you state the format, or point AI at someone else's?
+
+# 老闆要一眼看懂 | At a Glance
+答案：D
+
+## 情境
+AI 整理的三個方案比較是三大段文字，老闆說他要「一眼看出差別」。
+## Scenario
+AI compared three options in three long paragraphs. The boss wants to see the difference at a glance.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+你是專門幫高層整理決策資料的資深顧問。
+## A (EN)
+You're a consultant who prepares decision briefs for executives.
+
+## B
+這三個方案的預算都在五百萬上下。
+## B (EN)
+All three options cost around NT$5M.
+
+## C
+目的是讓老闆今天開會就能拍板。
+## C (EN)
+The goal is for the boss to decide in today's meeting.
+
+## D
+改用表格，一列一方案，比成本和風險。
+## D (EN)
+Use a table, one row per option, comparing cost and risk.
+
+## 解析
+「一眼看出差別」是呈現方式的問題，換成表格最直接。目的和角色會讓內容更聚焦，但不保證不再是一大段文字。
+## Why
+"At a glance" is a presentation problem; a table fixes it directly. Goal and role sharpen content but may still give paragraphs.
+
+## 提示
+老闆不滿意的是內容，還是排版？
+## Hint
+Is the boss unhappy with content or layout?
+
+# 客服回信 | Support Reply
+答案：A
+
+## 情境
+你要請 AI 回覆一封客訴信。四句裡有三句在說語氣或格式。
+## Scenario
+You want AI to answer a complaint email. Three lines set tone or format.
+
+## 問題
+四句裡有一句不是 T「風格」，是哪一句？
+## Question
+One of these is NOT T (Style: tone & format). Which one?
+
+## A
+你是溫柔、有耐心的資深客服人員。
+## A (EN)
+You're a gentle, patient senior support agent.
+
+## B
+開頭先道歉，誠懇但不卑躬屈膝。
+## B (EN)
+Open with an apology, sincere but not groveling.
+
+## C
+用短句，不要用「敬啟者」這類公文腔。
+## C (EN)
+Short sentences; no stiff "Dear Sir or Madam" language.
+
+## D
+最後用一句話寫出下一步怎麼處理。
+## D (EN)
+End with one sentence on the next step.
+
+## 解析
+「溫柔、有耐心」聽起來像語氣，但整句是在指定 AI 扮演誰，屬於 A。其他三句才是在規定語氣和格式。
+## Why
+"Gentle, patient" sounds like tone, but the line casts AI as someone (A). The other three set tone and format.
+
+## 提示
+有形容詞不代表就是 T，看看句子在講誰。
+## Hint
+Adjectives don't make it T — check who the line is about.
+
+# 操作說明 | How-To Guide
+答案：C
+
+## 情境
+你要請 AI 寫報帳系統的操作說明給新人。
+## Scenario
+You want AI to write an expense-system guide for new staff.
+
+## 問題
+哪一句才是 T「風格」？
+## Question
+Which line is T (Style: tone & format)?
+
+## A
+讀者是第一次用這套系統的新同仁。
+## A (EN)
+Readers are new staff using the system for the first time.
+
+## B
+先列出所有步驟，再逐一檢查有沒有漏。
+## B (EN)
+First list all steps, then check none are missing.
+
+## C
+用編號步驟，每步一句話，附按鈕名稱。
+## C (EN)
+Numbered steps, one sentence each, with button names.
+
+## D
+新人不用問人就能自己報完帳才算好。
+## D (EN)
+It's good when new staff can file expenses without asking anyone.
+
+## 解析
+「用編號步驟」是在說成品長什麼樣子（T）。「先列出步驟再檢查」是 AI 的工作流程（S）——兩句都有「步驟」，意思卻不同。
+## Why
+"Numbered steps" describes the output (T). "List steps, then check" is AI's process (S). Both say "steps" but mean different things.
+
+## 提示
+是在說「成品長怎樣」，還是「AI 怎麼做」？
+## Hint
+Is it about what the output looks like, or how AI works?
+
+# 尾牙主持稿 | Party Script
+答案：B
+
+## 情境
+AI 寫的尾牙主持稿像新聞稿，一點也不熱鬧。
+## Scenario
+The year-end party script AI wrote sounds like a press release.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+今年尾牙在飯店舉辦，大約有兩百位同事。
+## A (EN)
+The party is at a hotel with about 200 staff.
+
+## B
+改成輕鬆搞笑的口語，可以夾一點台語。
+## B (EN)
+Make it casual and funny, with a bit of Taiwanese.
+
+## C
+請參考去年主持稿的流程順序。
+## C (EN)
+Follow the running order of last year's script.
+
+## D
+先寫開場，再寫抽獎，最後寫結尾。
+## D (EN)
+Write the opening, then the raffle, then the close.
+
+## 解析
+問題在口氣太正式，就直接指定口氣。場地人數、去年流程、寫作順序都不會讓稿子變熱鬧。
+## Why
+The tone is too formal, so set the tone. Venue, last year's order or writing sequence won't make it lively.
+
+## 提示
+哪一句會改變「說話的感覺」？
+## Hint
+Which line changes how it sounds?

@@ -4,351 +4,352 @@ stage: 7
 ---
 
 <!--
-第 7 關：魔王關（學生版）｜Stage 7: Boss (Kids)
+魔王關：ACTORS 綜合（學生版）｜Boss: ACTORS Mix (Kids)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 黑熊報告 | Black Bear Report
-答案：C
-
-## 情境
-你要跟同學報告台灣黑熊。
-## Scenario
-You'll tell classmates about the Formosan black bear.
-
-## 問題
-哪一個問法最完整？
-## Question
-Which prompt is most complete?
-
-## A
-請幫我寫一份台灣黑熊報告，要很完整、很詳細、很精彩。
-## A (EN)
-Please write a complete, detailed, exciting report on the Formosan black bear.
-
-## B
-我四年級，要跟同學報告台灣黑熊，請把網路上找得到的所有資料都整理給我。
-## B (EN)
-I'm in 4th grade reporting on the Formosan black bear to my class. Gather all the info you can find online for me.
-
-## C
-我四年級，要跟同學報告台灣黑熊，請用 5 點條列說明牠的特色，每點一句話。
-## C (EN)
-I'm in 4th grade and will tell my class about the Formosan black bear. List 5 features, one sentence each.
-
-## D
-請用 5 點條列說明台灣黑熊的特色，每一點都要寫很長。
-## D (EN)
-List 5 features of the Formosan black bear, with a long paragraph for each.
-
-## 解析
-正解有任務、背景、格式和長度。形容詞堆起來沒有資訊；「所有資料」太多；每點寫很長就報告不完。
-## Why
-The answer has task, background, format and length. Stacked adjectives say nothing, 'all the info' is too much, and long points won't fit a talk.
-
-## 提示
-哪一句把 ACTORS 用得最多又最清楚？
-## Hint
-Which one uses the most ACTORS parts clearly?
-
-# 企鵝住哪裡 | Where Penguins Live
+# 缺哪一塊？ | What's Missing?
 答案：B
 
 ## 情境
-AI 說「企鵝住在北極」，你覺得怪怪的。
+prompt：「你是很會說故事的老師。我妹妹五歲，最喜歡小狗。故事要讓她聽完想睡覺。請用溫柔的語氣。先寫大綱給我看，再寫完整故事。」
 ## Scenario
-AI says 'Penguins live at the North Pole.' That seems wrong.
+Prompt: "You're a teacher who tells great stories. My sister is five and loves puppies. The story should make her sleepy. Use a gentle tone. Show me an outline, then write it."
 
 ## 問題
-下一步最好怎麼做？
+以 ACTORS 來看，少了哪一塊？
 ## Question
-What's the best next step?
+By ACTORS, which part is missing?
 
 ## A
-AI 說的應該是對的，我直接寫進作業裡。
+A 演誰：沒說 AI 要扮演誰
 ## A (EN)
-AI is probably right, so I'll put it straight into my homework.
+A 演誰: no role for AI
 
 ## B
-請再確認企鵝住在哪裡，並告訴我可以去哪裡查證。
+R 參考：沒有例子，也沒有限制
 ## B (EN)
-Please double-check where penguins live and tell me where I can verify it.
+R 參考: no example and no limits
 
 ## C
-請把「企鵝住在北極」這句話改得更好聽一點。
+O 目標：沒說要達成什麼
 ## C (EN)
-Please make 'Penguins live at the North Pole' sound nicer.
+O 目標: no goal
 
 ## D
-請再多寫一點企鵝在北極生活的樣子，包括吃什麼、怎麼過冬。
+S 步驟：沒說要怎麼一步步做
 ## D (EN)
-Please write more about how penguins live at the North Pole, like what they eat and how they survive winter.
+S 步驟: no steps
 
 ## 解析
-AI 也會說錯（企鵝其實住在南半球）。覺得怪怪的，就請它再確認並自己查證。直接相信、美化、寫更多都會讓錯誤變多。
+老師（A）、妹妹五歲愛小狗（C）、溫柔（T）、聽完想睡（O）、先大綱再寫（S）都有，只少了例子或限制（R）。
 ## Why
-AI can be wrong (penguins live in the south). If it seems off, ask it to check and verify. Trusting, polishing or adding more spreads the error.
+A, C, T, O and S are all there. Only an example or a limit (R) is missing.
 
 ## 提示
-AI 說的一定對嗎？
+一個字母一個字母找。
 ## Hint
-Is AI always right?
+Check one letter at a time.
 
-# 太長看不完 | Too Long to Read
-答案：A
-
-## 情境
-AI 的回答太長，你看不完。
-## Scenario
-AI's answer is too long to read.
-
-## 問題
-下一句怎麼說最好？
-## Question
-What should you say next?
-
-## A
-請縮短成 3 句話，只留最重要的重點。
-## A (EN)
-Shorten it to 3 sentences with only the key points.
-
-## B
-請再寫一次，這次寫好一點。
-## B (EN)
-Please write it again, but better this time.
-
-## C
-請把回答分成很多段，每段都加上標題。
-## C (EN)
-Please split the answer into many sections with headings.
-
-## D
-請把回答中比較難的字都加上注音。
-## D (EN)
-Please add pronunciation guides to the hard words.
-
-## 解析
-說清楚要多短、留什麼，AI 才知道怎麼改。「寫好一點」沒有方向；分段加標題還是一樣長；加注音沒有變短。
-## Why
-Say how short and what to keep. 'Better' has no direction, sections with headings are just as long, and pronunciation guides don't shorten it.
-
-## 提示
-要改成多長？
-## Hint
-How short should it be?
-
-# 太多難字 | Too Many Hard Words
+# 貼錯標籤 | Wrong Label
 答案：D
 
 ## 情境
-AI 的回答用了很多你看不懂的字。
+同學把 prompt 拆成四句，各貼上一個 ACTORS 標籤。
 ## Scenario
-AI used lots of words you don't know.
+A classmate split a prompt into four lines and labeled each.
 
 ## 問題
-下一句怎麼說最好？
+哪一個標籤貼錯了？
 ## Question
-What should you say next?
+Which label is wrong?
 
 ## A
-請把剛剛的回答一模一樣再說一次。
+A：你是很熱心的圖書館員
 ## A (EN)
-Please say the same answer again exactly.
+A: You're a helpful librarian
 
 ## B
-請用更專業、更正式的說法再說一次。
+C：我下週要交讀書心得
 ## B (EN)
-Please say it again in more professional, formal words.
+C: My book report is due next week
 
 ## C
-請把回答寫得更長一點，解釋得更清楚。
+T：請用條列寫三個重點
 ## C (EN)
-Please write a longer answer that explains more.
+T: Three bullet points
 
 ## D
-請改用國小三年級看得懂的話再說一次。
+S：要讓老師覺得我有讀懂
 ## D (EN)
-Say it again in words a 3rd grader can understand.
+S: The teacher should think I understood
 
 ## 解析
-說出你看得懂的程度，AI 才會換成簡單的話。一模一樣再說沒用；更專業更難懂；寫更長不一定更簡單。
+「要讓老師覺得我讀懂」是想達成的結果，應該是 O（目標），不是 S（步驟）。
 ## Why
-Say your reading level so AI uses simple words. Repeating doesn't help, formal is harder, and longer isn't simpler.
+"The teacher should think I understood" is a result — O, not S.
 
 ## 提示
-要換成什麼程度的話？
+這句有在安排「先做什麼」嗎？
 ## Hint
-What level of words do you need?
+Does that line plan what to do first?
 
-# 個人資料 | Personal Info
+# 彩虹缺什麼 | Rainbow Gap
+答案：A
+
+## 情境
+prompt：「你是自然老師。請解釋為什麼會有彩虹。要讓我明天能講給全班聽。用簡單的話，分三點。只能說課本上有的。先解釋，再出一題考我。」
+## Scenario
+Prompt: "You're a science teacher. Explain why rainbows happen. I should be able to tell my class tomorrow. Simple words, three points. Only what's in the textbook. Explain, then quiz me once."
+
+## 問題
+以 ACTORS 來看，少了哪一塊？
+## Question
+By ACTORS, which part is missing?
+
+## A
+C 背景：沒說你幾年級、學到哪
+## A (EN)
+C 背景: no grade or what you've learned
+
+## B
+T 風格：沒指定語氣和格式
+## B (EN)
+T 風格: no tone or format
+
+## C
+R 參考：沒有範本或任何限制
+## C (EN)
+R 參考: no sample or limits
+
+## D
+S 步驟：沒有安排順序和檢查
+## D (EN)
+S 步驟: no order or check
+
+## 解析
+「只能說課本上有的」是 R，「先解釋再考我」是 S，「簡單的話、三點」是 T。少的是你的狀況：幾年級、學過什麼。
+## Why
+"Only the textbook" is R, "explain then quiz" is S, "simple, three points" is T. Missing: your grade and what you know.
+
+## 提示
+AI 知道你是誰、學到哪裡嗎？
+## Hint
+Does AI know who you are and what you've learned?
+
+# 一句兩用 | Two in One
 答案：C
 
 ## 情境
-AI 聊天時問你住在哪裡。
+「你是很會教英文的老師，請用表格整理這十個單字。」
 ## Scenario
-While chatting, AI asks where you live.
+"You're a great English teacher; put these ten words in a table."
 
 ## 問題
-哪個做法最安全？
+這一句同時做到哪兩個字母？
 ## Question
-What's the safest choice?
+Which two letters does this line cover?
 
 ## A
-只告訴 AI 住在哪個區就好，門牌號碼不要說。
+A 演誰 ＋ C 背景
 ## A (EN)
-Only tell AI your district, not your street number.
+A (Act) + C (Content)
 
 ## B
-先問 AI 會不會幫你保密，如果它說會，就把地址告訴它。
+C 背景 ＋ T 風格
 ## B (EN)
-Ask AI whether it will keep your secret, and if it says yes, tell it your address.
+C (Content) + T (Style)
 
 ## C
-不告訴 AI 家裡地址、電話等個人資料，有問題問大人。
+A 演誰 ＋ T 風格
 ## C (EN)
-Don't tell AI your address, phone number or other personal info — ask an adult.
+A (Act) + T (Style)
 
 ## D
-告訴 AI 學校名字就好，這不算個人資料。
+A 演誰 ＋ S 步驟
 ## D (EN)
-Just tell AI your school name. That's not personal info.
+A (Act) + S (Steps)
 
 ## 解析
-地址、電話、學校都是個人資料，不要告訴 AI 或網路上的人。AI 說會保密也不代表安全；拿不定主意就問大人。
+「你是…老師」是 A，「用表格整理」是格式，屬於 T。
 ## Why
-Address, phone and school are all personal. Don't share them with AI or strangers. AI saying it keeps secrets doesn't make it safe; ask an adult.
+"You're a teacher" is A; "in a table" is format (T).
 
 ## 提示
-哪些是不能隨便說的資料？
+前半句在說誰？後半句在說什麼樣子？
 ## Hint
-Which information shouldn't you share?
+Who is the first half about? What shape is the second?
 
-# 自己的心得 | Your Own Report
-答案：B
-
-## 情境
-老師要你自己寫讀書心得。
-## Scenario
-Your teacher wants you to write your own book report.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請寫一篇心得，我會改幾個字再交出去。
-## A (EN)
-Please write a report and I'll change a few words before handing it in.
-
-## B
-請問我 3 個問題，幫我想出心得，我再自己寫。
-## B (EN)
-Ask me 3 questions to help me find ideas, then I'll write it myself.
-
-## C
-請找一篇網路上別人寫的好心得，讓我參考著抄。
-## C (EN)
-Please find a good report someone wrote online so I can copy from it.
-
-## D
-請把書的重點整理好，心得就交這些重點。
-## D (EN)
-Please sum up the book's main points and I'll hand those in as my report.
-
-## 解析
-讓 AI 幫你思考，但作業自己寫，這樣才是你學會的。改幾個字、照抄別人、交重點整理，都不是你的心得。
-## Why
-Let AI help you think, but write it yourself. Changing a few words, copying or handing in a summary isn't your report.
-
-## 提示
-作業是誰要學會？
-## Hint
-Who is supposed to learn from homework?
-
-# 結局太悲傷 | Sad Ending
-答案：A
-
-## 情境
-AI 寫的故事結局太悲傷了。
-## Scenario
-AI's story has a very sad ending.
-
-## 問題
-下一句怎麼說最好？
-## Question
-What should you say next?
-
-## A
-請保留前面的故事，只把結局改成開心的。
-## A (EN)
-Keep the story the same but change only the ending to a happy one.
-
-## B
-請重新寫一個故事，這次不要那麼悲傷。
-## B (EN)
-Please write a new story that isn't so sad.
-
-## C
-請把整個故事都改得開心一點。
-## C (EN)
-Please make the whole story a bit happier.
-
-## D
-請在故事最後加一句「然後他們就開心了」。
-## D (EN)
-Please add 'And then they were happy' at the very end.
-
-## 解析
-說清楚哪裡要留、哪裡要改，就不用全部重來。重寫、全部改都會丟掉你喜歡的部分；硬加一句不像真正的結局。
-## Why
-Say what to keep and what to change. Rewriting or changing everything loses what you liked, and one tacked-on line isn't a real ending.
-
-## 提示
-哪一部分要改，哪一部分要留？
-## Hint
-Which part changes, and which stays?
-
-# 台中一日遊 | Day Trip
+# 考前一句話 | Quiz Me
 答案：D
 
 ## 情境
-週六全家 4 口去台中玩一天，弟弟 8 歲。
+「我明天要考第三課，請先考我五題，再告訴我錯在哪。」
 ## Scenario
-Your family of 4 is visiting Taichung for a day on Saturday. Your brother is 8.
+"I have a Lesson 3 test tomorrow. Quiz me with five questions first, then tell me what I got wrong."
 
 ## 問題
-哪一個問法最完整？
+這一句同時做到哪兩個字母？
 ## Question
-Which prompt is most complete?
+Which two letters does this line cover?
 
 ## A
-請幫我排一個台中最熱門、最好玩的一日遊行程。
+O 目標 ＋ S 步驟
 ## A (EN)
-Please plan the most popular, fun day trip in Taichung.
+O (Goal) + S (Steps)
 
 ## B
-我們週六去台中，請推薦所有值得去的景點。
+C 背景 ＋ T 風格
 ## B (EN)
-We're going to Taichung on Saturday. Recommend every place worth visiting.
+C (Content) + T (Style)
 
 ## C
-我們一家 4 口週六要去台中，弟弟 8 歲，請幫我們排一個三天兩夜的行程。
+R 參考 ＋ S 步驟
 ## C (EN)
-My family of 4 is going to Taichung on Saturday. My brother is 8. Please plan us a 3-day, 2-night trip.
+R (Refer) + S (Steps)
 
 ## D
-我們一家 4 口週六去台中玩一天，弟弟 8 歲，請排成時間表的行程。
+C 背景 ＋ S 步驟
 ## D (EN)
-My family of 4 is spending Saturday in Taichung. My brother is 8. Please plan the day as a schedule.
+C (Content) + S (Steps)
 
 ## 解析
-人數、日期、弟弟年紀和格式都有，行程才適合你們家。最熱門不一定適合小孩；列所有景點排不完；三天兩夜跟一日遊不符。
+「明天要考第三課」是在說情況（C）；「先考五題，再說錯在哪」是安排順序（S）。這句沒說想考幾分，所以沒有 O。
 ## Why
-People, date, brother's age and format make it fit. Popular isn't always kid-friendly, every spot won't fit, and 3 days isn't a day trip.
+"Test on Lesson 3 tomorrow" is the situation (C); "quiz first, then explain" is S. No target score, so no O.
 
 ## 提示
-AI 需要知道哪些事？
+句子有說想考幾分嗎？
 ## Hint
-What does AI need to know?
+Does it say what score you want?
+
+# 又貼錯了 | Mislabeled Again
+答案：A
+
+## 情境
+另一位同學也替 prompt 貼了 ACTORS 標籤。
+## Scenario
+Another classmate labeled a prompt with ACTORS letters.
+
+## 問題
+哪一個標籤貼錯了？
+## Question
+Which label is wrong?
+
+## A
+C：你是動物園的導覽員
+## A (EN)
+C: You're a zoo guide
+
+## B
+O：看完能說出三種動物特色
+## B (EN)
+O: I can name three animal facts afterward
+
+## C
+R：只能用學校發的動物手冊
+## C (EN)
+R: Use only the school's animal booklet
+
+## D
+T：用問答的方式，一問一答
+## D (EN)
+T: Question-and-answer style
+
+## 解析
+「你是動物園的導覽員」是請 AI 扮演誰，應該是 A，不是 C。
+## Why
+"You're a zoo guide" casts AI, so it's A, not C.
+
+## 提示
+「你是…」通常是哪個字母？
+## Hint
+Which letter usually starts with "You're…"?
+
+# 只有角色 | Role Only
+答案：C
+
+## 情境
+你的 prompt 只有一句：「你是很厲害的老師，教我寫作文。」AI 給了很普通的作文技巧。
+## Scenario
+Your whole prompt: "You're an amazing teacher; teach me to write essays." The tips are ordinary.
+
+## 問題
+以 ACTORS 來看，最該先補哪一塊？
+## Question
+By ACTORS, what should you add first?
+
+## A
+A 演誰：換一個更厲害的老師
+## A (EN)
+A 演誰: an even better teacher
+
+## B
+T 風格：指定字數和語氣
+## B (EN)
+T 風格: set length and tone
+
+## C
+C 背景：作文題目和你幾年級
+## C (EN)
+C 背景: the essay topic and your grade
+
+## D
+S 步驟：先列大綱再寫
+## D (EN)
+S 步驟: outline first, then write
+
+## 解析
+老師再厲害，不知道題目和你的程度，也只能給一般技巧。角色已經有了，缺的是背景。
+## Why
+Even a great teacher gives generic tips without the topic and your level. The role is there; context is missing.
+
+## 提示
+老師不夠厲害，還是不夠了解你？
+## Hint
+Is the teacher not good enough, or not informed enough?
+
+# 同樂會 | Class Party
+答案：B
+
+## 情境
+prompt：「你是營隊大哥哥。我們班明天辦同樂會，有三十個人。請想三個遊戲，用表格寫規則。不能用到球。先列遊戲名稱讓我選，再寫詳細規則。」
+## Scenario
+Prompt: "You're a camp counselor. Our class party is tomorrow, 30 kids. Think of three games; rules in a table. No balls. List names for me to pick, then write full rules."
+
+## 問題
+以 ACTORS 來看，少了哪一塊？
+## Question
+By ACTORS, which part is missing?
+
+## A
+C 背景：沒說人數和什麼活動
+## A (EN)
+C 背景: no class size or event
+
+## B
+O 目標：沒說怎樣才算玩得成功
+## B (EN)
+O 目標: no idea what a great party means
+
+## C
+R 參考：沒有例子或任何限制
+## C (EN)
+R 參考: no example or limits
+
+## D
+A 演誰：沒說 AI 要扮演誰
+## D (EN)
+A 演誰: no role for AI
+
+## 解析
+「不能用到球」是限制（R），「先列名稱再寫規則」是步驟（S）。少的是目標：例如每個人都玩得到、二十分鐘內玩完。
+## Why
+"No balls" is R and "names, then rules" is S. Missing: a goal, like everyone gets a turn.
+
+## 提示
+同樂會辦完，怎樣才算成功？
+## Hint
+After the party, what counts as a success?

@@ -4,351 +4,352 @@ stage: 1
 ---
 
 <!--
-第 1 關：A 說清楚任務（成人版）｜Stage 1: A · Action (Adults)
+第 1 關：A 演誰（成人版）｜Stage 1: A · Act (Adults)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 會議紀錄 | Meeting Notes
+# 新人訓練 | Onboarding
 答案：B
 
 ## 情境
-你手上有一份今天的會議紀錄。
+人資阿芳要請 AI 設計新人第一週的訓練內容，她的 prompt 有四句。
 ## Scenario
-You have today's meeting notes.
+HR's Fang asks AI to design week-one onboarding. Her prompt has four lines.
 
 ## 問題
-哪一句最清楚說出任務？
+哪一句才是 A「演誰」？
 ## Question
-Which one states the task most clearly?
+Which line is A (Act: who AI plays)?
 
 ## A
-以下是今天的會議紀錄，內容很多，麻煩你看一下。
+我是人資部剛接手訓練業務的新人。
 ## A (EN)
-Here are today's meeting notes. There's a lot, so please take a look.
+I'm new in HR and just took over training.
 
 ## B
-請把以下會議紀錄整理成待辦清單。
+你是有十年經驗的企業內訓講師。
 ## B (EN)
-Turn the meeting notes below into a to-do list.
+You're a corporate trainer with ten years' experience.
 
 ## C
-請評論這份會議紀錄寫得好不好，並給修改建議。
+請用像學長姐帶學弟妹的親切口吻。
 ## C (EN)
-Please evaluate whether these notes are well written and suggest edits.
+Use a warm tone, like a senior mentoring juniors.
 
 ## D
-請把這份會議紀錄完整翻譯成英文。
+參考去年新人回饋最好的那一堂課。
 ## D (EN)
-Please translate these meeting notes fully into Japanese.
+Use last year's best-rated class as a reference.
 
 ## 解析
-「整理成待辦清單」同時說了動作和成品。「看一下」沒說要做什麼；評論和翻譯是別的任務。
+「你是…講師」是指定 AI 扮演誰。「我是人資新人」講的是你自己，屬於背景（C）；「像學長姐的口吻」只是語氣，屬於風格（T）。
 ## Why
-'Turn into a to-do list' gives action and output. 'Take a look' asks nothing specific; evaluating and translating are other tasks.
+"You're a trainer" tells AI who to be. "I'm new in HR" is about you (C); "like a senior mentoring juniors" is only a tone (T).
 
 ## 提示
-你最後要拿到的是什麼？
+這句是在說 AI，還是在說你自己？
 ## Hint
-What do you want to end up with?
+Is the line about AI, or about you?
 
-# 回覆客戶 | Reply to a Client
-答案：A
-
-## 情境
-客戶來信問交期，你要告知延後兩天。
-## Scenario
-A client asked about delivery; you need to say it's two days late.
-
-## 問題
-哪一句最清楚？
-## Question
-Which one is clearest?
-
-## A
-請幫我回覆這封客戶信，說明交期延後兩天。
-## A (EN)
-Reply to this client email, explaining delivery is delayed by two days.
-
-## B
-這封客戶信在問交期，我們會延後兩天，請參考。
-## B (EN)
-This client email asks about delivery. We'll be two days late, FYI.
-
-## C
-請幫我摘要這封客戶信的重點，列成三點。
-## C (EN)
-Please summarize this client email into three key points.
-
-## D
-請教我回覆客戶延遲交貨時要注意哪些地方。
-## D (EN)
-Please teach me what to watch for when telling a client about a delay.
-
-## 解析
-直接說「回覆」和要說明的事，產出就是能寄的信。「請參考」沒有任務；摘要和教學都不是回信。
-## Why
-Saying 'reply' and what to explain gives a sendable email. 'FYI' has no task; a summary or tips aren't a reply.
-
-## 提示
-你要 AI 教你寫，還是直接寫？
-## Hint
-Do you want AI to teach you or to write it?
-
-# 產品翻譯 | Product Translation
+# 客訴處理 | Complaint Handling
 答案：D
 
 ## 情境
-產品介紹要給海外客戶看。
+四位同事各寫了一句開場，想讓 AI「入戲」幫忙處理客訴。
 ## Scenario
-A product description is for overseas clients.
+Four colleagues each wrote an opening line to get AI into character for complaints.
 
 ## 問題
-哪一句最清楚？
+四句裡有一句不是 A「演誰」，是哪一句？
 ## Question
-Which one is clearest?
+One of these is NOT A (Act: who AI plays). Which one?
 
 ## A
-這段產品介紹要給海外客戶看，他們主要講英文。
+你是處理過上千件客訴的客服主管。
 ## A (EN)
-This product description is for overseas clients, who mainly speak Japanese.
+You're a support lead who has handled thousands of complaints.
 
 ## B
-請把這段產品介紹改寫得更吸引人一點。
+請你扮演一位很挑剔的客人來考我。
 ## B (EN)
-Please rewrite this product description to be more appealing.
+Play a very picky customer and test me.
 
 ## C
-請把這段產品介紹濃縮成一句宣傳標語。
+你是消保官，用法規角度看這封信。
 ## C (EN)
-Please condense this product description into one slogan.
+You're a consumer-protection officer; read this letter by the rules.
 
 ## D
-請把這段產品介紹翻譯成英文。
+我們是一家連鎖咖啡店的客服團隊。
 ## D (EN)
-Translate this product description into Japanese.
+We're the customer service team of a coffee chain.
 
 ## 解析
-動作是「翻譯」，語言也說了。只說客戶講什麼語言，AI 不確定要翻譯、改寫還是給建議；改寫和濃縮是別的任務。
+「我們是客服團隊」描述的是你的公司，是背景（C）。另外三句都讓 AI 變成某個人：客服主管、挑剔的客人、消保官。
 ## Why
-The action is 'translate', with the language named. Just saying what clients speak leaves AI guessing; rewriting or condensing are other tasks.
+"We're the support team" describes your company (C). The other three turn AI into someone: a support lead, a picky customer, an officer.
 
 ## 提示
-要做的是翻譯、摘要，還是學技巧？
+句子裡的「你」和「我們」各指誰？
 ## Hint
-Translate, summarize, or learn tips?
+Who is "you" and who is "we" in each line?
 
-# 長篇報告 | Long Report
+# 模擬面試 | Mock Interview
+答案：A
+
+## 情境
+你請 AI 陪你練面試，它卻一直給你「面試小技巧」，一點也不像真的面試。
+## Scenario
+You asked AI to help you practice an interview, but it keeps giving tips instead of interviewing you.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+請你扮演這家公司嚴格的部門主管。
+## A (EN)
+Play the strict department head at this company.
+
+## B
+我應徵的是行銷專員，有三年經驗。
+## B (EN)
+I'm applying for marketing specialist, with 3 years' experience.
+
+## C
+請用正式、簡潔的語氣跟我對話。
+## C (EN)
+Talk with me in a formal, concise tone.
+
+## D
+目標是讓我能流暢回答十個常見題。
+## D (EN)
+Goal: I can smoothly answer the ten common questions.
+
+## 解析
+問題出在 AI 站錯位置：它在當顧問，不是面試官。指定它扮演面試的主管，它才會出題、追問。背景、語氣、目標都改不了它的「身分」。
+## Why
+AI is in the wrong seat: it's acting as a coach, not an interviewer. Cast it as the hiring manager and it will ask and probe. Context, tone or goal won't change who it is.
+
+## 提示
+AI 現在是用什麼身分在跟你說話？
+## Hint
+Who is AI being right now?
+
+# 租屋合約 | Lease Check
 答案：C
 
 ## 情境
-主管丟來一份 30 頁報告，你只有 5 分鐘。
+你要 AI 檢查一份租屋合約，看有沒有對房客不利的條款。
 ## Scenario
-Your manager sent a 30-page report and you have 5 minutes.
+You want AI to check a lease for clauses that hurt the tenant.
 
 ## 問題
-哪一句最清楚？
+請 AI 扮演哪個角色最適合？
 ## Question
-Which one is clearest?
+Which role should AI play?
 
 ## A
-這份報告有 30 頁，我只有 5 分鐘，真的看不完。
+你是見多識廣、什麼都懂一點的萬事通顧問。
 ## A (EN)
-This report is 30 pages and I only have 5 minutes. No way I can read it.
+You're a well-traveled consultant who knows a bit of everything.
 
 ## B
-請幫這份報告挑出錯字和格式問題。
+你是經營多間套房、經驗豐富的房東。
 ## B (EN)
-Please find typos and formatting problems in this report.
+You're an experienced landlord with many rental units.
 
 ## C
-請把這份報告摘要成 5 個重點。
+你是熟悉租賃法規、站在房客這邊的律師。
 ## C (EN)
-Summarize this report in 5 key points.
+You're a lawyer who knows rental law and is on the tenant's side.
 
 ## D
-請根據這份報告，幫我寫一封回覆主管的信。
+你是文筆很好、擅長潤飾文件的編輯。
 ## D (EN)
-Based on this report, please draft a reply to my manager.
+You're an editor great at polishing documents.
 
 ## 解析
-說出「摘要」和數量，5 分鐘就讀得完。只說看不完沒有請它做事；挑錯字、寫回信都不是你現在要的。
+角色要跟任務同一個領域，還要站對立場。房東立場相反；萬事通太空泛；編輯只會改文字，不會看法律風險。
 ## Why
-'Summarize' plus a number fits 5 minutes. Saying you can't read it asks nothing; typos or a reply aren't what you need now.
+A good role matches the field and the side. A landlord is on the other side; a know-it-all is too vague; an editor fixes wording, not legal risk.
 
 ## 提示
-你需要的是摘要還是標題？
+這個角色會幫誰說話？
 ## Hint
-Do you need a summary or a title?
+Whose side would this role take?
 
-# 產品命名 | Naming a Product
+# 投資人簡報 | Investor Pitch
+答案：D
+
+## 情境
+週五要向投資人簡報，你想請 AI 陪你彩排。四句裡有三句在指定 AI 的角色。
+## Scenario
+You pitch to investors on Friday and want AI to rehearse with you. Three lines assign AI a role.
+
+## 問題
+四句裡有一句不是 A「演誰」，是哪一句？
+## Question
+One of these is NOT A (Act: who AI plays). Which one?
+
+## A
+請你扮演只看數字、很會追問的創投。
+## A (EN)
+Play a numbers-only VC who asks hard follow-ups.
+
+## B
+你是看過上百份提案、講話直接的評審。
+## B (EN)
+You're a blunt judge who has seen hundreds of pitches.
+
+## C
+你是台下最沒耐心、最想打斷我的人。
+## C (EN)
+You're the most impatient listener, eager to cut me off.
+
+## D
+聽簡報的投資人很在意多久能回本。
+## D (EN)
+The investors care a lot about payback time.
+
+## 解析
+「投資人很在意回本」雖然提到了人，但它是在交代聽眾的狀況，屬於背景（C）。其他三句都是要 AI 變成那個人。
+## Why
+"The investors care about payback" mentions people, but it describes the audience (C). The other three ask AI to become someone.
+
+## 提示
+提到「人」不等於叫 AI 去當那個人。
+## Hint
+Mentioning a person is not the same as asking AI to be that person.
+
+# 挑企劃毛病 | Find the Holes
+答案：A
+
+## 情境
+你想知道企劃案會被財務主管挑哪些毛病，AI 卻一直稱讚寫得很好。
+## Scenario
+You want to know what the finance head will criticize in your plan, but AI keeps praising it.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+請你扮演公司最精打細算的財務長。
+## A (EN)
+Play our company's most cost-conscious CFO.
+
+## B
+這份企劃預算兩百萬，下個月要提案。
+## B (EN)
+The plan costs NT$2M and goes to review next month.
+
+## C
+請把問題列成表格，標出嚴重程度。
+## C (EN)
+List the issues in a table with severity.
+
+## D
+請先找出風險，再排出優先順序。
+## D (EN)
+First find the risks, then rank them.
+
+## 解析
+你要的是「財務主管的眼光」，所以要讓 AI 站到那個位置。預算資訊、表格、步驟都有幫助，但 AI 還是用原本的立場在看。
+## Why
+You need the finance head's eyes, so put AI in that seat. Budget facts, a table or steps help, but AI still reads it from its old point of view.
+
+## 提示
+誰最會挑這份企劃的毛病？
+## Hint
+Who would pick this plan apart?
+
+# 日文商業信 | Japanese Business Email
+答案：C
+
+## 情境
+你要寄一封商業 email 給日本客戶，想請 AI 幫你寫成日文。
+## Scenario
+You need to send a business email to a Japanese client and want AI to write it in Japanese.
+
+## 問題
+請 AI 扮演哪個角色最適合？
+## Question
+Which role should AI play?
+
+## A
+你是研究日本古典文學的日文系教授。
+## A (EN)
+You're a professor of classical Japanese literature.
+
+## B
+你是在東京長大、日文很道地的高中生。
+## B (EN)
+You're a high schooler who grew up in Tokyo.
+
+## C
+你是熟悉日本商務書信禮儀的資深秘書。
+## C (EN)
+You're a senior secretary who knows Japanese business etiquette.
+
+## D
+你是常跑國際會議的專業英日口譯員。
+## D (EN)
+You're an English–Japanese interpreter at global conferences.
+
+## 解析
+商業信最重要的是敬語和書信格式，秘書每天都在寫這種信。教授懂古文、高中生日文道地、口譯員擅長口說，但都不是寫商業信的專家。
+## Why
+Business mail needs honorifics and letter format, which a secretary writes daily. The professor, teen and interpreter are good at Japanese, but not at business letters.
+
+## 提示
+誰每天都在寫這種信？
+## Hint
+Who writes this kind of letter every day?
+
+# 帶爸媽出遊 | Trip with Parents
 答案：B
 
 ## 情境
-新款保溫杯需要名字。
+你要請 AI 規劃帶爸媽去花蓮玩三天的行程。
 ## Scenario
-A new travel mug needs a name.
+You want AI to plan a three-day Hualien trip with your parents.
 
 ## 問題
-哪一句最清楚？
+哪一句才是 A「演誰」？
 ## Question
-Which one is clearest?
+Which line is A (Act: who AI plays)?
 
 ## A
-這款保溫杯還沒有名字，行銷部下週就要用了。
+同行的爸媽都七十多歲，不想走太多路。
 ## A (EN)
-This travel mug has no name yet, and marketing needs it next week.
+My parents are in their seventies and don't want to walk much.
 
 ## B
-請為這款保溫杯想 10 個產品名稱。
+你是專門帶銀髮族出遊的資深領隊。
 ## B (EN)
-Come up with 10 product names for this travel mug.
+You're a senior tour leader who specializes in older travelers.
 
 ## C
-請分析市面上保溫杯的命名有哪些趨勢。
+行程要讓長輩玩得輕鬆、不趕路。
 ## C (EN)
-Please analyze naming trends for travel mugs on the market.
+The trip should feel relaxed, never rushed.
 
 ## D
-請為這款保溫杯寫一段 100 字的產品介紹。
+請用一天一張表，列出時間和地點。
 ## D (EN)
-Please write a 100-word description for this travel mug.
+One table per day, with times and places.
 
 ## 解析
-動作加數量，AI 會直接給你可以挑的名字。只說還沒名字沒有任務；命名趨勢和產品介紹都不是名字。
+「你是…領隊」才是請 AI 扮演誰。爸媽的年紀是背景（C），玩得輕鬆是目標（O），一天一張表是格式（T）。
 ## Why
-Action plus quantity gets names to choose from. Saying it has no name asks nothing; trends or a description aren't names.
+"You're a tour leader" casts AI. Parents' age is context (C), "relaxed" is the goal (O), one table per day is format (T).
 
 ## 提示
-你要名字，還是要理論？
+哪一句說的是 AI 的身分？
 ## Hint
-Names or theory?
-
-# Excel 公式 | Excel Formula
-答案：A
-
-## 情境
-你想加總 B 欄大於 1000 的數字。
-## Scenario
-You want to sum numbers over 1000 in column B.
-
-## 問題
-哪一句最清楚？
-## Question
-Which one is clearest?
-
-## A
-請寫一個 Excel 公式，加總 B 欄大於 1000 的數字。
-## A (EN)
-Write an Excel formula that sums values in column B greater than 1000.
-
-## B
-我的 Excel B 欄有很多數字，其中有些大於 1000。
-## B (EN)
-My Excel column B has lots of numbers, and some are over 1000.
-
-## C
-請解釋 SUMIF 函數的運作原理和使用歷史。
-## C (EN)
-Please explain how the SUMIF function works and its history.
-
-## D
-請幫我把 B 欄所有大於 1000 的數字都標成紅色，方便我一眼看出來。
-## D (EN)
-Please highlight every number over 1000 in column B in red so I can spot them at a glance.
-
-## 解析
-把要算什麼講清楚，AI 就能直接給公式。只描述資料沒有任務；解釋函數、標顏色都不是加總。
-## Why
-State what to calculate and AI gives the formula. Describing data asks nothing; explaining SUMIF or coloring cells isn't summing.
-
-## 提示
-要 AI 寫公式，還是推薦課程？
-## Hint
-A formula or a course?
-
-# 公告改寫 | Rewrite a Notice
-答案：D
-
-## 情境
-一則公告寫得太生硬。
-## Scenario
-A notice sounds too stiff.
-
-## 問題
-哪一句最清楚？
-## Question
-Which one is clearest?
-
-## A
-這則公告大家都反應太生硬，我也這麼覺得。
-## A (EN)
-People say this notice sounds too stiff, and I agree.
-
-## B
-請幫這則公告打分數，滿分 10 分。
-## B (EN)
-Please rate this notice out of 10.
-
-## C
-請把這則公告改成英文版，放到官網上。
-## C (EN)
-Please make an English version of this notice for our website.
-
-## D
-請把這則公告改寫得更親切。
-## D (EN)
-Rewrite this notice to sound friendlier.
-
-## 解析
-動作是「改寫」，方向是「更親切」。附和大家的反應沒有任務；打分數和翻譯都不會讓它變親切。
-## Why
-Action: rewrite. Direction: friendlier. Agreeing with feedback asks nothing; rating or translating won't make it friendlier.
-
-## 提示
-你想要改寫、評分，還是翻譯？
-## Hint
-Rewrite, rate, or translate?
-
-# 出差行程 | Business Trip
-答案：C
-
-## 情境
-下週要去台中出差三天。
-## Scenario
-You're going to Taichung on business for three days.
-
-## 問題
-哪一句最清楚？
-## Question
-Which one is clearest?
-
-## A
-我下週要去台中出差三天，拜訪三個客戶。
-## A (EN)
-I'm going to Taichung for three days next week to visit three clients.
-
-## B
-請推薦台中適合商務出差住的飯店。
-## B (EN)
-Please recommend business hotels in Taichung.
-
-## C
-請幫我排三天的台中出差行程。
-## C (EN)
-Plan a three-day business trip itinerary in Taichung.
-
-## D
-請告訴我出差報帳需要準備哪些單據。
-## D (EN)
-Please tell me what receipts I need for travel expenses.
-
-## 解析
-「排行程」是任務，「三天、台中」是範圍。只說要出差沒有請它做事；訂飯店、報帳是別的事。
-## Why
-'Plan an itinerary' is the task; 'three days, Taichung' is the scope. Just mentioning the trip asks nothing; hotels or receipts are other tasks.
-
-## 提示
-最後要交出的是什麼？
-## Hint
-What should AI hand you at the end?
+Which line is about who AI is?

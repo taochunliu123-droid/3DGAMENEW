@@ -49,14 +49,16 @@ export const DICT={
 };
 export const GUIDE=[
 `<p><b>怎麼玩：</b>每題各隊討論後舉牌（A／B／C／D），老師在「各隊作答」點下每隊的選擇，再按「揭曉答案」。只有一隊時，直接點選項就會揭曉。</p>
+<p><b>題型：</b>選項都是同一個 prompt 裡的句子，每句看起來都合理。要分辨哪一句才是這一關的字母、哪一句是冒牌貨，或 AI 出狀況時最該補哪一句。</p>
 <p><b>計分：</b>答對 +100；連續答對 3 題再加 50。一關<b>最多錯 1 題</b>才算過關，並得到這一關的寵物夥伴。全對三顆星、錯 1 題兩顆星；錯 2 題只有一顆星，拿不到寵物。沒作答算錯，老師按「跳過」的題目不算。</p>
-<dl><dt>第 1 關 · A</dt><dd>Action：說清楚要 AI 做什麼。</dd><dt>第 2 關 · C</dt><dd>Content：給背景、資料和條件。</dd><dt>第 3 關 · T</dt><dd>Style：指定語氣和格式。</dd><dt>第 4 關 · O</dt><dd>Goal：說出目的和完成標準。</dd><dt>第 5 關 · R</dt><dd>Refer：給例子、參考和限制。</dd><dt>第 6 關 · S</dt><dd>Steps：安排步驟和檢查點。</dd><dt>魔王關</dt><dd>綜合運用，並練習查證、修正 AI 的回答。</dd></dl>
+<dl><dt>第 1 關 · A</dt><dd>Act：演誰——指定 AI 扮演的角色。</dd><dt>第 2 關 · C</dt><dd>Content：提供背景、資料與情境。</dd><dt>第 3 關 · T</dt><dd>Style：指定語氣、風格與呈現格式。</dd><dt>第 4 關 · O</dt><dd>Goal：說明目的，以及怎樣才算做好。</dd><dt>第 5 關 · R</dt><dd>Refer：提供參考、例子、限制與比較基準。</dd><dt>第 6 關 · S</dt><dd>Steps：安排步驟、流程與檢查點。</dd><dt>魔王關</dt><dd>綜合運用：分辨每一句屬於哪個字母、找出缺的那一塊。</dd></dl>
 <p><b>語言：</b>右上角可切換「中／EN／中+EN」。雙語模式會在中文下方顯示英文。</p>
 <p><b>快捷鍵：</b>Enter 揭曉／下一題；只有一隊時可按 1–4 作答。</p>
 <p>隊名、分數與寵物只存在這台電腦的瀏覽器。換電腦前可先「匯出紀錄」。</p>`,
 `<p><b>How to play:</b> Teams discuss each question and hold up A/B/C/D. The host taps each team’s choice under the answer pad, then presses “Reveal”. With one team, tapping an option reveals the answer right away.</p>
+<p><b>Question types:</b> every option is a line from the same prompt, and they all look reasonable. Spot the line that really belongs to this stage’s letter, catch the impostor, or pick the line that fixes what went wrong.</p>
 <p><b>Scoring:</b> +100 per correct answer, +50 more on every 3-in-a-row. Clear a stage with <b>at most 1 wrong</b> to win its pet buddy. Perfect = three stars, 1 wrong = two stars; 2 wrong earns one star but no pet. No answer counts as wrong; skipped questions don’t count.</p>
-<dl><dt>Stage 1 · A</dt><dd>Action: say what AI should do.</dd><dt>Stage 2 · C</dt><dd>Content: give background, data and conditions.</dd><dt>Stage 3 · T</dt><dd>Style: set the tone and format.</dd><dt>Stage 4 · O</dt><dd>Goal: state the purpose and what “done” means.</dd><dt>Stage 5 · R</dt><dd>Refer: give examples, references and limits.</dd><dt>Stage 6 · S</dt><dd>Steps: plan the steps and checkpoints.</dd><dt>Boss Stage</dt><dd>Combine everything, and practice verifying and fixing AI answers.</dd></dl>
+<dl><dt>Stage 1 · A</dt><dd>Act: who AI plays — give it a role.</dd><dt>Stage 2 · C</dt><dd>Content: background, data and the situation.</dd><dt>Stage 3 · T</dt><dd>Style: tone, style and output format.</dd><dt>Stage 4 · O</dt><dd>Goal: state the purpose and what “done” means.</dd><dt>Stage 5 · R</dt><dd>Refer: references, examples, limits and benchmarks.</dd><dt>Stage 6 · S</dt><dd>Steps: steps, flow and checkpoints.</dd><dt>Boss Stage</dt><dd>Mix it all: label each line and find the missing piece.</dd></dl>
 <p><b>Language:</b> switch between 中 / EN / 中+EN at the top right. Bilingual mode shows English under the Chinese.</p>
 <p><b>Shortcuts:</b> Enter to reveal / go next. With one team, press 1–4 to answer.</p>
 <p>Team names, scores and pets are saved only in this browser. Use “Export” before switching computers.</p>`];

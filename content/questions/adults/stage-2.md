@@ -4,351 +4,352 @@ stage: 2
 ---
 
 <!--
-第 2 關：C 給足背景（成人版）｜Stage 2: C · Content (Adults)
+第 2 關：C 背景（成人版）｜Stage 2: C · Content (Adults)
+題型：ACTORS 鑑定題。選項都是同一個 prompt 裡「看起來都合理」的句子，
+要分辨哪一句屬於這一關的字母。正解在下面第一個寫的不一定最長，請維持四個選項長度相近。
 每題以「# 中文標題 | English title」開頭，下一行寫「答案：A」。
-中文章節後面接對應的英文章節（Scenario / Question / A (EN)… / Why / Hint）。英文可以先不寫，英文模式會暫時顯示中文。
 -->
 
-# 客訴道歉 | Complaint Apology
-答案：C
-
-## 情境
-客戶的咖啡機三天就壞了，他很生氣。
-## Scenario
-A customer's coffee machine broke after three days, and they're angry.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-請幫我寫一封誠懇、專業、讓客戶滿意的道歉回信。
-## A (EN)
-Please write a sincere, professional apology that satisfies the customer.
-
-## B
-我們公司是業界第一品牌，請幫我寫一封道歉回信。
-## B (EN)
-Our company is the industry's top brand. Please write an apology reply.
-
-## C
-客戶買的咖啡機三天就壞了，很生氣，請幫我寫道歉回信。
-## C (EN)
-A customer's coffee machine broke after three days and they're upset. Please write an apology reply.
-
-## D
-請幫我寫一封道歉回信，內容要針對客戶的問題。
-## D (EN)
-Please write an apology reply that addresses the customer's problem.
-
-## 解析
-說出發生什麼事，道歉才具體。形容詞不是資訊；業界第一跟這次問題無關；「針對客戶的問題」但 AI 根本不知道問題是什麼。
-## Why
-Explain what happened so the apology is specific. Adjectives aren't info, being top brand is irrelevant, and AI doesn't know 'the problem'.
-
-## 提示
-AI 知道客戶為什麼生氣嗎？
-## Hint
-Does AI know why the customer is upset?
-
-# 面試準備 | Interview Prep
+# 營收下滑 | Revenue Drop
 答案：B
 
 ## 情境
-你要面試新創公司的行銷企劃。
+你要請 AI 分析第三季營收為什麼下滑。
 ## Scenario
-You're interviewing for a marketing role at a startup.
+You want AI to analyze why Q3 revenue fell.
 
 ## 問題
-哪一句最好？
+哪一句才是 C「背景」？
 ## Question
-Which one is best?
+Which line is C (Content: background & facts)?
 
 ## A
-我明天要面試，很緊張，請列 5 個可能被問的問題。
+你是一位很會從報表數字找出原因的分析師。
 ## A (EN)
-I have an interview tomorrow and I'm nervous. List 5 questions I might get.
+You're an analyst who's great at finding causes in report numbers.
 
 ## B
-我要面試新創公司的行銷企劃，請列 5 個可能被問的問題。
+第三季少了一個大客戶，又漲價了 5%。
 ## B (EN)
-I'm interviewing for a marketing role at a startup. List 5 questions I might be asked.
+In Q3 we lost a big client and raised prices 5%.
 
 ## C
-請列出 5 個最常見、最經典的面試問題。
+分析完要能讓老闆決定第四季怎麼調。
 ## C (EN)
-List the 5 most common, classic interview questions.
+The result should let the boss decide what to change in Q4.
 
 ## D
-我大學念企管，畢業後在貿易公司待過兩年，請列 5 個面試可能被問的問題。
+請拿去年同一季的報告當比較基準。
 ## D (EN)
-I majored in business and worked two years at a trading company. List 5 questions I might be asked.
+Use last year's Q3 report as the baseline.
 
 ## 解析
-職位和公司類型決定會被問什麼。緊張不影響題目；經典題太通用；科系有幫助，但不知道應徵什麼職位還是猜不準。
+只有「少了大客戶、漲價 5%」是在告訴 AI 實際發生的事。角色是 A，決策用途是 O，去年報告是比較基準（R）。
 ## Why
-Role and company type shape the questions. Nerves don't; classic questions are generic; a major helps, but without the role AI still guesses.
+Only "lost a client, raised prices" tells AI what actually happened. The role is A, the decision is O, last year's report is a baseline (R).
 
 ## 提示
-AI 知道你要面試什麼職位嗎？
+哪一句是 AI 自己不可能知道的事實？
 ## Hint
-Does AI know which role you're applying for?
+Which line is a fact AI could never know on its own?
 
-# 本週週報 | Weekly Report
-答案：A
-
-## 情境
-本週完成官網改版，付款功能因廠商延遲而延後。
-## Scenario
-This week the website redesign was done; payments slipped due to a vendor delay.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-本週完成官網改版，付款功能因廠商延遲而延後，請寫週報。
-## A (EN)
-This week we finished the website redesign; the payment feature slipped due to a vendor delay. Please write the weekly report.
-
-## B
-請寫一份專業、有條理、主管會喜歡的週報。
-## B (EN)
-Please write a professional, organized weekly report my manager will like.
-
-## C
-請根據一般專案的進度，幫我寫一份週報。
-## C (EN)
-Please write a weekly report based on typical project progress.
-
-## D
-我們團隊 5 個人，專案做了三個月，請寫週報。
-## D (EN)
-Our team has 5 people and we're 3 months in. Please write the weekly report.
-
-## 解析
-把實際進度給 AI，它才不會編出不存在的內容。形容詞、「一般專案進度」、團隊人數都不是這週發生的事。
-## Why
-Give AI real progress so it doesn't invent any. Adjectives, 'typical progress' or team size aren't what happened this week.
-
-## 提示
-週報的內容要從哪裡來？
-## Hint
-Where does the report content come from?
-
-# 簡報開場 | Talk Opening
+# 新品文案 | Launch Copy
 答案：D
 
 ## 情境
-聽眾是 20 位不熟 AI 的主管，時間 10 分鐘。
+你要請 AI 寫保溫瓶的上市文案。四句裡有三句是在給背景資料。
 ## Scenario
-Your audience is 20 managers new to AI, and you have 10 minutes.
+You want AI to write launch copy for a tumbler. Three lines give background.
 
 ## 問題
-哪一句最好？
+四句裡有一句不是 C「背景」，是哪一句？
 ## Question
-Which one is best?
+One of these is NOT C (Content: background & facts). Which one?
 
 ## A
-請幫我寫一個幽默、吸睛、讓全場印象深刻的開場。
+這款保溫瓶保冰 12 小時，賣 890 元。
 ## A (EN)
-Please write a funny, eye-catching opening that impresses everyone.
+The tumbler keeps ice 12 hours and sells for NT$890.
 
 ## B
-我是 AI 專家，教過上百堂課、出過兩本書，請幫我寫一個讓人印象深刻的開場。
+主要買家是常去健身房的上班族。
 ## B (EN)
-I'm an AI expert who has taught hundreds of classes and written two books. Please write a memorable opening.
+Most buyers are office workers who go to the gym.
 
 ## C
-這場簡報在台北的大飯店舉辦，請幫我寫開場。
+下週三起在門市和官網同步開賣。
 ## C (EN)
-The talk is at a big hotel in Taipei. Please write my opening.
+It goes on sale in stores and online next Wednesday.
 
 ## D
-聽眾是 20 位不熟 AI 的主管，時間 10 分鐘，請幫我寫開場。
+寫得像我們上次那篇爆紅貼文的感覺。
 ## D (EN)
-My audience is 20 managers new to AI, and I have 10 minutes. Please write my opening.
+Make it feel like our last viral post.
 
 ## 解析
-聽眾是誰、講多久，決定開場怎麼說。形容詞不是資訊；你的經歷、場地在哪，都不如聽眾背景重要。
+「像上次那篇爆紅貼文」是拿範本給 AI 參考，屬於 R。產品規格、買家、開賣日期都是背景（C）。
 ## Why
-Who's listening and for how long decide the opening. Adjectives aren't info; your background or the venue matter less than the audience.
+"Like our viral post" gives AI a model to follow (R). Specs, buyers and launch date are content (C).
 
 ## 提示
-誰在聽？講多久？
+哪一句是在給「範本」，不是給「事實」？
 ## Hint
-Who is listening, and for how long?
+Which line gives a model, not a fact?
 
-# 聚餐地點 | Team Dinner
+# 道歉信寫錯原因 | Wrong Reason
+答案：A
+
+## 情境
+你請 AI 寫一封付款延遲的道歉信，它把原因寫成「系統故障」，但其實是會計請假。
+## Scenario
+AI wrote a late-payment apology blaming a "system failure", but the real reason was the accountant's leave.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+原因是會計請假，下週一會補付。
+## A (EN)
+The cause: our accountant was on leave; we'll pay Monday.
+
+## B
+你是一位很會寫道歉信的公關經理。
+## B (EN)
+You're a PR manager who writes great apologies.
+
+## C
+請用誠懇但不卑微的語氣來寫。
+## C (EN)
+Write sincerely but not groveling.
+
+## D
+寫完先檢查有沒有承諾做不到的事。
+## D (EN)
+After writing, check you didn't promise anything we can't do.
+
+## 解析
+AI 不知道真正原因，只好用猜的。把實際發生的事告訴它，它才寫得對。換角色、換語氣、加檢查都補不了缺少的事實。
+## Why
+AI didn't know the real reason, so it guessed. Tell it what happened. A new role, tone or check can't supply a missing fact.
+
+## 提示
+AI 是因為不會寫，還是因為不知道？
+## Hint
+Did AI fail to write well, or fail to know?
+
+# 團隊士氣 | Team Morale
 答案：C
 
 ## 情境
-12 人聚餐，每人預算 500 元，有 2 位吃素。
+你問 AI「團隊士氣低落怎麼辦」，它給了一份哪個團隊都適用的清單。
 ## Scenario
-12 people, 500 NTD per person, 2 vegetarians.
+You asked AI how to fix low team morale and got a list that fits any team.
 
 ## 問題
-哪一句最好？
+最該補上哪一句？
 ## Question
-Which one is best?
+Which line should you add?
 
 ## A
-我們部門要聚餐，大家感情很好，請推薦台北的餐廳。
+請你扮演帶過很多團隊的管理教練。
 ## A (EN)
-Our department is having dinner and we get along well. Suggest a Taipei restaurant.
+Play a coach who has led many teams.
 
 ## B
-12 人聚餐，請推薦台北評價最高、最有名的餐廳。
+請只給三個這週就做得到的行動。
 ## B (EN)
-Dinner for 12. Suggest the top-rated, most famous restaurants in Taipei.
+Give only three actions doable this week.
 
 ## C
-12 人聚餐、每人 500 元、2 位吃素，請推薦台北適合的餐廳類型。
+五人團隊，加班兩個月，有人提離職。
 ## C (EN)
-12 people, 500 NTD each, 2 vegetarians. Suggest suitable restaurant types in Taipei.
+A team of five, two months of overtime, one resignation.
 
 ## D
-12 人聚餐、每人預算 500 元、週五晚上 7 點，請推薦台北有包廂的燒肉店。
+請用表格列出做法、成本和效果。
 ## D (EN)
-Dinner for 12, 500 NTD each, Friday at 7 p.m. Please suggest a Korean BBQ place in Taipei with a private room.
+Use a table: action, cost, effect.
 
 ## 解析
-人數、預算、吃素都是條件，少一個就可能訂錯。感情好不是條件；最有名可能超預算；燒肉店忘了有人吃素。
+答案很「萬用」，是因為 AI 不知道你團隊發生什麼事。給了人數、加班和離職這些情況，建議才會對準你們。
 ## Why
-Headcount, budget and vegetarians all matter. Getting along isn't a condition, famous may blow the budget, and BBQ forgets the vegetarians.
+The answer is generic because AI doesn't know your team's situation. Size, overtime and a resignation let it aim at you.
 
 ## 提示
-哪些條件一定要先講？
+什麼資訊能讓答案「只適用你們」？
 ## Hint
-Which conditions must be stated first?
+What would make the answer fit only your team?
 
-# 學 Python | Learning Python
-答案：B
-
-## 情境
-你是會計，想學 Python 處理 Excel，每週 3 小時。
-## Scenario
-You're an accountant who wants Python for Excel work, 3 hours a week.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-我想學 Python，請規劃一條最完整、最專業的學習路線。
-## A (EN)
-I want to learn Python. Plan the most complete, professional path.
-
-## B
-我是會計，想學 Python 處理 Excel，每週 3 小時，請規劃學習路線。
-## B (EN)
-I'm an accountant wanting to use Python for Excel, 3 hours a week. Please plan a learning path.
-
-## C
-我是會計，想學 Python，請規劃一條學習路線，每天讀 4 小時，三個月內學會所有功能。
-## C (EN)
-I'm an accountant learning Python. Plan a path with 4 hours of study a day to learn everything in 3 months.
-
-## D
-我對寫程式很有興趣，請規劃 Python 學習路線。
-## D (EN)
-I'm really interested in coding. Please plan a Python learning path.
-
-## 解析
-身分、目的、時間都說了，路線才適合你。「最完整最專業」不是你的需求；每天 4 小時你沒有；有興趣不等於說出用途。
-## Why
-Role, purpose and time make the path fit. 'Most complete' isn't your need, you don't have 4 hours a day, and interest isn't a purpose.
-
-## 提示
-AI 知道你是誰、想用來做什麼嗎？
-## Hint
-Does AI know who you are and why?
-
-# 保溫杯文案 | Mug Copy
-答案：A
-
-## 情境
-保溫杯主打上班族，保溫 12 小時、放得進包包。
-## Scenario
-A travel mug for office workers: keeps drinks hot 12 hours, fits in a bag.
-
-## 問題
-哪一句最好？
-## Question
-Which one is best?
-
-## A
-這款保溫杯給上班族，保溫 12 小時、放得進包包，請寫一句廣告文案。
-## A (EN)
-This travel mug is for office workers, keeps drinks hot for 12 hours and fits in a bag. Write a one-line ad.
-
-## B
-請寫一句有質感、打動人心、讓人想馬上買的保溫杯文案。
-## B (EN)
-Write a classy, moving line that makes people want to buy the mug now.
-
-## C
-我們公司成立 20 年，做過上百款杯子，還得過設計獎，請寫一句保溫杯的廣告文案。
-## C (EN)
-Our company is 20 years old, has made hundreds of cups and won design awards. Write a one-line ad for the mug.
-
-## D
-這款保溫杯有 5 種顏色，請寫一句廣告文案。
-## D (EN)
-This travel mug comes in 5 colors. Please write a one-line ad.
-
-## 解析
-產品賣點和對象是文案的原料。形容詞寫不出賣點；公司歷史、顏色數量都不是這款杯子最重要的賣點。
-## Why
-Selling points and audience are the raw material. Adjectives can't create them; company age or color count aren't the key selling points.
-
-## 提示
-文案的賣點從哪裡來？
-## Hint
-Where do the selling points come from?
-
-# 新人訓練 | New Hire Training
+# 新部門自我介紹 | New-Team Intro
 答案：D
 
 ## 情境
-新人是剛畢業的客服人員。
+你要請 AI 幫你寫在新部門第一次開會的自我介紹。
 ## Scenario
-The new hire is a fresh graduate in customer service.
+You want AI to write your intro for your first meeting in a new department.
 
 ## 問題
-哪一句最好？
+哪一句才是 C「背景」？
 ## Question
-Which one is best?
+Which line is C (Content: background & facts)?
 
 ## A
-請列一份完整、全面、適合所有新人的訓練清單。
+你是擅長幫人寫開場白的講稿撰稿人。
 ## A (EN)
-Please list a complete training plan suitable for every new hire.
+You're a speechwriter who's great at openings.
 
 ## B
-我們公司有 300 人，請列新人第一週的訓練清單。
+語氣輕鬆一點，可以帶一點自嘲。
 ## B (EN)
-Our company has 300 people. List first-week training for a new hire.
+Keep it light, with a bit of self-deprecation.
 
 ## C
-新人很聰明、學得很快，請列第一週的訓練清單。
+希望大家聽完就知道可以找我幫什麼。
 ## C (EN)
-The new hire is smart and learns fast. List first-week training.
+Afterward, people should know what they can ask me for.
 
 ## D
-新人是剛畢業的客服人員，請列出第一週的訓練清單。
+我原本在業務部，這週調到產品部。
 ## D (EN)
-The new hire is a fresh graduate in customer service. List their first-week training.
+I was in Sales and moved to Product this week.
 
 ## 解析
-新人的背景和職位決定要教什麼。適合所有人就不夠針對；公司人數、很聰明，都沒說他做什麼工作。
+這題的「我是…」就是背景：你從哪裡來、發生了什麼事。撰稿人是 A，輕鬆自嘲是 T，讓大家知道找你幫什麼是 O。
 ## Why
-Background and role decide the training. 'Everyone' isn't targeted; company size or being smart doesn't say what the job is.
+Here "I was in Sales" is context: where you came from. The speechwriter is A, light tone is T, what people can ask you for is O.
 
 ## 提示
-這位新人是什麼背景？
+講「我」的句子，常常是在交代背景。
 ## Hint
-What's the new hire's background?
+Lines about "me" often give context.
+
+# 比較報價 | Compare Quotes
+答案：A
+
+## 情境
+你要請 AI 比較三家廠商的設備報價。四句裡有三句是在給背景。
+## Scenario
+You want AI to compare three equipment quotes. Three lines give background.
+
+## 問題
+四句裡有一句不是 C「背景」，是哪一句？
+## Question
+One of these is NOT C (Content: background & facts). Which one?
+
+## A
+請拿上次採購用的評分表當基準。
+## A (EN)
+Use the scoring sheet from our last purchase as the baseline.
+
+## B
+附件是三家廠商的報價單和交期。
+## B (EN)
+Attached are the three quotes and lead times.
+
+## C
+工廠有兩條產線，這次只換其中一條。
+## C (EN)
+We have two lines and are replacing only one.
+
+## D
+上次的廠商因為交期延誤被換掉了。
+## D (EN)
+Our last vendor was dropped for late delivery.
+
+## 解析
+「拿評分表當基準」是在給比較標準，屬於 R。報價單、產線狀況、上次換廠商的原因，都是在交代情況（C）。
+## Why
+"Use the scoring sheet" sets a benchmark (R). Quotes, the line setup and why the last vendor left are context (C).
+
+## 提示
+哪一句是在說「用什麼來比」？
+## Hint
+Which line says what to compare against?
+
+# 問卷結果 | Survey Results
+答案：C
+
+## 情境
+你問 AI「這次問卷結果說明了什麼？」它只回了一般的問卷分析方法。
+## Scenario
+You asked AI what your survey results mean, and it only explained how to analyze surveys in general.
+
+## 問題
+最該補上哪一句？
+## Question
+Which line should you add?
+
+## A
+你是熟悉問卷統計的市場研究員。
+## A (EN)
+You're a market researcher who knows survey stats.
+
+## B
+請先分類，再算出每一類的比例。
+## B (EN)
+Sort them first, then compute each share.
+
+## C
+以下貼上 120 份問卷的原始回答。
+## C (EN)
+Below are the raw answers from 120 surveys.
+
+## D
+目的是要決定明年還要不要續辦這個活動。
+## D (EN)
+The aim is to decide whether to run the event next year.
+
+## 解析
+AI 手上根本沒有你的問卷，只能講通用方法。先把資料給它，角色、步驟和目的才派得上用場。
+## Why
+AI doesn't have your survey, so it can only talk in general. Give it the data first; then role, steps and goal can help.
+
+## 提示
+AI 手上有你的問卷嗎？
+## Hint
+Does AI actually have your survey?
+
+# 跟主管談工作量 | Workload Talk
+答案：B
+
+## 情境
+你要請 AI 幫你準備跟主管談工作量的對話。
+## Scenario
+You want AI to help you prepare a talk with your manager about workload.
+
+## 問題
+哪一句才是 C「背景」？
+## Question
+Which line is C (Content: background & facts)?
+
+## A
+你是很懂職場溝通的資深人資主管。
+## A (EN)
+You're a senior HR lead who knows workplace talks.
+
+## B
+我這季多接了兩個專案，常加班到九點。
+## B (EN)
+I took two extra projects this quarter and often work till 9.
+
+## C
+談完希望主管同意把其中一個專案轉出去。
+## C (EN)
+I want my manager to agree to hand off one project.
+
+## D
+請給我三種開場說法，讓我挑一個。
+## D (EN)
+Give me three openings to choose from.
+
+## 解析
+多接兩個專案、加班到九點，是 AI 不知道的實際情況（C）。人資主管是 A，轉出專案是 O，三種開場是格式（T）。
+## Why
+Two extra projects and late nights are facts AI can't know (C). HR lead is A, handing off a project is O, three openings is format (T).
+
+## 提示
+哪一句在說「現在發生什麼事」？
+## Hint
+Which line says what is happening now?
